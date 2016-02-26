@@ -106,20 +106,19 @@
 		};		
 		class TransportItems 
 		{
-			item_xx(ToolKit,1)
+				item_xx(ACE_FieldDressing,10);
 		};
-		class TransportWeapons{};
+		class TransportWeapons{
+			
+				weap_xx(rhs_weap_m4a1_carryhandle_grip2,2);
+		};
 		class TransportMagazines
 		{
-			mag_xx(30Rnd_556x45_Stanag_Tracer_Red,20)
-			mag_xx(11Rnd_45ACP_Mag,10)
-			mag_xx(rhsusf_mag_7x45acp_MHP,10)
-			mag_xx(rhsusf_200Rnd_556x45_soft_pouch,2)
-			mag_xx(rhsusf_100Rnd_762x51,2)
+				mag_xx(30Rnd_556x45_Stanag_Tracer_Red,6);
 		};
 		class TransportBackpacks
 		{
-			pack_xx(SOR_Medic_Pack_D,1)
+				pack_xx(SOR_Repair_Pack_D,1);
 		};
 	};
 
@@ -216,20 +215,20 @@
 		};		
 		class TransportItems 
 		{
-			item_xx(ToolKit,1)
+				item_xx(ACE_FieldDressing,10);
 		};
-		class TransportWeapons{};
+		class TransportWeapons
+		{
+			
+				weap_xx(rhs_weap_m4a1_carryhandle_grip2,2)
+		};
 		class TransportMagazines
 		{
-			mag_xx(30Rnd_556x45_Stanag_Tracer_Red,20)
-			mag_xx(11Rnd_45ACP_Mag,10)
-			mag_xx(rhsusf_mag_7x45acp_MHP,10)
-			mag_xx(rhsusf_200Rnd_556x45_soft_pouch,2)
-			mag_xx(rhsusf_100Rnd_762x51,2)
+				mag_xx(30Rnd_556x45_Stanag_Tracer_Red,6)
 		};
 		class TransportBackpacks
 		{
-			pack_xx(SOR_Medic_Pack_D,1)
+				pack_xx(SOR_Repair_Pack_D,1)
 		};
 	};
 	
@@ -326,20 +325,19 @@
 		};		
 		class TransportItems 
 		{
-			item_xx(ToolKit,1)
+				item_xx(ACE_FieldDressing,10);
 		};
-		class TransportWeapons{};
+		class TransportWeapons{
+			
+				weap_xx(rhs_weap_m4a1_carryhandle_grip2,2)
+		};
 		class TransportMagazines
 		{
-			mag_xx(30Rnd_556x45_Stanag_Tracer_Red,20)
-			mag_xx(11Rnd_45ACP_Mag,10)
-			mag_xx(rhsusf_mag_7x45acp_MHP,10)
-			mag_xx(rhsusf_200Rnd_556x45_soft_pouch,2)
-			mag_xx(rhsusf_100Rnd_762x51,2)
+				mag_xx(30Rnd_556x45_Stanag_Tracer_Red,6)
 		};
 		class TransportBackpacks
 		{
-			pack_xx(SOR_Medic_Pack_D,1)
+				pack_xx(SOR_Repair_Pack_D,1)
 		};
 	};	
 	
@@ -417,20 +415,19 @@
 		};
 		class TransportItems 
 		{
-			item_xx(ToolKit,1)
+			item_xx(ACE_FieldDressing,10);
 		};
-		class TransportWeapons{};
+		class TransportWeapons
+		{
+			weap_xx(rhs_weap_m4a1_carryhandle_grip2,2)
+		};
 		class TransportMagazines
 		{
-			mag_xx(30Rnd_556x45_Stanag_Tracer_Red,40)
-			mag_xx(11Rnd_45ACP_Mag,10)
-			mag_xx(rhsusf_mag_7x45acp_MHP,10)
-			mag_xx(rhsusf_200Rnd_556x45_soft_pouch,4)
-			mag_xx(rhsusf_100Rnd_762x51,4)
+			mag_xx(30Rnd_556x45_Stanag_Tracer_Red,6)
 		};
 		class TransportBackpacks
 		{
-			pack_xx(SOR_Medic_Pack_D,2)
+			pack_xx(SOR_Repair_Pack_D,1)
 		};
 	};
 	
@@ -443,17 +440,14 @@
 		fuelCapacity = 200; //was 500 
 		class TransportItems 
 		{
-			item_xx(ToolKit,1)
 			item_xx(ACE_FieldDressing,10);
-			item_xx(ACE_morphine,4);			
 		};
 		class TransportWeapons{};
-		class TransportMagazines
-		{
-			mag_xx(30Rnd_556x45_Stanag_Tracer_Red,5)
-			mag_xx(11Rnd_45ACP_Mag,4)
-		};
-		class TransportBackpacks{};
+		class TransportMagazines{};
+		class TransportBackpacks
+		{		
+			pack_xx(SOR_Repair_Pack_D,1)
+		};	
 	};	
 
 	class SOR_RHS_AH1Z_GS : RHS_AH1Z_GS
@@ -464,17 +458,14 @@
 		fuelCapacity = 200; //was 500 
 		class TransportItems 
 		{
-			item_xx(ToolKit,1)
 			item_xx(ACE_FieldDressing,10);
-			item_xx(ACE_morphine,4);			
 		};
 		class TransportWeapons{};
-		class TransportMagazines
-		{
-			mag_xx(30Rnd_556x45_Stanag_Tracer_Red,5)
-			mag_xx(11Rnd_45ACP_Mag,4)
-		};
-		class TransportBackpacks{};
+		class TransportMagazines{};
+		class TransportBackpacks
+		{		
+			pack_xx(SOR_Repair_Pack_D,1)
+		};	
 	};		
 	
 	class SOR_RHS_AH1Z_CS : RHS_AH1Z_CS
@@ -483,17 +474,14 @@
 		vehicleclass = "SOR_Aircraft";
 //		armor = 80; //was 50 (UH-60 is 60!) 
 		fuelCapacity = 200; //was 500 
-		class TransportItems 
+			class TransportItems 
 		{
-			item_xx(ToolKit,1)
 			item_xx(ACE_FieldDressing,10);
-			item_xx(ACE_morphine,4);			
 		};
 		class TransportWeapons{};
-		class TransportMagazines
-		{
-			mag_xx(30Rnd_556x45_Stanag_Tracer_Red,5)
-			mag_xx(11Rnd_45ACP_Mag,4)
-		};
-		class TransportBackpacks{};
+		class TransportMagazines{};
+		class TransportBackpacks
+		{		
+			pack_xx(SOR_Repair_Pack_D,1)
+		};	
 	};		

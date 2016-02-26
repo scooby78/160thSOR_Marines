@@ -1,5 +1,5 @@
 /*
-	Name: 160th SOR Mod
+	Name: 160th SOR Mod      hello
 	Author: Scooby
 	Date: 28/12/15 
 	Description: cfgAircraft.hpp

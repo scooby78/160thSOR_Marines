@@ -6,8 +6,9 @@
 */
 
 class cfgVehicles 
-{	 
+{
 #include "cfgBackpacks.hpp"
 #include "cfgTroopsMarines.hpp"
 #include "cfgAircraft.hpp"
+#include "cfgBoats.hpp"
 };

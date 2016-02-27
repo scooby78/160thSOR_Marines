@@ -5,22 +5,13 @@
 	Description: cfgBoats.hpp
 */
 
-
-
 	class B_Boat_Armed_01_minigun_F;
 	class B_Boat_Transport_01_F;
 
-
-
-
-
-
 class SOR_B_Boat_Armed_01_minigun_F : B_Boat_Armed_01_minigun_F
 	{
-		side=1;
-		faction = SOR_Faction_D;
-		vehicleclass = "SOR_Boats";
-		displayName = "SOR Patrol Boat";
+		faction = SOR_Faction_M;
+		vehicleclass = "SOR_Boat";
 		class UserActions{};
 		class TransportItems {};
 		class TransportWeapons{};
@@ -28,13 +19,10 @@ class SOR_B_Boat_Armed_01_minigun_F : B_Boat_Armed_01_minigun_F
 		class TransportBackpacks{};
 	};
 	
-	
 class SOR_B_Boat_Transport_01_F : B_Boat_Transport_01_F
 	{
-		side=1;
-		faction = SOR_Faction_D;
-		vehicleclass = "SOR_Boats";
-		displayName = "SOR Zodiac";
+		faction = SOR_Faction_M;
+		vehicleclass = "SOR_Boat";
 		class UserActions{};
 		class TransportItems{};
 		class TransportWeapons{};

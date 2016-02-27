@@ -7,6 +7,8 @@
 #include "define_macros.hpp"
 #include "cfgPatches.hpp"
 #include "cfgFactionClasses.hpp"
+#include "cfgVehicleClasses.hpp"
 #include "cfgVehicles.hpp"
 #include "cfgGroups.hpp"
+
 

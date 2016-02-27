@@ -10,7 +10,7 @@ class cfgFactionClasses
 	class SOR_Faction_M
 	{
 		displayName = "160th SOR (Marines)";
-		icon = "@160thSOR\160th.paa";
+		icon = "160thSOR\data\160th.paa";
 		priority = 1;
 		side = 1;
 	};

@@ -12,7 +12,6 @@
 	{
 		faction = SOR_Faction_M;
 		vehicleclass = "SOR_Vehicles";
-		class UserActions{};
 		class TransportItems
 		{
 			item_xx(ACE_FieldDressing,20);

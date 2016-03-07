@@ -14,13 +14,4 @@ class cfgFactionClasses
 		priority = 1;
 		side = 1;
 	};
-	
-	
-	/*
-	class NO_CATEGORY;
-	class SOR_Modules : NO_CATEGORY
-	{
-		displayName = "Test";
-	};
-	*/
 };

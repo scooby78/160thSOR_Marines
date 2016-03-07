@@ -12,7 +12,6 @@ class SOR_B_Boat_Armed_01_minigun_F : B_Boat_Armed_01_minigun_F
 	{
 		faction = SOR_Faction_M;
 		vehicleclass = "SOR_Boat";
-		class UserActions{};
 		class TransportItems {};
 		class TransportWeapons{};
 		class TransportMagazines{};
@@ -23,7 +22,6 @@ class SOR_B_Boat_Transport_01_F : B_Boat_Transport_01_F
 	{
 		faction = SOR_Faction_M;
 		vehicleclass = "SOR_Boat";
-		class UserActions{};
 		class TransportItems{};
 		class TransportWeapons{};
 		class TransportMagazines{};

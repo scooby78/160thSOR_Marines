@@ -110,4 +110,4 @@
 
 #define Std_m1911a1		"rhsusf_mag_7x45acp_MHP",\
 						"rhsusf_mag_7x45acp_MHP",\
-						"rhsusf_mag_7x45acp_MHP"
+						"rhsusf_mag_7x45acp_MHP"			

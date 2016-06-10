@@ -20,6 +20,7 @@ class B_recon_TL_F;
 class B_engineer_F;
 
 
+
 /////////////////////////////
 //SOR Marines Faction Units//
 /////////////////////////////
@@ -52,7 +53,7 @@ class SOR_Actual_M : B_officer_F
 	linkedItems[] = 
 	{	
 		"rhsusf_spc_squadleader",
-		"rhsusf_mich_helmet_marpatwd_headset", 
+//		"rhsusf_mich_helmet_marpatwd_headset", 
 		"ItemGPS", 
 		"rhs_googles_black",  
 		Standard_Equipment
@@ -60,7 +61,7 @@ class SOR_Actual_M : B_officer_F
 	respawnLinkedItems[] = 
 	{	
 		"rhsusf_spc_squadleader",
-		"rhsusf_mich_helmet_marpatwd_headset", 
+//		"rhsusf_mich_helmet_marpatwd_headset", 
 		"ItemGPS", 
 		"rhs_googles_black",  
 		Standard_Equipment

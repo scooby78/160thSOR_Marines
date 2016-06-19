@@ -371,8 +371,8 @@ class SOR_Grenadier_M : B_Soldier_GL_F
 	uniformClass = "rhs_uniform_FROG01_wd";
 	displayName = "(I) Grenadier W";
 	backpack = "Vanilla_SOR_GD_Pack_M";
-	weapons[] = {"160_arifle_MX_GL_Black_F_specter","hgun_P07_F","Throw", "Put"};
-	respawnWeapons[] = {"160_arifle_MX_GL_Black_F_specter","hgun_P07_F","Throw", "Put"};
+	weapons[] = {"160_arifle_MX_GL_Black_F_cco","hgun_P07_F","Throw", "Put"};
+	respawnWeapons[] = {"160_arifle_MX_GL_Black_F_cco","hgun_P07_F","Throw", "Put"};
 	Items[] = {Standard_Meds};
 	RespawnItems[] = {Standard_Meds};
 	magazines[] = {V_Mags,V_P09};

@@ -15,14 +15,14 @@
 							"ACE_Altimeter",\
 							"tf_anprc152",\
 							"ItemGPS"
-							
+
 #define Recon_Equipment 	"ItemMap",\
 							"ItemCompass",\
 						    "ItemWatch",\
 							"tf_microdagr",\
 							"tf_anprc152",\
-							"ItemGPS" 						
-						
+							"ItemGPS"
+
 #define Standard_Meds   "ACE_fieldDressing",\
 						"ACE_fieldDressing",\
 						"ACE_fieldDressing",\
@@ -35,7 +35,7 @@
 						"ACE_morphine",\
 						"ACE_morphine",\
 						"ACE_EarPlugs"
-						
+
 #define Recon_Meds  	"ACE_fieldDressing",\
 						"ACE_fieldDressing",\
 						"ACE_fieldDressing",\
@@ -55,7 +55,7 @@
 						"ACE_CableTie",\
 						"ACE_MapTools",\
 						"ACE_Flashlight_XL50"
-						
+
 #define Recon_Equip 	"ACE_CableTie",\
 						"ACE_CableTie",\
 						"ACE_MapTools",\
@@ -88,7 +88,7 @@
 						"rhs_mag_m18_green",\
 						"rhs_mag_m18_yellow",\
 						"rhs_mag_m18_yellow"
-						
+
 #define Recon_Mags		"rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer",\
 						"rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer",\
 						"rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer",\
@@ -102,12 +102,60 @@
 						"rhs_mag_m18_red",\
 						"rhs_mag_m18_red",\
 						"rhs_mag_an_m8hc",\
-						"rhs_mag_an_m8hc"	
-					
+						"rhs_mag_an_m8hc"
+
 #define Std_Pistol		"rhsusf_mag_15Rnd_9x19_FMJ",\
 						"rhsusf_mag_15Rnd_9x19_FMJ",\
 						"rhsusf_mag_15Rnd_9x19_FMJ"\
 
 #define Std_m1911a1		"rhsusf_mag_7x45acp_MHP",\
 						"rhsusf_mag_7x45acp_MHP",\
-						"rhsusf_mag_7x45acp_MHP"			
+						"rhsusf_mag_7x45acp_MHP"
+
+                                //Vanilla//
+
+#define V_Mags 	        "30Rnd_65x39_caseless_mag",\
+						"30Rnd_65x39_caseless_mag",\
+						"30Rnd_65x39_caseless_mag",\
+						"30Rnd_65x39_caseless_mag",\
+						"30Rnd_65x39_caseless_mag",\
+						"rhs_mag_m67",\
+						"rhs_mag_m67",\
+						"rhs_mag_an_m8hc",\
+						"rhs_mag_an_m8hc",\
+						"rhs_mag_an_m8hc",\
+						"rhs_mag_m18_green"
+
+#define V_SL_Mags	    "30Rnd_65x39_caseless_mag",\
+						"30Rnd_65x39_caseless_mag",\
+						"30Rnd_65x39_caseless_mag",\
+						"30Rnd_65x39_caseless_mag",\
+						"30Rnd_65x39_caseless_mag",\
+						"rhs_mag_m67",\
+						"rhs_mag_m67",\
+						"rhs_mag_an_m8hc",\
+						"rhs_mag_an_m8hc",\
+						"rhs_mag_an_m8hc",\
+						"rhs_mag_an_m8hc",\
+						"rhs_mag_m18_green",\
+						"rhs_mag_m18_green",\
+						"rhs_mag_m18_yellow",\
+						"rhs_mag_m18_yellow"
+
+#define V_Recon_Mags    "30Rnd_65x39_caseless_mag",\
+						"30Rnd_65x39_caseless_mag",\
+						"30Rnd_65x39_caseless_mag",\
+						"30Rnd_65x39_caseless_mag",\
+						"30Rnd_65x39_caseless_mag",\
+						"rhs_mag_m67",\
+						"rhs_mag_m67",\
+						"rhs_mag_m18_green",\
+						"rhs_mag_m18_green",\
+						"rhs_mag_m18_red",\
+						"rhs_mag_m18_red",\
+						"rhs_mag_an_m8hc",\
+						"rhs_mag_an_m8hc"
+
+#define V_P09		    "16Rnd_9x21_Mag",\
+						"16Rnd_9x21_Mag",\
+						"16Rnd_9x21_Mag"

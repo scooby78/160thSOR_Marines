@@ -9,7 +9,7 @@ class cfgFactionClasses
 {
 	class SOR_Faction_M
 	{
-		displayName = "160th SOR (Marines)";
+		displayName = "160th SOR (USMC 2021)";
 		icon = "160thSOR\data\160th.paa";
 		priority = 1;
 		side = 1;

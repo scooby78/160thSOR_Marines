@@ -123,7 +123,11 @@ class srifle_LRR_F;
 				item = "rhsusf_acc_SpecterDR_A_3d";
 				slot = "CowsSlot";
 			};
-
+			class LinkedItemsAcc
+			{
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
 		};
 	};
 
@@ -136,7 +140,11 @@ class srifle_LRR_F;
 				item = "rhsusf_acc_eotech_552";
 				slot = "CowsSlot";
 			};
-
+			class LinkedItemsAcc
+			{
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
 		};
 	};
 
@@ -149,7 +157,11 @@ class srifle_LRR_F;
 				item = "rhsusf_acc_compm4";
 				slot = "CowsSlot";
 			};
-
+			class LinkedItemsAcc
+			{
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
 		};
 	};
 
@@ -162,7 +174,11 @@ class srifle_LRR_F;
 				item = "rhsusf_acc_SpecterDR_A_3d";
 				slot = "CowsSlot";
 			};
-
+			class LinkedItemsAcc
+			{
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
 		};
 	};
 
@@ -175,7 +191,11 @@ class srifle_LRR_F;
 				item = "rhsusf_acc_compm4";
 				slot = "CowsSlot";
 			};
-
+			class LinkedItemsAcc
+			{
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
 		};
 	};
 
@@ -193,7 +213,11 @@ class srifle_LRR_F;
 				item = "bipod_01_F_blk";
 				slot = "UnderBarrelSlot";
 			};
-
+			class LinkedItemsAcc
+			{
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
 		};
 	};
 
@@ -211,7 +235,11 @@ class srifle_LRR_F;
 				item = "bipod_01_F_blk";
 				slot = "UnderBarrelSlot";
 			};
-
+			class LinkedItemsAcc
+			{
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
 		};
 	};
 
@@ -226,7 +254,7 @@ class srifle_LRR_F;
 			};
 			class LinkedItemsAcc
 			{
-				item = "rhsusf_acc_M952V";
+				item = "acc_pointer_IR";
 				slot = "PointerSlot";
             };
 		};
@@ -240,6 +268,11 @@ class srifle_LRR_F;
 			{
 				item = "rhsusf_acc_compm4";
 				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc
+			{
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
 			};
 		};
 	};
@@ -258,6 +291,11 @@ class srifle_LRR_F;
 				item = "bipod_01_F_blk";
 				slot = "UnderBarrelSlot";
 			};
+			class LinkedItemsAcc
+			{
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
 		};
 	};
 
@@ -275,6 +313,11 @@ class srifle_LRR_F;
 				item = "bipod_01_F_blk";
 				slot = "UnderBarrelSlot";
 			};
+			class LinkedItemsAcc
+			{
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
 		};
 	};
 
@@ -286,6 +329,11 @@ class srifle_LRR_F;
 			{
 				item = "rhsusf_acc_compm4";
 				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc
+			{
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
 			};
 		};
 	};
@@ -304,6 +352,11 @@ class srifle_LRR_F;
 			    item = "muzzle_snds_H";
 			    slot = "MuzzleSlot";
 		    };
+		    class LinkedItemsAcc
+			{
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
 		};
 	};
 
@@ -321,7 +374,11 @@ class srifle_LRR_F;
 				item = "bipod_01_F_blk";
 				slot = "UnderBarrelSlot";
 			};
-
+            class LinkedItemsAcc
+			{
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
 		};
 	};
 
@@ -339,7 +396,11 @@ class srifle_LRR_F;
 				item = "bipod_01_F_blk";
 				slot = "UnderBarrelSlot";
 			};
-
+            class LinkedItemsAcc
+			{
+				item = "acc_pointer_IR";
+				slot = "PointerSlot";
+			};
 		};
 	};
 
@@ -352,7 +413,6 @@ class srifle_LRR_F;
 				item = "rhsusf_acc_compm4";
 				slot = "CowsSlot";
 			};
-
 		};
 	};
 

@@ -215,7 +215,7 @@ class Vanilla_SOR_CombatPack_M : B_Kitbag_cbr
 	};
 	class TransportItems
 	{
-		item_xx(rhsusf_acc_ACOG,1)
+		item_xx(rhsusf_acc_ACOG,1);
 	};
 };
 

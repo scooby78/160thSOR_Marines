@@ -8,6 +8,7 @@
 #define Standard_Equipment 	"ItemMap",\
 							"ItemCompass",\
 							"ItemWatch",\
+							"ACE_NVG_Wide",\
 							"tf_anprc152"
 
 #define Airborne_Equipment  "ItemMap",\
@@ -21,6 +22,7 @@
 						    "ItemWatch",\
 							"tf_microdagr",\
 							"tf_anprc152",\
+							"ACE_NVG_Wide",\
 							"ItemGPS"
 
 #define Standard_Meds   "ACE_fieldDressing",\

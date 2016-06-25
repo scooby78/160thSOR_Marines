@@ -254,7 +254,7 @@ class srifle_LRR_F;
 			};
 			class LinkedItemsAcc
 			{
-				item = "acc_pointer_IR";
+				item = "acc_flashlight";
 				slot = "PointerSlot";
             };
 		};
@@ -268,11 +268,6 @@ class srifle_LRR_F;
 			{
 				item = "rhsusf_acc_compm4";
 				slot = "CowsSlot";
-			};
-			class LinkedItemsAcc
-			{
-				item = "acc_pointer_IR";
-				slot = "PointerSlot";
 			};
 		};
 	};

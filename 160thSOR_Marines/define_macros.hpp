@@ -66,42 +66,42 @@
 						"30Rnd_65x39_caseless_mag",\
 						"30Rnd_65x39_caseless_mag",\
 						"30Rnd_65x39_caseless_mag",\
-						"rhs_mag_m67",\
-						"rhs_mag_m67",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_m18_green"
+						"HandGrenade",\
+						"HandGrenade",\
+						"SmokeShell",\
+						"SmokeShell",\
+						"SmokeShell",\
+						"SmokeShellGreen"
 
 #define V_SL_Mags	    "30Rnd_65x39_caseless_mag",\
 						"30Rnd_65x39_caseless_mag",\
 						"30Rnd_65x39_caseless_mag",\
 						"30Rnd_65x39_caseless_mag",\
 						"30Rnd_65x39_caseless_mag",\
-						"rhs_mag_m67",\
-						"rhs_mag_m67",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_m18_green",\
-						"rhs_mag_m18_green",\
-						"rhs_mag_m18_yellow",\
-						"rhs_mag_m18_yellow"
+						"HandGrenade",\
+						"HandGrenade",\
+						"SmokeShell",\
+						"SmokeShell",\
+						"SmokeShell",\
+						"SmokeShell",\
+						"SmokeShellGreen",\
+						"SmokeShellGreen",\
+						"SmokeShellYellow",\
+						"SmokeShellYellow"
 
 #define V_Recon_Mags    "30Rnd_65x39_caseless_mag",\
 						"30Rnd_65x39_caseless_mag",\
 						"30Rnd_65x39_caseless_mag",\
 						"30Rnd_65x39_caseless_mag",\
 						"30Rnd_65x39_caseless_mag",\
-						"rhs_mag_m67",\
-						"rhs_mag_m67",\
-						"rhs_mag_m18_green",\
-						"rhs_mag_m18_green",\
-						"rhs_mag_m18_red",\
-						"rhs_mag_m18_red",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_an_m8hc"
+						"HandGrenade",\
+						"HandGrenade",\
+						"SmokeShellGreen",\
+						"SmokeShellGreen",\
+						"SmokeShellRed",\
+						"SmokeShellRed",\
+						"SmokeShell",\
+						"SmokeShell"
 
 #define V_P09		    "16Rnd_9x21_Mag",\
 						"16Rnd_9x21_Mag",\

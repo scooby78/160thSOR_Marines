@@ -16,8 +16,8 @@ class Vanilla_SOR_Medic_Pack_M : B_Kitbag_cbr
 	displayName = "(2021 USMC) Medic Pack";
 	class TransportMagazines
 	{
-		mag_xx(rhs_mag_an_m8hc,8);
-		mag_xx(rhs_mag_m18_green,4);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellGreen,4);
 	};
 	class TransportItems
 	{
@@ -33,8 +33,8 @@ class Vanilla_SOR_PJMedicPack_M : B_Kitbag_cbr
 	displayName = "(2021 USMC) Parajumper Pack";
 	class TransportMagazines
 	{
-		mag_xx(rhs_mag_an_m8hc,5);
-		mag_xx(rhs_mag_m18_green,2);
+		mag_xx(SmokeShell,5);
+		mag_xx(SmokeShellGreen,2);
 	};
 	class TransportItems
 	{
@@ -81,7 +81,7 @@ class Vanilla_SOR_SPMG_Pack_M : B_Kitbag_cbr
 	displayName = "(2021 USMC) SPMG Ammo Pack";
 	class TransportMagazines
 	{
-		mag_xx(130Rnd_338_Mag,3);
+		mag_xx(130Rnd_338_Mag,1);
 	};
 };
 
@@ -95,7 +95,7 @@ class Vanilla_SOR_Repair_Pack_M : B_Kitbag_cbr
 	};
 	class TransportMagazines
 	{
-		mag_xx(rhs_mag_an_m8hc,2);
+		mag_xx(SmokeShell,2);
 	};
 };
 
@@ -105,12 +105,10 @@ class Vanilla_SOR_GD_Pack_M : B_Kitbag_cbr
 	displayName = "(2021 USMC) Grednadier Pack";
 	class TransportMagazines
 	{
-		mag_xx(rhs_mag_M433_HEDP,10);
-		mag_xx(rhs_mag_M441_HE,5);
-		mag_xx(rhs_mag_m713_Red,5);
-		mag_xx(rhs_mag_m715_Green,2);
-		mag_xx(rhs_mag_m67,2);
-		mag_xx(rhs_mag_m714_White,5);
+		mag_xx(3Rnd_HE_Grenade_shell,5);
+		mag_xx(3Rnd_SmokeRed_Grenade_shell,3);
+		mag_xx(3Rnd_SmokeGreen_Grenade_shell,3);
+		mag_xx(3Rnd_Smoke_Grenade_shell,3);
 	};
 };
 
@@ -120,9 +118,9 @@ class Vanilla_SOR_RTO_Pack_M : tf_rt1523g_rhs
 	displayName = "(2021 USMC) RTO Radio Pack";
 	class TransportMagazines
 	{
-		mag_xx(rhs_mag_m713_Red,8);
-		mag_xx(rhs_mag_m715_Green,2);
-		mag_xx(rhs_mag_m716_yellow,2);
+		mag_xx(3Rnd_SmokeRed_Grenade_shell,8);
+		mag_xx(3Rnd_SmokeGreen_Grenade_shell,2);
+		mag_xx(3Rnd_SmokeYellow_Grenade_shell,2);
 	};
 };
 
@@ -144,9 +142,9 @@ class Vanilla_SOR_Sniper_Camo : B_Kitbag_cbr
 	};
 	class TransportMagazines
 	{
-		mag_xx(rhs_mag_m18_red,2);
-		mag_xx(rhs_mag_m18_green,1);
-		mag_xx(rhs_mag_an_m8hc,2);
+		mag_xx(SmokeShellRed,2);
+		mag_xx(SmokeShellGreen,1);
+		mag_xx(SmokeShell,2);
 	};
 };
 
@@ -154,11 +152,14 @@ class Vanilla_SOR_Sniper_Camo : B_Kitbag_cbr
 class Vanilla_SOR_Spotter_Radio : tf_rt1523g_rhs
 {
 	displayName = "(2021 USMC) Spotter Radio Pack";
-	class TransportItems{};
+	class TransportItems
+	{
+		item_xx(lerca_1200_black,1);
+	};
 	class TransportMagazines
 	{
-		mag_xx(rhs_mag_m18_green,1);
-		mag_xx(rhs_mag_an_m8hc,1);
+		mag_xx(SmokeShellGreen,1);
+		mag_xx(SmokeShell,1);
 		mag_xx(30Rnd_65x39_caseless_mag,4);
 	};
 };
@@ -170,9 +171,9 @@ class Vanilla_SOR_Mech_Radio_M : tf_rt1523g_rhs
 	class TransportItems{};
 	class TransportMagazines
 	{
-		mag_xx(rhs_mag_m18_red,1);
-		mag_xx(rhs_mag_m18_green,2);
-		mag_xx(rhs_mag_an_m8hc,2);
+		mag_xx(SmokeShellRed,1);
+		mag_xx(SmokeShellGreen,2);
+		mag_xx(SmokeShell,2);
 	};
 };
 
@@ -208,14 +209,14 @@ class Vanilla_SOR_CombatPack_M : B_Kitbag_cbr
 	displayName = "(2021 USMC) Combat Pack";
 	class TransportMagazines
 	{
-		mag_xx(rhs_mag_an_m8hc,2);
-		mag_xx(rhs_mag_m18_green,2);
+		mag_xx(SmokeShell,2);
+		mag_xx(SmokeShellGreen,2);
 		mag_xx(30Rnd_65x39_caseless_mag,6);
-		mag_xx(rhs_mag_m67,2);
+		mag_xx(HandGrenade,2);
 	};
 	class TransportItems
 	{
-		item_xx(rhsusf_acc_ACOG,1);
+		item_xx(rhsusf_acc_SpecterDR_A_3d,1);
 	};
 };
 
@@ -225,8 +226,8 @@ class Vanilla_SOR_JTAC_Pack_M : tf_anprc155_coyote
 	displayName = "(2021 USMC) JTAC Radio Pack";
 	class TransportMagazines
 	{
-		mag_xx(rhs_mag_m713_Red,8);
-		mag_xx(rhs_mag_m715_Green,2);
-		mag_xx(rhs_mag_m716_yellow,2);
+		mag_xx(SmokeShellRed,8);
+		mag_xx(SmokeShellGreen,2);
+		mag_xx(SmokeShellYellow,2);
 	};
 };

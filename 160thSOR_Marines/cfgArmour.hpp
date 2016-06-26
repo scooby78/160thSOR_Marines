@@ -27,6 +27,7 @@ class SOR_USMC_rhsusf_m1a1fep_wd : rhsusf_m1a1fep_wd
 	displayName = "USMC M1A1FEP (WD)";
 	peakTorque = 10355;
 	enginePower = 3000;
+	armor = 800;
 	brakeDistance = 1;
 	class TransportItems
 	{
@@ -54,6 +55,7 @@ class SOR_USMC_rhsusf_m1a1hc_wd : rhsusf_m1a1hc_wd
 	displayName = "USMC M1A1HC (OD)";
 	peakTorque = 10355;
 	enginePower = 3000;
+	armor = 800;
 	brakeDistance = 1;
 	class TransportItems
 	{
@@ -81,6 +83,7 @@ class SOR_USMC_rhsusf_m1a1fep_od : rhsusf_m1a1fep_od
 	displayName = "USMC M1A1FEP (OD)";
 	peakTorque = 10355;
 	enginePower = 3000;
+	armor = 800;
 	brakeDistance = 1;
 	class TransportItems
 	{
@@ -101,6 +104,7 @@ class SOR_USMC_rhsusf_m1a1fep_od : rhsusf_m1a1fep_od
 	};
 };
 
+//Light Assault Vehicle
 class SOR_USMC_B_T_LSV_01_armed_F : B_T_LSV_01_armed_F
 {
 	faction = SOR_Faction_M;
@@ -153,11 +157,12 @@ class SOR_USMC_B_CTRG_LSV_01_light_F : B_CTRG_LSV_01_light_F
 	};
 };
 
+//IFV
 class SOR_USMC_B_APC_Wheeled_01_cannon_F : B_APC_Wheeled_01_cannon_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Vehicles";
-	displayName = "Patria AMV";
+	displayName = "Patria AMV (C3/P8)";
 	class TransportItems
 	{
 		item_xx(ACE_FieldDressing,15);
@@ -177,6 +182,7 @@ class SOR_USMC_B_APC_Wheeled_01_cannon_F : B_APC_Wheeled_01_cannon_F
 	};
 };
 
+//MRAP
 class SOR_USMC_B_MRAP_01_hmg_F : B_MRAP_01_hmg_F
 {
 	faction = SOR_Faction_M;
@@ -256,6 +262,7 @@ class SOR_USMC_B_MRAP_01_Engineer_F : B_MRAP_01_F
 	};
 };
 
+//Trucks
 class SOR_USMC_rhsusf_M977A4_AMMO_BKIT_M2_usarmy_wd : rhsusf_M977A4_AMMO_BKIT_M2_usarmy_wd
 {
 	faction = SOR_Faction_M;

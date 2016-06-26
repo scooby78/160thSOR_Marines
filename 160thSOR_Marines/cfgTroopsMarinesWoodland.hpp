@@ -34,10 +34,20 @@ class SOR_Actual_M : B_officer_F
 	displayName = "(I) Squad Actual W";
 	accuracy = 3.5;
 	backpack = "Vanilla_SOR_Mech_Radio_M";
-	weapons[] = {"160_arifle_MX_Black_F_specter", "hgun_P07_F", "Throw", "Put", "Laserdesignator"};
-	respawnWeapons[] = {"160_arifle_MX_Black_F_specter", "hgun_P07_F", "Throw", "Put", "Laserdesignator"};
-	Items[] = {Standard_Meds,SL_Equip,"ACE_DAGR","ACE_NVG_Wide"};
-	RespawnItems[] = {Standard_Meds,SL_Equip,"ACE_DAGR","ACE_NVG_Wide"};
+	weapons[] = {"160_arifle_MX_Black_F_Hamr", "hgun_P07_F", "Throw", "Put", "Laserdesignator"};
+	respawnWeapons[] = {"160_arifle_MX_Black_F_Hamr", "hgun_P07_F", "Throw", "Put", "Laserdesignator"};
+	Items[] =
+	{
+		Standard_Meds,SL_Equip,
+		"ACE_DAGR",
+		"ACE_NVG_Wide"
+	};
+	RespawnItems[] =
+	{
+		Standard_Meds,SL_Equip,
+		"ACE_DAGR",
+		"ACE_NVG_Wide"
+	};
 	magazines[] =
 	{
 		V_SL_Mags,
@@ -77,8 +87,8 @@ class SOR_Commander_M : B_officer_F
 	displayName = "(I) Godfather W";
 	accuracy = 3.5;
 	backpack = "Vanilla_SOR_Mech_Radio_M";
-	weapons[] = {"160_arifle_MX_Black_F_specter", "hgun_P07_F", "Throw", "Put", "Laserdesignator"};
-	respawnWeapons[] = {"160_arifle_MX_Black_F_specter", "hgun_P07_F", "Throw", "Put", "Laserdesignator"};
+	weapons[] = {"160_arifle_MX_Black_F_Hamr", "hgun_P07_F", "Throw", "Put", "Laserdesignator"};
+	respawnWeapons[] = {"160_arifle_MX_Black_F_Hamr", "hgun_P07_F", "Throw", "Put", "Laserdesignator"};
 	Items[] =
 	{
 		Standard_Meds,
@@ -176,10 +186,18 @@ class SOR_RTO_M : B_Soldier_F
 	uniformClass = "rhs_uniform_FROG01_wd";
 	displayName = "(I) RTO W";
 	backpack = "Vanilla_SOR_RTO_Pack_M";
-	weapons[] = {"160_arifle_MX_GL_Black_F_cco","hgun_P07_F","Throw","Put","Laserdesignator"};
-	respawnWeapons[] = {"160_arifle_MX_GL_Black_F_cco","hgun_P07_F","Throw","Put","Laserdesignator"};
-	Items[] = {Standard_Meds,SL_Equip};
-	RespawnItems[] = {Standard_Meds,SL_Equip};
+	weapons[] = {"160_arifle_MX_GL_Black_F_Hamr","hgun_P07_F","Throw","Put","Laserdesignator"};
+	respawnWeapons[] = {"160_arifle_MX_GL_Black_F_Hamr","hgun_P07_F","Throw","Put","Laserdesignator"};
+	Items[] =
+	{
+		Standard_Meds,
+		SL_Equip
+	};
+	RespawnItems[] =
+	{
+		Standard_Meds,
+		SL_Equip
+	};
 	magazines[] =
 	{
 		V_Mags,
@@ -219,12 +237,32 @@ class SOR_Teamleader_M : B_Soldier_TL_F
 	displayName = "(I) Teamleader W";
 	accuracy = 3.5;
 	backpack = "B_Kitbag_cbr";
-	weapons[] = {"160_arifle_MX_Black_F_specter", "hgun_P07_F","Throw","Put","ACE_Vector"};
-	respawnWeapons[] = {"160_arifle_MX_Black_F_specter", "hgun_P07_F","Throw","Put","ACE_Vector"};
-	Items[] = {Standard_Meds,SL_Equip,"ACE_DAGR","ACE_NVG_Wide"};
-	RespawnItems[] = {Standard_Meds,SL_Equip,"ACE_DAGR","ACE_NVG_Wide"};
-	magazines[] = {V_SL_Mags, V_P09};
-	respawnMagazines[] = {V_SL_Mags,V_P09};
+	weapons[] = {"160_arifle_MX_Black_F_Hamr", "hgun_P07_F","Throw","Put","ACE_Vector"};
+	respawnWeapons[] = {"160_arifle_MX_Black_F_Hamr", "hgun_P07_F","Throw","Put","ACE_Vector"};
+	Items[] =
+	{
+		Standard_Meds,
+		SL_Equip,
+		"ACE_DAGR",
+		"ACE_NVG_Wide"
+	};
+	RespawnItems[] =
+	{
+		Standard_Meds,
+		SL_Equip,
+		"ACE_DAGR",
+		"ACE_NVG_Wide"
+	};
+	magazines[] =
+	{
+		V_SL_Mags,
+		V_P09
+	};
+	respawnMagazines[] =
+	{
+		V_SL_Mags,
+		V_P09
+	};
 	linkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
@@ -251,12 +289,28 @@ class SOR_Medic_M : B_medic_F
 	displayName = "(I) Combat Medic W";
 	uniformClass = "rhs_uniform_FROG01_wd";
 	backpack = "Vanilla_SOR_Medic_Pack_M";
-	weapons[] = {"160_arifle_MX_Black_F_cco", "hgun_P07_F", "Throw", "Put"};
-	respawnWeapons[] = {"160_arifle_MX_Black_F_cco", "hgun_P07_F","Throw", "Put"};
-	Items[] = {Standard_Meds,"ACE_NVG_Wide"};
-	RespawnItems[] = {Standard_Meds,"ACE_NVG_Wide"};
-	magazines[] = {V_Mags,V_P09};
-	respawnMagazines[] = {V_Mags,V_P09};
+	weapons[] = {"160_arifle_MX_Black_F_Hamr", "hgun_P07_F", "Throw", "Put"};
+	respawnWeapons[] = {"160_arifle_MX_Black_F_Hamr", "hgun_P07_F","Throw", "Put"};
+	Items[] =
+	{
+		Standard_Meds,
+		"ACE_NVG_Wide"
+	};
+	RespawnItems[] =
+	{
+		Standard_Meds,
+		"ACE_NVG_Wide"
+	};
+	magazines[] =
+	{
+		V_Mags,
+		V_P09
+	};
+	respawnMagazines[] =
+	{
+		V_Mags,
+		V_P09
+	};
 	linkedItems[] =
 	{
 		"rhsusf_spc_corpsman",
@@ -283,29 +337,39 @@ class SOR_MXSW_M : B_soldier_AR_F
 	uniformClass = "rhs_uniform_FROG01_wd";
 	displayName = "(I) AutoRifleman MXSW W";
 	backpack = "Vanilla_SOR_MXSW_Pack_M";
-	weapons[] = {"160_arifle_MX_SW_Black_F_specter", "hgun_P07_F", "Throw", "Put"};
-	respawnWeapons[] = {"160_arifle_MX_SW_Black_F_specter", "hgun_P07_F","Throw", "Put"};
-	Items[] = {Standard_Meds,V_P09,"ACE_NVG_Wide"};
-	RespawnItems[] = {Standard_Meds,V_P09,"ACE_NVG_Wide"};
+	weapons[] = {"160_arifle_MX_SW_Black_F_cco", "hgun_P07_F", "Throw", "Put"};
+	respawnWeapons[] = {"160_arifle_MX_SW_Black_F_cco", "hgun_P07_F","Throw", "Put"};
+	Items[] =
+	{
+		Standard_Meds,
+		V_P09,
+		"ACE_NVG_Wide"
+	};
+	RespawnItems[] =
+	{
+		Standard_Meds,
+		V_P09,
+		"ACE_NVG_Wide"
+	};
 	magazines[] =
 	{
 		"100Rnd_65x39_caseless_mag",
 		"100Rnd_65x39_caseless_mag",
 		"100Rnd_65x39_caseless_mag",
-		"rhs_mag_an_m8hc",
-		"rhs_mag_an_m8hc",
-		"rhs_mag_an_m8hc",
-		"rhs_mag_m18_green"
+		"SmokeShell",
+		"SmokeShell",
+		"SmokeShell",
+		"SmokeShellGreen"
 	};
 	respawnMagazines[] =
 	{
 		"100Rnd_65x39_caseless_mag",
 		"100Rnd_65x39_caseless_mag",
 		"100Rnd_65x39_caseless_mag",
-		"rhs_mag_an_m8hc",
-		"rhs_mag_an_m8hc",
-		"rhs_mag_an_m8hc",
-		"rhs_mag_m18_green"
+		"SmokeShell",
+		"SmokeShell",
+		"SmokeShell",
+		"SmokeShellGreen"
 	};
 	linkedItems[] =
 	{
@@ -332,8 +396,18 @@ class SOR_SPMG_M : B_soldier_AR_F
 	backpack = "Vanilla_SOR_SPMG_Pack_M";
 	weapons[] = {"160_MMG_02_black_F_cco", "hgun_P07_F", "Throw", "Put"};
 	respawnWeapons[] = {"160_MMG_02_black_F_cco", "hgun_P07_F","Throw", "Put"};
-	Items[] = {Standard_Meds,V_P09,"ACE_NVG_Wide"};
-	RespawnItems[] = {Standard_Meds,V_P09,"ACE_NVG_Wide"};
+	Items[] =
+	{
+		Standard_Meds,
+		V_P09,
+		"ACE_NVG_Wide"
+	};
+	RespawnItems[] =
+	{
+		Standard_Meds,
+		V_P09,
+		"ACE_NVG_Wide"
+	};
 	magazines[] =
 	{
 		"130Rnd_338_Mag",
@@ -365,12 +439,28 @@ class SOR_Grenadier_M : B_Soldier_GL_F
 	uniformClass = "rhs_uniform_FROG01_wd";
 	displayName = "(I) Grenadier W";
 	backpack = "Vanilla_SOR_GD_Pack_M";
-	weapons[] = {"160_arifle_MX_GL_Black_F_cco","hgun_P07_F","Throw", "Put"};
-	respawnWeapons[] = {"160_arifle_MX_GL_Black_F_cco","hgun_P07_F","Throw", "Put"};
-	Items[] = {Standard_Meds,"ACE_NVG_Wide"};
-	RespawnItems[] = {Standard_Meds,"ACE_NVG_Wide"};
-	magazines[] = {V_Mags,V_P09};
-	respawnMagazines[] = {V_Mags,V_P09};
+	weapons[] = {"160_arifle_MX_GL_Black_F_Hamr","hgun_P07_F","Throw", "Put"};
+	respawnWeapons[] = {"160_arifle_MX_GL_Black_F_Hamr","hgun_P07_F","Throw", "Put"};
+	Items[] =
+	{
+		Standard_Meds,
+		"ACE_NVG_Wide"
+	};
+	RespawnItems[] =
+	{
+		Standard_Meds,
+		"ACE_NVG_Wide"
+	};
+	magazines[] =
+	{
+		V_Mags,
+		V_P09
+	};
+	respawnMagazines[] =
+	{
+		V_Mags,
+		V_P09
+	};
 	linkedItems[] =
 	{
 		"rhsusf_spc_teamleader",
@@ -394,12 +484,28 @@ class SOR_Rifleman_M : B_Soldier_F
 	uniformClass = "rhs_uniform_FROG01_wd";
 	displayName = "(I) Rifleman AT Ammo Bearer W";
 	backpack = "Vanilla_SOR_Rifleman_Pack_M";
-	weapons[] = {"160_arifle_MX_Black_F_cco", "hgun_P07_F","Throw","Put"};
-	respawnWeapons[] = {"160_arifle_MX_Black_F_cco", "hgun_P07_F","Throw","Put"};
-	Items[] = {Standard_Meds,"ACE_NVG_Wide"};
-	RespawnItems[] = {Standard_Meds,"ACE_NVG_Wide"};
-	magazines[] = {V_Mags,V_P09};
-	respawnMagazines[] = {V_Mags,V_P09};
+	weapons[] = {"160_arifle_MX_Black_F_Hamr", "hgun_P07_F","Throw","Put"};
+	respawnWeapons[] = {"160_arifle_MX_Black_F_Hamr", "hgun_P07_F","Throw","Put"};
+	Items[] =
+	{
+		Standard_Meds,
+		"ACE_NVG_Wide"
+	};
+	RespawnItems[] =
+	{
+		Standard_Meds,
+		"ACE_NVG_Wide"
+	};
+	magazines[] =
+	{
+		V_Mags,
+		V_P09
+	};
+	respawnMagazines[] =
+	{
+		V_Mags,
+		V_P09
+	};
 	linkedItems[] =
 	{
 		"rhsusf_spc_rifleman",
@@ -420,8 +526,8 @@ class SOR_Rifleman_ammo_M : SOR_Rifleman_M
 {
 	displayName = "(I) Rifleman Ammo Bearer W";
 	backpack = "Vanilla_SOR_Rifleman_Ammo_Pack_M";
-	weapons[] = {"160_arifle_MXM_Black_F_cco","hgun_P07_F","Throw","Put"};
-	respawnWeapons[] = {"160_arifle_MXM_Black_F_cco","hgun_P07_F","Throw","Put"};
+	weapons[] = {"160_arifle_MXM_Black_F_Hamr","hgun_P07_F","Throw","Put"};
+	respawnWeapons[] = {"160_arifle_MXM_Black_F_Hamr","hgun_P07_F","Throw","Put"};
 };
 
 class SOR_RiflemanAT_M : B_soldier_AT_F
@@ -431,12 +537,28 @@ class SOR_RiflemanAT_M : B_soldier_AT_F
 	uniformClass = "rhs_uniform_FROG01_wd";
 	displayName = "(I) Rifleman AT W";
 	backpack = "B_Kitbag_cbr";
-	weapons[] = {"160_arifle_MX_Black_F_cco", "hgun_P07_F","launch_NLAW_F", "Throw", "Put"};
-	respawnWeapons[] = {"160_arifle_MX_Black_F_cco", "hgun_P07_F","launch_NLAW_F","Throw", "Put"};
-	Items[] = {Standard_Meds,"ACE_NVG_Wide"};
-	RespawnItems[] = {Standard_Meds,"ACE_NVG_Wide"};
-	magazines[] = {V_Mags,V_P09};
-	respawnMagazines[] = {V_Mags,V_P09};
+	weapons[] = {"160_arifle_MX_Black_F_Hamr", "hgun_P07_F","launch_NLAW_F", "Throw", "Put"};
+	respawnWeapons[] = {"160_arifle_MX_Black_F_Hamr", "hgun_P07_F","launch_NLAW_F","Throw", "Put"};
+	Items[] =
+	{
+		Standard_Meds,
+		"ACE_NVG_Wide"
+	};
+	RespawnItems[] =
+	{
+		Standard_Meds,
+		"ACE_NVG_Wide"
+	};
+	magazines[] =
+	{
+		V_Mags,
+		V_P09
+	};
+	respawnMagazines[] =
+	{
+		V_Mags,
+		V_P09
+	};
 	linkedItems[] =
 	{
 		"rhsusf_spc_rifleman",
@@ -465,8 +587,17 @@ class SOR_HeliPilot_M : B_Pilot_F
 	backpack = "Vanilla_SOR_Mech_Radio_M";
 	weapons[] = {"160_SMG_01_F_cco","hgun_P07_F","Throw", "Put","Laserdesignator"};
 	respawnWeapons[] = {"160_SMG_01_F_cco","hgun_P07_F","Throw", "Put","Laserdesignator"};
-	Items[] = {Standard_Meds,SL_Equip,"ACE_DAGR"};
-	RespawnItems[] = {Standard_Meds,SL_Equip,"ACE_DAGR"};
+	Items[] =
+	{
+		Standard_Meds,
+		SL_Equip,
+		"ACE_DAGR"};
+	RespawnItems[] =
+	{
+		Standard_Meds,
+		SL_Equip,
+		"ACE_DAGR"
+	};
 	magazines[] =
 	{
 		V_P09,
@@ -474,8 +605,8 @@ class SOR_HeliPilot_M : B_Pilot_F
 		"30Rnd_45ACP_Mag_SMG_01",
 		"30Rnd_45ACP_Mag_SMG_01",
 		"Laserbatteries",
-		"rhs_mag_m18_green",
-		"rhs_mag_an_m8hc"
+		"SmokeShellGreen",
+		"SmokeShell"
 	};
 	respawnMagazines[] =
 	{
@@ -484,8 +615,8 @@ class SOR_HeliPilot_M : B_Pilot_F
 		"30Rnd_45ACP_Mag_SMG_01",
 		"30Rnd_45ACP_Mag_SMG_01",
 		"Laserbatteries",
-		"rhs_mag_m18_green",
-		"rhs_mag_an_m8hc"
+		"SmokeShellGreen",
+		"SmokeShell"
 	};
 	linkedItems[] =
 	{
@@ -515,16 +646,26 @@ class SOR_HeliCrew_M : B_crew_F
 	engineer = 1; // allows unit to repair
 	weapons[] = {"160_arifle_MX_Black_F_cco", "hgun_P07_F","Throw", "Put","Laserdesignator"};
 	respawnWeapons[] = {"160_arifle_MX_Black_F_cco", "hgun_P07_F","Throw", "Put","Laserdesignator"};
-	Items[] = {Standard_Meds,SL_Equip,"ACE_DAGR"};
-	RespawnItems[] = {Standard_Meds,SL_Equip,"ACE_DAGR"};
+	Items[] =
+	{
+		Standard_Meds,
+		SL_Equip,
+		"ACE_DAGR"
+	};
+	RespawnItems[] =
+	{
+		Standard_Meds,
+		SL_Equip,
+		"ACE_DAGR"
+	};
 	magazines[] =
 	{
 		V_P09,
 		"30Rnd_65x39_caseless_mag_Tracer",
 		"30Rnd_65x39_caseless_mag_Tracer",
 		"30Rnd_65x39_caseless_mag_Tracer",
-		"rhs_mag_m18_green",
-		"rhs_mag_an_m8hc",
+		"SmokeShellGreen",
+		"SmokeShell",
 		"Laserbatteries"
 	};
 	respawnMagazines[] =
@@ -533,8 +674,8 @@ class SOR_HeliCrew_M : B_crew_F
 		"30Rnd_65x39_caseless_mag_Tracer",
 		"30Rnd_65x39_caseless_mag_Tracer",
 		"30Rnd_65x39_caseless_mag_Tracer",
-		"rhs_mag_m18_green",
-		"rhs_mag_an_m8hc",
+		"SmokeShellGreen",
+		"SmokeShell",
 		"Laserbatteries"
 	};
 	linkedItems[] =
@@ -562,21 +703,29 @@ class SOR_JetPilot_M : B_Pilot_F
 	backpack = "B_Parachute";
 	weapons[] = {"hgun_P07_F","Throw", "Put","Laserdesignator"};
 	respawnWeapons[] = {"hgun_P07_F","Throw", "Put","Laserdesignator"};
-	Items[] = {Standard_Meds,SL_Equip};
-	RespawnItems[] = {Standard_Meds,SL_Equip};
+	Items[] =
+	{
+		Standard_Meds,
+		SL_Equip
+	};
+	RespawnItems[] =
+	{
+		Standard_Meds,
+		SL_Equip
+	};
 	magazines[] =
 	{
 		V_P09,
 		"Laserbatteries",
-		"rhs_mag_m18_green",
-		"rhs_mag_an_m8hc"
+		"SmokeShellGreen",
+		"SmokeShell"
 	};
 	respawnMagazines[] =
 	{
 		V_P09,
 		"Laserbatteries",
-		"rhs_mag_m18_green",
-		"rhs_mag_an_m8hc"
+		"SmokeShellGreen",
+		"SmokeShell"
 	};
 	linkedItems[] =
 	{
@@ -625,10 +774,22 @@ class SOR_ParaJumper_M : B_medic_F
 	uniformClass = "rhs_uniform_g3_mc";
 	uavHacker = 1; // allows UAV control
 	engineer = 1; // allows unit to repair
-	weapons[] = {"160_arifle_MXC_Black_F_specter", "hgun_P07_F","Throw", "Put","Laserdesignator"};
-	respawnWeapons[] = {"160_arifle_MXC_Black_F_specter", "hgun_P07_F","Throw", "Put","Laserdesignator"};
-	Items[] = {Standard_Meds,SL_Equip,"ACE_DAGR","ACE_NVG_Wide"};
-	RespawnItems[] = {Standard_Meds,SL_Equip,"ACE_DAGR","ACE_NVG_Wide"};
+	weapons[] = {"160_arifle_MXC_Black_F_Hamr", "hgun_P07_F","Throw", "Put","Laserdesignator"};
+	respawnWeapons[] = {"160_arifle_MXC_Black_F_Hamr", "hgun_P07_F","Throw", "Put","Laserdesignator"};
+	Items[] =
+	{
+		Standard_Meds,
+		SL_Equip,
+		"ACE_DAGR",
+		"ACE_NVG_Wide"
+	};
+	RespawnItems[] =
+	{
+		Standard_Meds,
+		SL_Equip,
+		"ACE_DAGR",
+		"ACE_NVG_Wide"
+	};
 	magazines[] =
 	{
 		V_Mags,
@@ -684,8 +845,8 @@ class SOR_ReconLeader_M : B_recon_TL_F
 //		cost = 500000;
 //		camouflage = 0.6;
 //		threat[] = {1.2,0.2,0.2};
-	weapons[] = {"160_arifle_MX_Black_F_specter_viper","Throw","Put","Laserdesignator"};
-	respawnWeapons[] = {"160_arifle_MX_Black_F_specter_viper","Throw","Put","Laserdesignator"};
+	weapons[] = {"160_arifle_MX_Black_F_Hamr_viper","Throw","Put","Laserdesignator"};
+	respawnWeapons[] = {"160_arifle_MX_Black_F_Hamr_viper","Throw","Put","Laserdesignator"};
 	Items[] =
 	{
 		Recon_Equip,
@@ -746,16 +907,16 @@ class SOR_ReconJTAC_M : SOR_ReconLeader_M
 	icon =  "iconMan";
 	backpack = "Vanilla_SOR_JTAC_Pack_M";
 	displayName = "(I) Recon JTAC W";
-	weapons[] = {"160_arifle_MX_Black_F_specter_viper","Throw","Put","ACE_Vector"};
-	respawnWeapons[] = {"160_arifle_MX_Black_F_specter_viper","Throw","Put","ACE_Vector"};
+	weapons[] = {"160_arifle_MX_Black_F_Hamr_viper","Throw","Put","ACE_Vector"};
+	respawnWeapons[] = {"160_arifle_MX_Black_F_Hamr_viper","Throw","Put","ACE_Vector"};
 };
 
 class SOR_ReconRifleman_M : SOR_ReconLeader_M
 {
 	icon =  "iconMan";
 	displayName = "(I) Recon Rifleman W";
-	weapons[] = {"160_arifle_MX_Black_F_specter_viper","Throw","Put","ACE_Vector"};
-	respawnWeapons[] = {"160_arifle_MX_Black_F_specter_viper","Throw","Put","ACE_Vector"};
+	weapons[] = {"160_arifle_MX_Black_F_Hamr_viper","Throw","Put","ACE_Vector"};
+	respawnWeapons[] = {"160_arifle_MX_Black_F_Hamr_viper","Throw","Put","ACE_Vector"};
 	magazines[] =
 	{
 		V_Recon_Mags
@@ -766,6 +927,7 @@ class SOR_ReconRifleman_M : SOR_ReconLeader_M
 	};
 };
 
+/*
 class SOR_Recon_M249AR_M : SOR_ReconLeader_M
 {
 	icon =  "iconManMG";
@@ -789,16 +951,16 @@ class SOR_Recon_M249AR_M : SOR_ReconLeader_M
 	{
 		"rhs_mag_m67",
 		"rhs_mag_m67",
-		"rhs_mag_an_m8hc",
-		"rhs_mag_an_m8hc",
+		"SmokeShell",
+		"SmokeShell",
 		"200Rnd_65x39_cased_Box"
 	};
 	respawnMagazines[] =
 	{
 		"rhs_mag_m67",
 		"rhs_mag_m67",
-		"rhs_mag_an_m8hc",
-		"rhs_mag_an_m8hc",
+		"SmokeShell",
+		"SmokeShell",
 		"200Rnd_65x39_cased_Box"
 	};
 };
@@ -840,6 +1002,7 @@ class SOR_ReconSpotter_M : SOR_ReconLeader_M
 		"20Rnd_762x51_Mag"
 	};
 };
+*/
 
 class SOR_Marksman_M : SOR_ReconLeader_M
 {
@@ -861,8 +1024,8 @@ class SOR_Marksman_M : SOR_ReconLeader_M
 	};
 	magazines[] =
 	{
-		"rhs_mag_an_m8hc",
-		"rhs_mag_an_m8hc",
+		"SmokeShell",
+		"SmokeShell",
 		"10Rnd_93x64_DMR_05_Mag",
 		"10Rnd_93x64_DMR_05_Mag",
 		"10Rnd_93x64_DMR_05_Mag",
@@ -871,8 +1034,8 @@ class SOR_Marksman_M : SOR_ReconLeader_M
 	};
 	respawnMagazines[] =
 	{
-		"rhs_mag_an_m8hc",
-		"rhs_mag_an_m8hc",
+		"SmokeShell",
+		"SmokeShell",
 		"10Rnd_93x64_DMR_05_Mag",
 		"10Rnd_93x64_DMR_05_Mag",
 		"10Rnd_93x64_DMR_05_Mag",
@@ -942,8 +1105,8 @@ class SOR_Spotter_M : B_spotter_F
 	camouflage = 0.3;
 	uniformClass = "U_B_FullGhillie_lsh";
 	backpack = "Vanilla_SOR_Spotter_Radio";
-	weapons[] = {"160_arifle_MXM_Black_F_specter","Throw","Put","ACE_Vector"};
-	respawnWeapons[] = {"160_arifle_MXM_Black_F_specter","Throw","Put","ACE_Vector"};
+	weapons[] = {"160_arifle_MXM_Black_F_Hamr","Throw","Put","ACE_Vector"};
+	respawnWeapons[] = {"160_arifle_MXM_Black_F_Hamr","Throw","Put","ACE_Vector"};
 	Items[] =
 	{
 		"ACE_ATragMX",
@@ -1002,8 +1165,14 @@ class SOR_MechCrew_M : B_crew_F
 		Standard_Meds,
 		"ACE_NVG_Wide"
 	};
-	magazines[] = {V_P09};
-	respawnMagazines[] = {V_P09};
+	magazines[] =
+	{
+		V_P09
+	};
+	respawnMagazines[] =
+	{
+		V_P09
+	};
 	linkedItems[] =
 	{
 		"rhsusf_spc_marksman",
@@ -1035,8 +1204,8 @@ class SOR_MechOperator_M : SOR_MechCrew_M
 		"30Rnd_65x39_caseless_mag",
 		"30Rnd_65x39_caseless_mag",
 		"30Rnd_65x39_caseless_mag",
-		"rhs_mag_an_m8hc",
-		"rhs_mag_an_m8hc",
+		"SmokeShell",
+		"SmokeShell",
 		"Laserbatteries",
 	};
 	respawnMagazines[] =
@@ -1046,8 +1215,8 @@ class SOR_MechOperator_M : SOR_MechCrew_M
 		"30Rnd_65x39_caseless_mag",
 		"30Rnd_65x39_caseless_mag",
 		"30Rnd_65x39_caseless_mag",
-		"rhs_mag_an_m8hc",
-		"rhs_mag_an_m8hc",
+		"SmokeShell",
+		"SmokeShell",
 		"Laserbatteries",
 	};
 	linkedItems[] =
@@ -1150,8 +1319,16 @@ class SOR_Engineer_M : B_engineer_F
 	backpack = "Vanilla_SOR_Repair_Pack_M";
 	weapons[] = {"160_arifle_MXC_Black_F_cco","Throw","Put"};
 	respawnWeapons[] = {"160_arifle_MXC_Black_F_cco","Throw","Put"};
-	Items[] = {Standard_Meds,"ACE_NVG_Wide"};
-	RespawnItems[] = {Standard_Meds,"ACE_NVG_Wide"};
+	Items[] =
+	{
+		Standard_Meds,
+		"ACE_NVG_Wide"
+	};
+	RespawnItems[] =
+	{
+		Standard_Meds,
+		"ACE_NVG_Wide"
+	};
 	magazines[] =
 	{
 		"30Rnd_65x39_caseless_mag",

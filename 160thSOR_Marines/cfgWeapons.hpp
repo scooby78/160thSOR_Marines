@@ -114,13 +114,13 @@ class srifle_LRR_F;
 		};
 	};
 
-	class 160_arifle_MX_Black_F_specter: arifle_MX_Black_F //MX ONE// //vanilla + RHS//
+	class 160_arifle_MX_Black_F_Hamr: arifle_MX_Black_F //MX ONE// //vanilla + RHS//
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
+				item = "optic_Hamr";
 				slot = "CowsSlot";
 			};
 			class LinkedItemsAcc
@@ -165,13 +165,13 @@ class srifle_LRR_F;
 		};
 	};
 
-	class 160_arifle_MX_GL_Black_F_specter: arifle_MX_GL_Black_F //MXGL FOUR// //vanilla + RHS//
+	class 160_arifle_MX_GL_Black_F_Hamr: arifle_MX_GL_Black_F //MXGL FOUR// //vanilla + RHS//
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
+				item = "optic_Hamr";
 				slot = "CowsSlot";
 			};
 			class LinkedItemsAcc
@@ -199,13 +199,13 @@ class srifle_LRR_F;
 		};
 	};
 
-	class 160_arifle_MX_SW_Black_F_specter: arifle_MX_SW_Black_F //MXLWS SIX// //vanilla + RHS//
+	class 160_arifle_MX_SW_Black_F_Hamr: arifle_MX_SW_Black_F //MXLWS SIX// //vanilla + RHS//
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
+				item = "optic_Hamr";
 				slot = "CowsSlot";
 			};
 			class LinkedItemsUnder
@@ -243,13 +243,13 @@ class srifle_LRR_F;
 		};
 	};
 
-	class 160_arifle_MXC_Black_F_specter: arifle_MXC_Black_F //MX EIGHT// //vanilla + RHS//
+	class 160_arifle_MXC_Black_F_Hamr: arifle_MXC_Black_F //MX EIGHT// //vanilla + RHS//
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
+				item = "optic_Hamr";
 				slot = "CowsSlot";
 			};
 			class LinkedItemsAcc
@@ -272,13 +272,13 @@ class srifle_LRR_F;
 		};
 	};
 
-	class 160_arifle_MXM_Black_F_specter: arifle_MXM_Black_F //MXM TEN// //vanilla + RHS//
+	class 160_arifle_MXM_Black_F_Hamr: arifle_MXM_Black_F //MXM TEN// //vanilla + RHS//
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
+				item = "optic_Hamr";
 				slot = "CowsSlot";
 			};
 			class LinkedItemsUnder
@@ -333,13 +333,13 @@ class srifle_LRR_F;
 		};
 	};
 
-	class 160_arifle_MX_Black_F_specter_viper: arifle_MX_Black_F //MX THIRTEEN// //vanilla + RHS//
+	class 160_arifle_MX_Black_F_Hamr_viper: arifle_MX_Black_F //MX THIRTEEN// //vanilla + RHS//
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
+				item = "optic_Hamr";
 				slot = "CowsSlot";
 			};
       		class LinkedItemsMuzzle

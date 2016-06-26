@@ -105,10 +105,10 @@ class Vanilla_SOR_GD_Pack_M : B_Kitbag_cbr
 	displayName = "(2021 USMC) Grednadier Pack";
 	class TransportMagazines
 	{
-		mag_xx(3Rnd_HE_Grenade_shell,5);
-		mag_xx(3Rnd_SmokeRed_Grenade_shell,3);
-		mag_xx(3Rnd_SmokeGreen_Grenade_shell,3);
-		mag_xx(3Rnd_Smoke_Grenade_shell,3);
+		mag_xx(3Rnd_HE_Grenade_shell,2);
+		mag_xx(3Rnd_SmokeRed_Grenade_shell,2);
+		mag_xx(3Rnd_SmokeGreen_Grenade_shell,2);
+		mag_xx(3Rnd_Smoke_Grenade_shell,2);
 	};
 };
 
@@ -118,7 +118,7 @@ class Vanilla_SOR_RTO_Pack_M : tf_rt1523g_rhs
 	displayName = "(2021 USMC) RTO Radio Pack";
 	class TransportMagazines
 	{
-		mag_xx(3Rnd_SmokeRed_Grenade_shell,8);
+		mag_xx(3Rnd_SmokeRed_Grenade_shell,3);
 		mag_xx(3Rnd_SmokeGreen_Grenade_shell,2);
 		mag_xx(3Rnd_SmokeYellow_Grenade_shell,2);
 	};

@@ -840,7 +840,7 @@ class SOR_ReconLeader_M : B_recon_TL_F
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Infantry_Recon";
 	uniformClass = "rhs_uniform_g3_rgr";
-	displayName = "(I) Recon Lead W";
+	displayName = "(I) Viper Lead W";
 	accuracy = 3.5;
 //		cost = 500000;
 //		camouflage = 0.6;
@@ -906,7 +906,7 @@ class SOR_ReconJTAC_M : SOR_ReconLeader_M
 {
 	icon =  "iconMan";
 	backpack = "Vanilla_SOR_JTAC_Pack_M";
-	displayName = "(I) Recon JTAC W";
+	displayName = "(I) Viper JTAC W";
 	weapons[] = {"160_arifle_MX_Black_F_Hamr_viper","Throw","Put","ACE_Vector"};
 	respawnWeapons[] = {"160_arifle_MX_Black_F_Hamr_viper","Throw","Put","ACE_Vector"};
 };
@@ -914,7 +914,7 @@ class SOR_ReconJTAC_M : SOR_ReconLeader_M
 class SOR_ReconRifleman_M : SOR_ReconLeader_M
 {
 	icon =  "iconMan";
-	displayName = "(I) Recon Rifleman W";
+	displayName = "(I) Viper Rifleman W";
 	weapons[] = {"160_arifle_MX_Black_F_Hamr_viper","Throw","Put","ACE_Vector"};
 	respawnWeapons[] = {"160_arifle_MX_Black_F_Hamr_viper","Throw","Put","ACE_Vector"};
 	magazines[] =
@@ -1007,7 +1007,7 @@ class SOR_ReconSpotter_M : SOR_ReconLeader_M
 class SOR_Marksman_M : SOR_ReconLeader_M
 {
 	icon =  "iconMan";
-	displayName = "(I) Recon Marksman";
+	displayName = "(I) Viper Marksman";
 	weapons[] = {"160_srifle_DMR_05_blk_F_premier_viper","Throw","Put","Laserdesignator"};
 	respawnWeapons[] = {"160_srifle_DMR_05_blk_F_premier_viper","Throw","Put","Laserdesignator"};
 	Items[] =

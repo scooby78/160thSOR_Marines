@@ -56,6 +56,7 @@ class CfgPatches
 			"SOR_USMC_B_T_LSV_01_armed_F",
 			"SOR_USMC_B_T_LSV_01_unarmed_F",
 			"SOR_USMC_B_CTRG_LSV_01_light_F",
+			"SOR_USMC_B_Quadbike_01_F",
 			"SOR_USMC_B_APC_Wheeled_01_cannon_F",
 			"SOR_USMC_B_MRAP_01_hmg_F",
 			"SOR_USMC_B_MRAP_01_gmg_F",
@@ -64,12 +65,26 @@ class CfgPatches
 			"SOR_USMC_rhsusf_M977A4_AMMO_BKIT_M2_usarmy_wd",
 			"SOR_USMC_rhsusf_M978A4_BKIT_usarmy_wd",
 			"SOR_USMC_rhsusf_M977A4_REPAIR_BKIT_M2_usarmy_wd",
+			"SOR_USMC_B_MBT_01_arty_F",
+			"SOR_USMC_B_MBT_01_mlrs_F",
+			"SOR_USMC_B_APC_Tracked_01_AA_F",
 			"SOR_USMC_B_Boat_Armed_01_minigun_F",
 			"SOR_USMC_I_C_Boat_Transport_02_F",
 			"SOR_USMC_rhsusf_mkvsoc",
 			"SOR_USMC_C_Scooter_Transport_01_F",
 			"SOR_USMC_B_Boat_Transport_01_F",
-			"SOR_USMC_B_SDV_01_F"
+			"SOR_USMC_B_SDV_01_F",
+			"SOR_USMC_RHS_UH1Y_UNARMED_d",
+			"SOR_USMC_RHS_UH1Y_d",
+			"SOR_USMC_RHS_UH1Y_FFAR_d",
+			"SOR_USMC_RHS_UH1Y_d_GS",
+			"SOR_USMC_rhsusf_CH53E_USMC_D",
+			"SOR_USMC_RHS_AH1Z",
+			"SOR_USMC_RHS_AH1Z_GS",
+			"SOR_USMC_RHS_AH1Z_CS",
+			"SOR_USMC_B_T_VTOL_01_armed_F",
+			"SOR_USMC_B_T_VTOL_01_infantry_F",
+			"SOR_USMC_B_T_VTOL_01_vehicle_F"
 
 
 		};

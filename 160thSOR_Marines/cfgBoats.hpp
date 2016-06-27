@@ -17,7 +17,7 @@ class SOR_USMC_B_Boat_Armed_01_minigun_F : B_Boat_Armed_01_minigun_F
 		faction = SOR_Faction_M;
 		displayName = "Riverine SOC-R";
 		vehicleclass = "SOR_Boat";
-		class TransportItems {item_xx(ACE_FieldDressing,10);};
+		class TransportItems {};
 		class TransportWeapons{};
 		class TransportMagazines{};
 		class TransportBackpacks{};
@@ -29,7 +29,7 @@ class SOR_USMC_I_C_Boat_Transport_02_F : I_C_Boat_Transport_02_F
 		displayName = "Fast Attack RHIB";
 		side = 1
 		vehicleclass = "SOR_Boat";
-		class TransportItems{item_xx(ACE_FieldDressing,10);};
+		class TransportItems{};
 		class TransportWeapons{};
 		class TransportMagazines{};
 		class TransportBackpacks{};
@@ -39,7 +39,7 @@ class SOR_USMC_rhsusf_mkvsoc : rhsusf_mkvsoc
 	{
 		faction = SOR_Faction_M;
 		vehicleclass = "SOR_Boat";
-		class TransportItems{item_xx(ACE_FieldDressing,15);};
+		class TransportItems{item_xx(ACE_FieldDressing,10);};
 		class TransportWeapons{};
 		class TransportMagazines{};
 		class TransportBackpacks{};
@@ -53,7 +53,7 @@ class SOR_USMC_C_Scooter_Transport_01_F : C_Scooter_Transport_01_F
 	    enginePower = 65; //was 58.5
 		side = 1
 		vehicleclass = "SOR_Boat";
-		class TransportItems{item_xx(ACE_FieldDressing,2);};
+		class TransportItems{};
 		class TransportWeapons{};
 		class TransportMagazines{};
 		class TransportBackpacks{};

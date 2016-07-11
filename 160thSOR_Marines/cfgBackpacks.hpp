@@ -10,8 +10,8 @@ class tf_rt1523g_rhs;
 class tf_anprc155_coyote;
 class B_Kitbag_cbr;
 
-//Vanilla Medic Pack
-class Vanilla_SOR_Medic_Pack_M : B_Kitbag_cbr
+//USMC Medic Pack
+class USMC_SOR_Medic_Pack_M : B_Kitbag_cbr
 {
 	displayName = "(2021 USMC) Medic Pack";
 	class TransportMagazines
@@ -27,8 +27,8 @@ class Vanilla_SOR_Medic_Pack_M : B_Kitbag_cbr
 	};
 };
 
-//Vanilla Parajumper Pack
-class Vanilla_SOR_PJMedicPack_M : B_Kitbag_cbr
+//USMC Parajumper Pack
+class USMC_SOR_PJMedicPack_M : B_Kitbag_cbr
 {
 	displayName = "(2021 USMC) Parajumper Pack";
 	class TransportMagazines
@@ -45,8 +45,8 @@ class Vanilla_SOR_PJMedicPack_M : B_Kitbag_cbr
 	};
 };
 
-//Vanilla Rifleman Pack
-class Vanilla_SOR_Rifleman_Pack_M : B_Kitbag_cbr
+//USMC Rifleman Pack
+class USMC_SOR_Rifleman_MXSW_Pack_M : B_Kitbag_cbr
 {
 	displayName = "(2021 USMC) Rifleman Pack (MXSW)";
 	class TransportMagazines
@@ -55,18 +55,18 @@ class Vanilla_SOR_Rifleman_Pack_M : B_Kitbag_cbr
 	};
 };
 
-//Vanilla Rilfeman Ammobearer Pack
-class Vanilla_SOR_Rifleman_Ammo_Pack_M : B_Kitbag_cbr
+//USMC Rilfeman Ammobearer Pack
+class USMC_SOR_Rifleman_M240_Pack_M : B_Kitbag_cbr
 {
-	displayName = "(2021 USMC) Rifleman Pack (SPMG)";
+	displayName = "(2021 USMC) Rifleman Pack (M240G)";
 	class TransportMagazines
 	{
-		mag_xx(130Rnd_338_Mag,2);
+		mag_xx(rhsusf_100Rnd_762x51_m62_tracer,2);
 	};
 };
 
-//Vanilla MXSW Pack
-class Vanilla_SOR_MXSW_Pack_M : B_Kitbag_cbr
+//USMC MXSW Pack
+class USMC_SOR_MXSW_Pack_M : B_Kitbag_cbr
 {
 	displayName = "(2021 USMC) MXSW Ammo Pack";
 	class TransportMagazines
@@ -75,18 +75,18 @@ class Vanilla_SOR_MXSW_Pack_M : B_Kitbag_cbr
 	};
 };
 
-//Vanilla SPMG Pack
-class Vanilla_SOR_SPMG_Pack_M : B_Kitbag_cbr
+//USMC M240 Pack
+class USMC_SOR_M240_Pack_M : B_Kitbag_cbr
 {
-	displayName = "(2021 USMC) SPMG Ammo Pack";
+	displayName = "(2021 USMC) M240G Ammo Pack";
 	class TransportMagazines
 	{
-		mag_xx(130Rnd_338_Mag,1);
+		mag_xx(rhsusf_100Rnd_762x51_m62_tracer,1);
 	};
 };
 
-//Vanilla Repair Pack With Toolkit
-class Vanilla_SOR_Repair_Pack_M : B_Kitbag_cbr
+//USMC Repair Pack With Toolkit
+class USMC_SOR_Repair_Pack_M : B_Kitbag_cbr
 {
 	displayName = "(2021 USMC) Repair Pack";
 	class TransportItems
@@ -99,8 +99,8 @@ class Vanilla_SOR_Repair_Pack_M : B_Kitbag_cbr
 	};
 };
 
-//Vanilla Custom Grenadier Pack
-class Vanilla_SOR_GD_Pack_M : B_Kitbag_cbr
+//USMC Custom Grenadier Pack
+class USMC_SOR_GD_Pack_M : B_Kitbag_cbr
 {
 	displayName = "(2021 USMC) Grednadier Pack";
 	class TransportMagazines
@@ -112,8 +112,8 @@ class Vanilla_SOR_GD_Pack_M : B_Kitbag_cbr
 	};
 };
 
-//Vanilla Custom RTO Pack
-class Vanilla_SOR_RTO_Pack_M : tf_rt1523g_rhs
+//USMC Custom RTO Pack
+class USMC_SOR_RTO_Pack_M : tf_rt1523g_rhs
 {
 	displayName = "(2021 USMC) RTO Radio Pack";
 	class TransportMagazines
@@ -124,15 +124,15 @@ class Vanilla_SOR_RTO_Pack_M : tf_rt1523g_rhs
 	};
 };
 
-//Vanilla Custom Rifleman AT Pack
-class Vanilla_SOR_RFLAT_Pack_M : B_Kitbag_cbr
+//USMC Custom Rifleman AT Pack
+class USMC_SOR_RFLAT_Pack_M : B_Kitbag_cbr
 {
 	displayName = "(2021 USMC) Empty Pack";
 	class TransportMagazines{};
 };
 
-//Vanilla Custom Sniper Pack
-class Vanilla_SOR_Sniper_Camo : B_Kitbag_cbr
+//USMC Custom Sniper Pack
+class USMC_SOR_Sniper_Camo : B_Kitbag_cbr
 {
 	displayName = "(2021 USMC) Sniper Pack";
 	class TransportItems
@@ -148,8 +148,8 @@ class Vanilla_SOR_Sniper_Camo : B_Kitbag_cbr
 	};
 };
 
-//Vanilla Spotter Pack
-class Vanilla_SOR_Spotter_Radio : tf_rt1523g_rhs
+//USMC Spotter Pack
+class USMC_SOR_Spotter_Radio : tf_rt1523g_rhs
 {
 	displayName = "(2021 USMC) Spotter Radio Pack";
 	class TransportItems
@@ -164,8 +164,8 @@ class Vanilla_SOR_Spotter_Radio : tf_rt1523g_rhs
 	};
 };
 
-//Vanilla Custom Mech Crew Commander Pack
-class Vanilla_SOR_Mech_Radio_M : tf_rt1523g_rhs
+//USMC Custom Mech Crew Commander Pack
+class USMC_SOR_Mech_Radio_M : tf_rt1523g_rhs
 {
 	displayName = "(2021 USMC) Commander Radio Pack";
 	class TransportItems{};
@@ -177,8 +177,8 @@ class Vanilla_SOR_Mech_Radio_M : tf_rt1523g_rhs
 	};
 };
 
-//Vanilla Custom Engineer Repair Pack
-class Vanilla_SOR_Eng_Repair_Pack_M : B_Kitbag_cbr
+//USMC Custom Engineer Repair Pack
+class USMC_SOR_Eng_Repair_Pack_M : B_Kitbag_cbr
 {
 	displayName = "(2021 USMC) Engi Repair Pack";
 	class TransportMagazines{};
@@ -189,8 +189,8 @@ class Vanilla_SOR_Eng_Repair_Pack_M : B_Kitbag_cbr
 	};
 };
 
-//Vanilla Custom Engineer Ordanance Pack
-class Vanilla_SOR_OrdanancePack_M : B_Kitbag_cbr
+//USMC Custom Engineer Ordanance Pack
+class USMC_SOR_OrdanancePack_M : B_Kitbag_cbr
 {
 	displayName = "(2021 USMC) Engi Ordanance Pack";
 	class TransportMagazines{};
@@ -203,8 +203,8 @@ class Vanilla_SOR_OrdanancePack_M : B_Kitbag_cbr
 	};
 };
 
-//Vanilla Custom Engineer Combat Pack
-class Vanilla_SOR_CombatPack_M : B_Kitbag_cbr
+//USMC Custom Engineer Combat Pack
+class USMC_SOR_CombatPack_M : B_Kitbag_cbr
 {
 	displayName = "(2021 USMC) Combat Pack";
 	class TransportMagazines
@@ -220,8 +220,8 @@ class Vanilla_SOR_CombatPack_M : B_Kitbag_cbr
 	};
 };
 
-//Vanilla Custom JTAC Pack
-class Vanilla_SOR_JTAC_Pack_M : tf_anprc155_coyote
+//USMC Custom JTAC Pack
+class USMC_SOR_JTAC_Pack_M : tf_anprc155_coyote
 {
 	displayName = "(2021 USMC) JTAC Radio Pack";
 	class TransportMagazines

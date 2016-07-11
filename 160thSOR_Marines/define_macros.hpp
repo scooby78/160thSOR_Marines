@@ -89,11 +89,11 @@
 						"SmokeShellYellow",\
 						"SmokeShellYellow"
 
-#define V_Recon_Mags    "30Rnd_65x39_caseless_mag",\
-						"30Rnd_65x39_caseless_mag",\
-						"30Rnd_65x39_caseless_mag",\
-						"30Rnd_65x39_caseless_mag",\
-						"30Rnd_65x39_caseless_mag",\
+#define V_Recon_Mags    "30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
 						"HandGrenade",\
 						"HandGrenade",\
 						"SmokeShellGreen",\
@@ -106,3 +106,19 @@
 #define V_P09		    "16Rnd_9x21_Mag",\
 						"16Rnd_9x21_Mag",\
 						"16Rnd_9x21_Mag"
+
+#define V_CC2		    "9Rnd_45ACP_Mag",\
+						"9Rnd_45ACP_Mag",\
+						"9Rnd_45ACP_Mag"
+
+#define V_MagsPJ	    "30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
+						"HandGrenade",\
+						"HandGrenade",\
+						"SmokeShell",\
+						"SmokeShell",\
+						"SmokeShell",\
+						"SmokeShellGreen"

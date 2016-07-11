@@ -8,6 +8,7 @@
 class rhsusf_m1a1fep_wd;
 class rhsusf_m1a1hc_wd;
 class rhsusf_m1a1fep_od;
+class rhsusf_m1a1fep_d;
 class B_T_LSV_01_armed_F;
 class B_T_LSV_01_unarmed_F;
 class B_CTRG_LSV_01_light_F;
@@ -31,7 +32,7 @@ class SOR_USMC_rhsusf_m1a1fep_wd : rhsusf_m1a1fep_wd
 	displayName = "USMC M1A1FEP (WD)";
 	peakTorque = 10355;
 	enginePower = 3000;
-	armor = 800;
+	armor = 900;
 	brakeDistance = 1;
 	class TransportItems
 	{
@@ -40,7 +41,7 @@ class SOR_USMC_rhsusf_m1a1fep_wd : rhsusf_m1a1fep_wd
 	class TransportWeapons
 	{
 		weap_xx(rhs_weap_M136_hp,2)
-		weap_xx(160_arifle_MX_F_cco,2)
+		weap_xx(160_arifle_MX_F_xps3,2)
 	};
 	class TransportMagazines
 	{
@@ -59,7 +60,7 @@ class SOR_USMC_rhsusf_m1a1hc_wd : rhsusf_m1a1hc_wd
 	displayName = "USMC M1A1HC (OD)";
 	peakTorque = 10355;
 	enginePower = 3000;
-	armor = 800;
+	armor = 900;
 	brakeDistance = 1;
 	class TransportItems
 	{
@@ -68,7 +69,7 @@ class SOR_USMC_rhsusf_m1a1hc_wd : rhsusf_m1a1hc_wd
 	class TransportWeapons
 	{
 		weap_xx(rhs_weap_M136_hp,2)
-		weap_xx(160_arifle_MX_F_cco,2)
+		weap_xx(160_arifle_MX_F_xps3,2)
 	};
 	class TransportMagazines
 	{
@@ -87,7 +88,7 @@ class SOR_USMC_rhsusf_m1a1fep_od : rhsusf_m1a1fep_od
 	displayName = "USMC M1A1FEP (OD)";
 	peakTorque = 10355;
 	enginePower = 3000;
-	armor = 800;
+	armor = 900;
 	brakeDistance = 1;
 	class TransportItems
 	{
@@ -96,7 +97,38 @@ class SOR_USMC_rhsusf_m1a1fep_od : rhsusf_m1a1fep_od
 	class TransportWeapons
 	{
 		weap_xx(rhs_weap_M136_hp,2)
-		weap_xx(160_arifle_MX_F_cco,2)
+		weap_xx(160_arifle_MX_F_xps3,2)
+	};
+	class TransportMagazines
+	{
+		mag_xx(30Rnd_65x39_caseless_mag,20)
+	};
+	class TransportBackpacks
+	{
+		pack_xx(Vanilla_SOR_Repair_Pack_M,1)
+	};
+};
+
+class SOR_USMC_rhsusf_m1a1fep_d : rhsusf_m1a1fep_d
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_Vehicles";
+	displayName = "USMC M1A1FEP (OD)";
+	hiddenSelections[] = {"camo1","camo2","camo3","camo4","duke_tex","","","n1","n2","n3","i1","i2","i3"};
+	hiddenSelectionsTextures[] = {"rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1fep_od_01_co.paa","rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1fep_od_02_co.paa","rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_03_co.paa","rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_wd_co.paa","rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_wd_co.paa"};
+	hiddenSelectionsMaterials[] = {"rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1fep_od_01.rvmat","rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1fep_od_02.rvmat","rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_03.rvmat","rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_wd.rvmat","rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_d.rvmat"};
+	peakTorque = 10355;
+	enginePower = 3000;
+	armor = 900;
+	brakeDistance = 1;
+	class TransportItems
+	{
+		item_xx(ACE_FieldDressing,20);
+	};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_M136_hp,2)
+		weap_xx(160_arifle_MX_F_xps3,2)
 	};
 	class TransportMagazines
 	{
@@ -179,7 +211,7 @@ class SOR_USMC_B_APC_Wheeled_01_cannon_F : B_APC_Wheeled_01_cannon_F
 	class TransportWeapons
 	{
 		weap_xx(rhs_weap_M136_hp,1)
-		weap_xx(160_arifle_MX_F_cco,1)
+		weap_xx(160_arifle_MX_F_xps3,1)
 	};
 	class TransportMagazines
 	{
@@ -326,7 +358,7 @@ class SOR_USMC_B_MBT_01_arty_F : B_MBT_01_arty_F
 	class TransportWeapons
 	{
 		weap_xx(rhs_weap_M136_hp,1)
-		weap_xx(160_arifle_MX_F_cco,1)
+		weap_xx(160_arifle_MX_F_xps3,1)
 	};
 	class TransportMagazines
 	{
@@ -350,7 +382,7 @@ class SOR_USMC_B_MBT_01_mlrs_F : B_MBT_01_mlrs_F
 	class TransportWeapons
 	{
 		weap_xx(rhs_weap_M136_hp,1)
-		weap_xx(160_arifle_MX_F_cco,1)
+		weap_xx(160_arifle_MX_F_xps3,1)
 	};
 	class TransportMagazines
 	{
@@ -375,7 +407,7 @@ class SOR_USMC_B_APC_Tracked_01_AA_F : B_APC_Tracked_01_AA_F
 	class TransportWeapons
 	{
 		weap_xx(rhs_weap_M136_hp,1)
-		weap_xx(160_arifle_MX_F_cco,1)
+		weap_xx(160_arifle_MX_F_xps3,1)
 	};
 	class TransportMagazines
 	{

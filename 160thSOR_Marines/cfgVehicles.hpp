@@ -5,7 +5,7 @@
 	Description: cfgVehicles.hpp
 */
 
-class cfgVehicles 
+class cfgVehicles
 {
 #include "cfgBackpacks.hpp"
 #include "cfgTroopsMarinesWoodland.hpp"

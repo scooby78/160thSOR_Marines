@@ -114,7 +114,7 @@ class SOR_USMC_RHS_UH1Y_UNARMED_d : RHS_UH1Y_UNARMED_d
 	};
 	class TransportWeapons{
 
-			weap_xx(160_arifle_MX_F_cco,2);
+			weap_xx(160_arifle_MX_F_xps3,2);
 	};
 	class TransportMagazines
 	{
@@ -224,7 +224,7 @@ class SOR_USMC_RHS_UH1Y_d : RHS_UH1Y_d
 	class TransportWeapons
 	{
 
-			weap_xx(160_arifle_MX_F_cco,2)
+			weap_xx(160_arifle_MX_F_xps3,2)
 	};
 	class TransportMagazines
 	{
@@ -333,7 +333,7 @@ class SOR_USMC_RHS_UH1Y_FFAR_d : RHS_UH1Y_FFAR_d
 	};
 	class TransportWeapons{
 
-			weap_xx(160_arifle_MX_F_cco,2)
+			weap_xx(160_arifle_MX_F_xps3,2)
 	};
 	class TransportMagazines
 	{
@@ -442,7 +442,7 @@ class SOR_USMC_RHS_UH1Y_d_GS : RHS_UH1Y_d_GS
 	};
 	class TransportWeapons{
 
-			weap_xx(160_arifle_MX_F_cco,2)
+			weap_xx(160_arifle_MX_F_xps3,2)
 	};
 	class TransportMagazines
 	{
@@ -532,11 +532,128 @@ class SOR_USMC_rhsusf_CH53E_USMC_D : rhsusf_CH53E_USMC_D
 	};
 	class TransportWeapons
 	{
-		weap_xx(160_arifle_MX_F_cco,2)
+		weap_xx(160_arifle_MX_F_xps3,2)
 	};
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_mag,6)
+	};
+	class TransportBackpacks
+	{
+		pack_xx(Vanilla_SOR_Repair_Pack_M,1)
+	};
+};
+
+class SOR_USMC_MEV_RHS_UH1Y_UNARMED_d : RHS_UH1Y_UNARMED_d
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_Aircraft";
+	displayName = "UH-1Y [MEV] (C2/P9)";
+	driverCanEject = 1;
+	ejectDeadCargo = 1;
+	crewCrashProtection = 0.20;
+	class UserActions
+	{
+		class SOR_AutoDrop
+		{
+			displayName = "<t color='#008000'>Start Drop!</t>";
+			displayNameDefault = "<t color='#008000'>Start Drop!</t>";
+			condition = "(player == driver this)&&((getPosATL this) select 2 > 200)";
+			priority = 1;
+			showWindow = 0;
+			hideOnUse = 1;
+			radius= 8;
+			position = "";
+			onlyForPlayer = 0;
+			statement = "[this] spawn sor_fnc_autoparadrop";
+		};
+		class CloseCargoDoor
+		{
+			condition = "this doorPhase 'doorRB' > 0 and (alive this) and player in this;";
+			displayName = "Close right cargo door";
+			onlyforplayer = 1;
+			position = "pos driver";
+			radius = 15;
+			showwindow = 0;
+			statement = "this animateDoor ['doorRB', 0];this animate ['doorHandler_R',0];";
+		};
+		class CloseCargoLDoor
+		{
+			condition = "this doorPhase 'doorLB' > 0 and (alive this) and player in this;";
+			displayName = "Close left cargo door";
+			onlyforplayer = 1;
+			position = "pos driver";
+			radius = 15;
+			showwindow = 0;
+			statement = "this animateDoor ['doorLB', 0];this animate ['doorHandler_L',0];";
+		};
+		class OpenCargoDoor
+		{
+			condition = "this doorPhase 'doorRB' == 0 and (alive this) and player in this;";
+			displayName = "Open right cargo door";
+			onlyforplayer = 1;
+			position = "pos driver";
+			radius = 15;
+			showwindow = 0;
+			statement = "this animateDoor ['doorRB', 1];this animate ['doorHandler_R',1]";
+		};
+		class OpenCargoLDoor
+		{
+			condition = "this doorPhase 'doorLB' == 0 and (alive this) and player in this;";
+			displayName = "Open left cargo door";
+			onlyforplayer = 1;
+			position = "pos driver";
+			radius = 15;
+			showwindow = 0;
+			statement = "this animateDoor ['doorLB', 1];this animate ['doorHandler_L',1];";
+		};
+		class HUDoff
+		{
+			condition = "(player==driver this)and(this animationphase 'HUDAction' !=1)";
+			displayName = "HUD on";
+			displayNameDefault = "HUD on";
+			onlyForPlayer = 1;
+			position = "zamerny";
+			radius = 1;
+			statement = "this animate ['HUDAction',1];this animate ['HUDAction_1',1]";
+		};
+		class HUDon
+		{
+			condition = "(player==driver this)and(this animationphase 'HUDAction' !=0)";
+			displayName = "HUD off";
+			displayNameDefault = "HUD off";
+			onlyForPlayer = 1;
+			position = "zamerny";
+			radius = 1;
+			statement = "this animate ['HUDAction',0];this animate ['HUDAction_1',0]";
+		};
+		class TogglePIP
+		{
+			condition = "( (call rhsusf_fnc_findPlayer)==driver this) or ((call rhsusf_fnc_findPlayer)==gunner this) ";
+			displayName = "Toggle monitor";
+			displayNameDefault = "Toggle monitor";
+			onlyForPlayer = 1;
+			position = "zamerny";
+			radius = 1;
+			statement = "call rhs_fnc_uh1_toggleCam";
+		};
+	};
+	class TransportItems
+	{
+	    item_xx(ACE_Fielddressing,24)
+		item_xx(ACE_morphine,16)
+		item_xx(ACE_epinephrine,16)
+		item_xx(G_Diving,3)
+		item_xx(U_B_Wetsuit,3)
+		item_xx(V_RebreatherB,3)
+	};
+	class TransportWeapons
+	{
+		weap_xx(srifle_EBR_MRCO_pointer_F,2)
+	};
+	class TransportMagazines
+	{
+		mag_xx(20Rnd_762x51_Mag,5)
 	};
 	class TransportBackpacks
 	{

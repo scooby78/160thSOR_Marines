@@ -130,7 +130,7 @@ class CfgGroups
 					class Unit12
 					{
 						side = 1;
-						vehicle = "SOR_Rifleman_M";
+						vehicle = "SOR_Rifleman_ammo_M";
 						rank = PRIVATE;
 						position[] = {0, -12, 0 };
 					};
@@ -144,7 +144,7 @@ class CfgGroups
 					class Unit14
 					{
 						side = 1;
-						vehicle = "SOR_SPMG_M";
+						vehicle = "SOR_M240_M";
 						rank = PRIVATE;
 						position[] = {0, -18, 0};
 					};
@@ -158,7 +158,7 @@ class CfgGroups
 					class Unit16
 					{
 						side = 1;
-						vehicle = "SOR_RiflemanAT_M";
+						vehicle = "SOR_Rifleman_M";
 						rank = PRIVATE;
 						position[] = {0, -22, 0};
 					};

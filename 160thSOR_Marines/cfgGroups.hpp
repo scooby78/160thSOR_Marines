@@ -116,7 +116,7 @@ class CfgGroups
 					class Unit10
 					{
 						side = 1;
-						vehicle = "SOR_MXSW_M";
+						vehicle = "SOR_SPAR16S_M";
 						rank = PRIVATE;
 						position[] = {0, -8, 0};
 					};
@@ -203,7 +203,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "SOR_MXSW_M";
+						vehicle = "SOR_SPAR16S_M";
 						rank = CORPORAL;
 						position[] = {0, -2, 0};
 					};
@@ -240,7 +240,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "SOR_SPMG_M";
+						vehicle = "SOR_M240_M";
 						rank = CORPORAL;
 						position[] = {0, -2, 0};
 					};
@@ -276,7 +276,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "SOR_MXSW_M";
+						vehicle = "SOR_SPAR16S_M";
 						rank = CORPORAL;
 						position[] = {0, -2, 0};
 					};
@@ -426,6 +426,42 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle = "SOR_MORRFL_M";
+						rank = PRIVATE;
+						position[] = {-6, 0, 0};
+					};
+				};
+			    class SOR_SupGroup4_M
+				{
+					name = "Blacksmith Team";
+					faction = "SOR_Faction_M";
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "SOR_Engineer_M";
+						rank = SERGEANT;
+						position[] = {0, 0, 0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "SOR_Engineer_M";
+						rank = CORPORAL;
+						position[] = {-2, 0, 0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "SOR_Engineer_M";
+						rank = PRIVATE;
+						position[] = {-4, 0, 0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "SOR_Engineer_M";
 						rank = PRIVATE;
 						position[] = {-6, 0, 0};
 					};

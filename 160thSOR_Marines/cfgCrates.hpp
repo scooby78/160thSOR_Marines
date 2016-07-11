@@ -95,10 +95,10 @@
 		class TransportWeapons{};
 		class TransportMagazines
 		{
-			mag_xx(30Rnd_65x39_caseless_mag,40)
+			mag_xx(30Rnd_556x45_Stanag,40)
 			mag_xx(16Rnd_9x21_Mag,10)
-			mag_xx(100Rnd_65x39_caseless_mag,5)
-			mag_xx(130Rnd_338_Mag,3)
+			mag_xx(150Rnd_556x45_Drum_Mag_Tracer_F,5)
+			mag_xx(rhsusf_100Rnd_762x51_m62_tracer,3)
 		};
 		class TransportBackpacks{};
 	};
@@ -282,7 +282,7 @@
 		class TransportMagazines
 		{
 			mag_xx(10Rnd_93x64_DMR_05_Mag,10)
-			mag_xx(30Rnd_65x39_caseless_mag,20)
+			mag_xx(30Rnd_556x45_Stanag,20)
 			mag_xx(Laserbatteries,4)
 		};
 		class TransportBackpacks{};
@@ -311,7 +311,7 @@
 		};
 		class TransportMagazines
 		{
-			mag_xx(30Rnd_65x39_caseless_mag,24)
+			mag_xx(30Rnd_556x45_Stanag,24)
 		};
 		class TransportBackpacks{};
 	};
@@ -337,10 +337,10 @@
 		};
 		class TransportMagazines
 		{
-			mag_xx(30Rnd_65x39_caseless_mag,100)
+			mag_xx(30Rnd_556x45_Stanag,100)
 			mag_xx(16Rnd_9x21_Mag,40)
-			mag_xx(100Rnd_65x39_caseless_mag,8)
-			mag_xx(130Rnd_338_Mag,8)
+			mag_xx(150Rnd_556x45_Drum_Mag_Tracer_F,8)
+			mag_xx(rhsusf_100Rnd_762x51_m62_tracer,8)
 			mag_xx(3Rnd_HE_Grenade_shell,10)
 			mag_xx(3Rnd_Smoke_Grenade_shell,10)
 			mag_xx(3Rnd_SmokeRed_Grenade_shell,10)
@@ -372,10 +372,10 @@
 		};
 		class TransportMagazines
 		{
-			mag_xx(30Rnd_65x39_caseless_mag,80)
+			mag_xx(30Rnd_556x45_Stanag,80)
 			mag_xx(16Rnd_9x21_Mag,40)
-			mag_xx(100Rnd_65x39_caseless_mag,8)
-			mag_xx(130Rnd_338_Mag,8)
+			mag_xx(150Rnd_556x45_Drum_Mag_Tracer_F,8)
+			mag_xx(rhsusf_100Rnd_762x51_m62_tracer,8)
 			mag_xx(3Rnd_HE_Grenade_shell,10)
 			mag_xx(3Rnd_Smoke_Grenade_shell,10)
 			mag_xx(3Rnd_SmokeRed_Grenade_shell,10)
@@ -446,10 +446,10 @@
 		class TransportWeapons{};
 		class TransportMagazines
 		{
-			mag_xx(30Rnd_65x39_caseless_mag,80)
+			mag_xx(30Rnd_556x45_Stanag,80)
 			mag_xx(16Rnd_9x21_Mag,40)
-			mag_xx(100Rnd_65x39_caseless_mag,8)
-			mag_xx(130Rnd_338_Mag,8)
+			mag_xx(150Rnd_556x45_Drum_Mag_Tracer_F,8)
+			mag_xx(rhsusf_100Rnd_762x51_m62_tracer,8)
 			mag_xx(3Rnd_HE_Grenade_shell,10)
 			mag_xx(3Rnd_Smoke_Grenade_shell,10)
 			mag_xx(3Rnd_SmokeRed_Grenade_shell,10)
@@ -478,7 +478,7 @@
 		class TransportWeapons{};
 		class TransportMagazines
 		{
-			mag_xx(30Rnd_65x39_caseless_mag,5)
+			mag_xx(30Rnd_556x45_Stanag,5)
 			mag_xx(16Rnd_9x21_Mag,5)
 			mag_xx(HandGrenade,10)
 			mag_xx(SmokeShell,10)

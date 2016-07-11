@@ -9,22 +9,29 @@ class rhsusf_m1a1fep_wd;
 class rhsusf_m1a1hc_wd;
 class rhsusf_m1a1fep_od;
 class rhsusf_m1a1fep_d;
+
 class B_T_LSV_01_armed_F;
 class B_T_LSV_01_unarmed_F;
 class B_CTRG_LSV_01_light_F;
 class B_Quadbike_01_F;
 class B_APC_Wheeled_01_cannon_F;
+
 class B_MRAP_01_hmg_F;
 class B_MRAP_01_gmg_F;
 class B_MRAP_01_F;
+
 class rhsusf_M977A4_AMMO_BKIT_M2_usarmy_wd;
 class rhsusf_M978A4_BKIT_usarmy_wd;
 class rhsusf_M977A4_REPAIR_BKIT_M2_usarmy_wd;
+
 class B_MBT_01_arty_F;
+
 class B_MBT_01_mlrs_F;
+
 class B_APC_Tracked_01_AA_F;
 
-//Tanks
+    ////////////////////Main Battle Tanks////////////////////
+
 class SOR_USMC_rhsusf_m1a1fep_wd : rhsusf_m1a1fep_wd
 {
 	faction = SOR_Faction_M;
@@ -41,11 +48,11 @@ class SOR_USMC_rhsusf_m1a1fep_wd : rhsusf_m1a1fep_wd
 	class TransportWeapons
 	{
 		weap_xx(rhs_weap_M136_hp,2)
-		weap_xx(160_arifle_MX_F_xps3,2)
+		weap_xx(160_arifle_SPAR_01_snd_F_holo,2)
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_mag,20)
+		mag_xx(30Rnd_556x45_Stanag,20)
 	};
 	class TransportBackpacks
 	{
@@ -69,11 +76,11 @@ class SOR_USMC_rhsusf_m1a1hc_wd : rhsusf_m1a1hc_wd
 	class TransportWeapons
 	{
 		weap_xx(rhs_weap_M136_hp,2)
-		weap_xx(160_arifle_MX_F_xps3,2)
+		weap_xx(160_arifle_SPAR_01_snd_F_holo,2)
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_mag,20)
+		mag_xx(30Rnd_556x45_Stanag,20)
 	};
 	class TransportBackpacks
 	{
@@ -97,11 +104,11 @@ class SOR_USMC_rhsusf_m1a1fep_od : rhsusf_m1a1fep_od
 	class TransportWeapons
 	{
 		weap_xx(rhs_weap_M136_hp,2)
-		weap_xx(160_arifle_MX_F_xps3,2)
+		weap_xx(160_arifle_SPAR_01_snd_F_holo,2)
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_mag,20)
+		mag_xx(30Rnd_556x45_Stanag,20)
 	};
 	class TransportBackpacks
 	{
@@ -128,11 +135,11 @@ class SOR_USMC_rhsusf_m1a1fep_d : rhsusf_m1a1fep_d
 	class TransportWeapons
 	{
 		weap_xx(rhs_weap_M136_hp,2)
-		weap_xx(160_arifle_MX_F_xps3,2)
+		weap_xx(160_arifle_SPAR_01_snd_F_holo,2)
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_mag,20)
+		mag_xx(30Rnd_556x45_Stanag,20)
 	};
 	class TransportBackpacks
 	{
@@ -140,7 +147,8 @@ class SOR_USMC_rhsusf_m1a1fep_d : rhsusf_m1a1fep_d
 	};
 };
 
-//Light Assault Vehicle
+    ////////////////////Light Strike Vehicles////////////////////
+
 class SOR_USMC_B_T_LSV_01_armed_F : B_T_LSV_01_armed_F
 {
 	faction = SOR_Faction_M;
@@ -173,7 +181,7 @@ class SOR_USMC_B_CTRG_LSV_01_light_F : B_CTRG_LSV_01_light_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Vehicles";
-	hiddenSelections[] = {camo3};
+	hiddenSelections[] = {camo_2};
 	displayName = "Prowler [Light]";
 	class TransportItems{};
 	class TransportWeapons{};
@@ -198,7 +206,8 @@ class SOR_USMC_B_Quadbike_01_F : B_Quadbike_01_F
 	};
 };
 
-//IFV
+    ////////////////////Infantry Fighting Vehicles////////////////////
+
 class SOR_USMC_B_APC_Wheeled_01_cannon_F : B_APC_Wheeled_01_cannon_F
 {
 	faction = SOR_Faction_M;
@@ -211,11 +220,11 @@ class SOR_USMC_B_APC_Wheeled_01_cannon_F : B_APC_Wheeled_01_cannon_F
 	class TransportWeapons
 	{
 		weap_xx(rhs_weap_M136_hp,1)
-		weap_xx(160_arifle_MX_F_xps3,1)
+		weap_xx(160_arifle_SPAR_01_snd_F_holo,1)
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_mag,5)
+		mag_xx(30Rnd_556x45_Stanag,5)
 	};
 	class TransportBackpacks
 	{
@@ -223,7 +232,8 @@ class SOR_USMC_B_APC_Wheeled_01_cannon_F : B_APC_Wheeled_01_cannon_F
 	};
 };
 
-//MRAP
+    ////////////////////MRAPs////////////////////
+
 class SOR_USMC_B_MRAP_01_hmg_F : B_MRAP_01_hmg_F
 {
 	faction = SOR_Faction_M;
@@ -278,7 +288,7 @@ class SOR_USMC_B_MRAP_01_Engineer_F : B_MRAP_01_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_mag,5)
+		mag_xx(30Rnd_556x45_Stanag,5)
 	};
 	class TransportBackpacks
 	{
@@ -291,7 +301,8 @@ class SOR_USMC_B_MRAP_01_Engineer_F : B_MRAP_01_F
 	};
 };
 
-//Trucks
+    ////////////////////Logistics Trucks////////////////////
+
 class SOR_USMC_rhsusf_M977A4_AMMO_BKIT_M2_usarmy_wd : rhsusf_M977A4_AMMO_BKIT_M2_usarmy_wd
 {
 	faction = SOR_Faction_M;
@@ -345,7 +356,8 @@ class SOR_USMC_rhsusf_M977A4_REPAIR_BKIT_M2_usarmy_wd : rhsusf_M977A4_REPAIR_BKI
 	};
 };
 
-//Mobile Artillery
+    ////////////////////Mobile Artillery////////////////////
+
 class SOR_USMC_B_MBT_01_arty_F : B_MBT_01_arty_F
 {
 	faction = SOR_Faction_M;
@@ -358,11 +370,11 @@ class SOR_USMC_B_MBT_01_arty_F : B_MBT_01_arty_F
 	class TransportWeapons
 	{
 		weap_xx(rhs_weap_M136_hp,1)
-		weap_xx(160_arifle_MX_F_xps3,1)
+		weap_xx(160_arifle_SPAR_01_snd_F_holo,1)
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_mag,10)
+		mag_xx(30Rnd_556x45_Stanag,10)
 	};
 	class TransportBackpacks
 	{
@@ -382,11 +394,11 @@ class SOR_USMC_B_MBT_01_mlrs_F : B_MBT_01_mlrs_F
 	class TransportWeapons
 	{
 		weap_xx(rhs_weap_M136_hp,1)
-		weap_xx(160_arifle_MX_F_xps3,1)
+		weap_xx(160_arifle_SPAR_01_snd_F_holo,1)
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_mag,10)
+		mag_xx(30Rnd_556x45_Stanag,10)
 	};
 	class TransportBackpacks
 	{
@@ -394,7 +406,8 @@ class SOR_USMC_B_MBT_01_mlrs_F : B_MBT_01_mlrs_F
 	};
 };
 
-//Mobile Anti Air
+    ////////////////////Mobile Anti Air////////////////////
+
 class SOR_USMC_B_APC_Tracked_01_AA_F : B_APC_Tracked_01_AA_F
 {
 	faction = SOR_Faction_M;
@@ -407,11 +420,11 @@ class SOR_USMC_B_APC_Tracked_01_AA_F : B_APC_Tracked_01_AA_F
 	class TransportWeapons
 	{
 		weap_xx(rhs_weap_M136_hp,1)
-		weap_xx(160_arifle_MX_F_xps3,1)
+		weap_xx(160_arifle_SPAR_01_snd_F_holo,1)
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_mag,10)
+		mag_xx(30Rnd_556x45_Stanag,10)
 	};
 	class TransportBackpacks
 	{

@@ -46,12 +46,12 @@ class USMC_SOR_PJMedicPack_M : B_Kitbag_cbr
 };
 
 //USMC Rifleman Pack
-class USMC_SOR_Rifleman_MXSW_Pack_M : B_Kitbag_cbr
+class USMC_SOR_Rifleman_SPAR16S_Pack_M : B_Kitbag_cbr
 {
-	displayName = "(2021 USMC) Rifleman Pack (MXSW)";
+	displayName = "(2021 USMC) Rifleman Pack (SPAR16S)";
 	class TransportMagazines
 	{
-		mag_xx(100Rnd_65x39_caseless_mag,4);
+		mag_xx(150Rnd_556x45_Drum_Mag_Tracer_F,4);
 	};
 };
 
@@ -65,13 +65,13 @@ class USMC_SOR_Rifleman_M240_Pack_M : B_Kitbag_cbr
 	};
 };
 
-//USMC MXSW Pack
-class USMC_SOR_MXSW_Pack_M : B_Kitbag_cbr
+//USMC SPAR16S Pack
+class USMC_SOR_SPAR16S_Pack_M : B_Kitbag_cbr
 {
-	displayName = "(2021 USMC) MXSW Ammo Pack";
+	displayName = "(2021 USMC) SPAR16S Ammo Pack";
 	class TransportMagazines
 	{
-		mag_xx(100Rnd_65x39_caseless_mag,4);
+		mag_xx(150Rnd_556x45_Drum_Mag_Tracer_F,3);
 	};
 };
 
@@ -160,7 +160,7 @@ class USMC_SOR_Spotter_Radio : tf_rt1523g_rhs
 	{
 		mag_xx(SmokeShellGreen,1);
 		mag_xx(SmokeShell,1);
-		mag_xx(30Rnd_65x39_caseless_mag,4);
+		mag_xx(30Rnd_556x45_Stanag,4);
 	};
 };
 
@@ -211,7 +211,7 @@ class USMC_SOR_CombatPack_M : B_Kitbag_cbr
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellGreen,2);
-		mag_xx(30Rnd_65x39_caseless_mag,6);
+		mag_xx(30Rnd_556x45_Stanag,6);
 		mag_xx(HandGrenade,2);
 	};
 	class TransportItems

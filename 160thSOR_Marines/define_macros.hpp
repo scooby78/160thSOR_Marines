@@ -61,11 +61,11 @@
 						"ACE_MapTools",\
 						"ACE_Flashlight_XL50"
 
-#define V_Mags 	        "30Rnd_65x39_caseless_mag",\
-						"30Rnd_65x39_caseless_mag",\
-						"30Rnd_65x39_caseless_mag",\
-						"30Rnd_65x39_caseless_mag",\
-						"30Rnd_65x39_caseless_mag",\
+#define V_Mags 	        "30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
 						"HandGrenade",\
 						"HandGrenade",\
 						"SmokeShell",\
@@ -73,11 +73,22 @@
 						"SmokeShell",\
 						"SmokeShellGreen"
 
-#define V_SL_Mags	    "30Rnd_65x39_caseless_mag",\
-						"30Rnd_65x39_caseless_mag",\
-						"30Rnd_65x39_caseless_mag",\
-						"30Rnd_65x39_caseless_mag",\
-						"30Rnd_65x39_caseless_mag",\
+#define V_Mags_762 	    "20Rnd_762x51_Mag",\
+						"20Rnd_762x51_Mag",\
+						"20Rnd_762x51_Mag",\
+						"20Rnd_762x51_Mag",\
+						"HandGrenade",\
+						"HandGrenade",\
+						"SmokeShell",\
+						"SmokeShell",\
+						"SmokeShell",\
+						"SmokeShellGreen"
+
+#define V_SL_Mags	    "30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
+						"30Rnd_556x45_Stanag",\
 						"HandGrenade",\
 						"HandGrenade",\
 						"SmokeShell",\
@@ -110,15 +121,3 @@
 #define V_CC2		    "9Rnd_45ACP_Mag",\
 						"9Rnd_45ACP_Mag",\
 						"9Rnd_45ACP_Mag"
-
-#define V_MagsPJ	    "30Rnd_556x45_Stanag",\
-						"30Rnd_556x45_Stanag",\
-						"30Rnd_556x45_Stanag",\
-						"30Rnd_556x45_Stanag",\
-						"30Rnd_556x45_Stanag",\
-						"HandGrenade",\
-						"HandGrenade",\
-						"SmokeShell",\
-						"SmokeShell",\
-						"SmokeShell",\
-						"SmokeShellGreen"

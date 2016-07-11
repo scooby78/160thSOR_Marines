@@ -9,14 +9,24 @@ class RHS_UH1Y_FFAR_d;
 class RHS_UH1Y_d;
 class RHS_UH1Y_UNARMED_d;
 class RHS_UH1Y_d_GS;
+
 class RHS_AH1Z;
 class RHS_AH1Z_GS;
 class RHS_AH1Z_CS;
+
 class B_T_VTOL_01_armed_F;
 class B_T_VTOL_01_infantry_F;
 class B_T_VTOL_01_vehicle_F;
 
-// Transport Helos
+class B_T_UAV_03_F;
+class B_UAV_02_F;
+class B_UAV_02_CAS_F;
+class B_UAV_01_F;
+class B_UGV_01_F;
+class B_UGV_01_rcws_F;
+
+    ////////////////////Transport Helicopters////////////////////
+
 class SOR_USMC_RHS_UH1Y_UNARMED_d : RHS_UH1Y_UNARMED_d
 {
 	faction = SOR_Faction_M;
@@ -114,11 +124,11 @@ class SOR_USMC_RHS_UH1Y_UNARMED_d : RHS_UH1Y_UNARMED_d
 	};
 	class TransportWeapons{
 
-			weap_xx(160_arifle_MX_F_xps3,2);
+			weap_xx(160_arifle_SPAR_01_snd_F_holo,2);
 	};
 	class TransportMagazines
 	{
-			mag_xx(30Rnd_65x39_caseless_mag,6);
+			mag_xx(30Rnd_556x45_Stanag,6);
 	};
 	class TransportBackpacks
 	{
@@ -224,11 +234,11 @@ class SOR_USMC_RHS_UH1Y_d : RHS_UH1Y_d
 	class TransportWeapons
 	{
 
-			weap_xx(160_arifle_MX_F_xps3,2)
+			weap_xx(160_arifle_SPAR_01_snd_F_holo,2)
 	};
 	class TransportMagazines
 	{
-			mag_xx(30Rnd_65x39_caseless_mag,6)
+			mag_xx(30Rnd_556x45_Stanag,6)
 	};
 	class TransportBackpacks
 	{
@@ -333,11 +343,11 @@ class SOR_USMC_RHS_UH1Y_FFAR_d : RHS_UH1Y_FFAR_d
 	};
 	class TransportWeapons{
 
-			weap_xx(160_arifle_MX_F_xps3,2)
+			weap_xx(160_arifle_SPAR_01_snd_F_holo,2)
 	};
 	class TransportMagazines
 	{
-			mag_xx(30Rnd_65x39_caseless_mag,6)
+			mag_xx(30Rnd_556x45_Stanag,6)
 	};
 	class TransportBackpacks
 	{
@@ -442,11 +452,11 @@ class SOR_USMC_RHS_UH1Y_d_GS : RHS_UH1Y_d_GS
 	};
 	class TransportWeapons{
 
-			weap_xx(160_arifle_MX_F_xps3,2)
+			weap_xx(160_arifle_SPAR_01_snd_F_holo,2)
 	};
 	class TransportMagazines
 	{
-			mag_xx(30Rnd_65x39_caseless_mag,6)
+			mag_xx(30Rnd_556x45_Stanag,6)
 	};
 	class TransportBackpacks
 	{
@@ -532,11 +542,11 @@ class SOR_USMC_rhsusf_CH53E_USMC_D : rhsusf_CH53E_USMC_D
 	};
 	class TransportWeapons
 	{
-		weap_xx(160_arifle_MX_F_xps3,2)
+		weap_xx(160_arifle_SPAR_01_snd_F_holo,2)
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_mag,6)
+		mag_xx(30Rnd_556x45_Stanag,6)
 	};
 	class TransportBackpacks
 	{
@@ -661,13 +671,14 @@ class SOR_USMC_MEV_RHS_UH1Y_UNARMED_d : RHS_UH1Y_UNARMED_d
 	};
 };
 
-// Attack Helos
+    ////////////////////Attack Helicopters////////////////////
+
 class SOR_USMC_RHS_AH1Z : RHS_AH1Z
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Aircraft";
 //		armor = 80; //was 50 (UH-60 is 60!)
-	fuelCapacity = 200; //was 500
+	fuelCapacity = 200;
 	class TransportItems
 	{
 		item_xx(ACE_FieldDressing,10);
@@ -685,7 +696,7 @@ class SOR_USMC_RHS_AH1Z_GS : RHS_AH1Z_GS
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Aircraft";
 //		armor = 80; //was 50 (UH-60 is 60!)
-	fuelCapacity = 200; //was 500
+	fuelCapacity = 200;
 	class TransportItems
 	{
 		item_xx(ACE_FieldDressing,10);
@@ -703,7 +714,7 @@ class SOR_USMC_RHS_AH1Z_CS : RHS_AH1Z_CS
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Aircraft";
 //		armor = 80; //was 50 (UH-60 is 60!)
-	fuelCapacity = 200; //was 500
+	fuelCapacity = 200;
 		class TransportItems
 	{
 		item_xx(ACE_FieldDressing,10);
@@ -716,14 +727,15 @@ class SOR_USMC_RHS_AH1Z_CS : RHS_AH1Z_CS
 	};
 };
 
-// VTOLs
+    ////////////////////VTOLS////////////////////
+
 class SOR_USMC_B_T_VTOL_01_armed_F : B_T_VTOL_01_armed_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Aircraft";
 	hiddenSelections[] = {camo2};
     armor = 120;
-	fuelCapacity = 500; //was 500
+	fuelCapacity = 500;
 	displayName = "V44 Blackfish Gunship (C4/P0) ";
 	class TransportItems
 	{
@@ -743,7 +755,7 @@ class SOR_USMC_B_T_VTOL_01_infantry_F : B_T_VTOL_01_infantry_F
 	vehicleclass = "SOR_Aircraft";
 	hiddenSelections[] = {camo2};
     armor = 120;
-	fuelCapacity = 500; //was 500
+	fuelCapacity = 500;
 	displayName = "V44 Blackfish Transport (C4/P32)";
 	class TransportItems
 	{
@@ -763,12 +775,98 @@ class SOR_USMC_B_T_VTOL_01_vehicle_F : B_T_VTOL_01_vehicle_F
 	vehicleclass = "SOR_Aircraft";
 	hiddenSelections[] = {camo2};
 	armor = 120;
-	fuelCapacity = 500; //was 500
+	fuelCapacity = 500;
 	displayName = "V44 Blackfish Cargo (C4/P0/V1-4)";
 	class TransportItems
 	{
 		item_xx(ACE_FieldDressing,20);
 	};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(Vanilla_SOR_Repair_Pack_M,1)
+	};
+};
+
+    ////////////////////Drones////////////////////
+
+class SOR_USMC_B_T_UAV_03_F : B_T_UAV_03_F
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_Aircraft";
+	fuelCapacity = 400;
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(Vanilla_SOR_Repair_Pack_M,1)
+	};
+};
+
+class SOR_USMC_B_UAV_02_F : B_UAV_02_F
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_Aircraft";
+	fuelCapacity = 800;
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(Vanilla_SOR_Repair_Pack_M,1)
+	};
+};
+
+class SOR_USMC_B_UAV_02_CAS_F : B_UAV_02_CAS_F
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_Aircraft";
+	fuelCapacity = 800;
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(Vanilla_SOR_Repair_Pack_M,1)
+	};
+};
+
+class SOR_USMC_B_UAV_01_F : B_UAV_01_F
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_Aircraft";
+	fuelCapacity = 110;
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(Vanilla_SOR_Repair_Pack_M,1)
+	};
+};
+
+class SOR_USMC_B_UGV_01_F : B_UGV_01_F
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_Aircraft";
+	fuelCapacity = 3000;
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(Vanilla_SOR_Repair_Pack_M,1)
+	};
+};
+
+class SOR_USMC_B_UGV_01_rcws_F : B_UGV_01_rcws_F
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_Aircraft";
+	fuelCapacity = 3000;
+	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
 	class TransportBackpacks

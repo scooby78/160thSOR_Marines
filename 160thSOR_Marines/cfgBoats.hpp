@@ -26,7 +26,7 @@ class SOR_USMC_B_Boat_Armed_01_minigun_F : B_Boat_Armed_01_minigun_F
 class SOR_USMC_I_C_Boat_Transport_02_F : I_C_Boat_Transport_02_F
 	{
 		faction = SOR_Faction_M;
-		displayName = "Fast Attack RHIB";
+		displayName = "Sea Force 700";
 		side = 1
 		vehicleclass = "SOR_Boat";
 		class TransportItems{};
@@ -48,7 +48,7 @@ class SOR_USMC_rhsusf_mkvsoc : rhsusf_mkvsoc
 class SOR_USMC_C_Scooter_Transport_01_F : C_Scooter_Transport_01_F
 	{
 		faction = SOR_Faction_M;
-		displayName = "Boatercycle";
+		displayName = "Yamaha VX Sport";
         maxSpeed = 100; //was 80
 	    enginePower = 65; //was 58.5
 		side = 1
@@ -62,7 +62,7 @@ class SOR_USMC_C_Scooter_Transport_01_F : C_Scooter_Transport_01_F
 class SOR_USMC_B_Boat_Transport_01_F : B_Boat_Transport_01_F
     {
 	    faction = SOR_Faction_M;
-	    displayName = "Tactical RHIB";
+	    displayName = "470 Impact RHIB";
 	    vehicleclass = "SOR_Boat";
 	    driverCanEject = 0; //was 1
 	    cargoCanEject = 0; //was 1

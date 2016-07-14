@@ -337,6 +337,42 @@ class CfgGroups
 						position[] = {0, -6, 0};
 					};
 				};
+				class SOR_ReconTeam3_M
+				{
+					name = "Viper Team [Scuba]";
+					faction = "SOR_Faction_M";
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "SOR_ReconLeaderScuba_M";
+						rank = SERGEANT;
+						position[] = {0, 0, 0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "SOR_ReconJTACScuba_M";
+						rank = CORPORAL;
+						position[] = {0, -2, 0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "SOR_ReconRiflemanScuba_M";
+						rank = PRIVATE;
+						position[] = {0, -4, 0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "SOR_MarksmanScuba_M";
+						rank = PRIVATE;
+						position[] = {0, -6, 0};
+					};
+				};
 			    class SOR_Recon_M
 				{
 						name = "Sniper Team";

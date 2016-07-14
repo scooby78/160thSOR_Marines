@@ -32,9 +32,11 @@ class CfgPatches
 			"SOR_ReconLeader_M",
 			"SOR_ReconJTAC_M",
 			"SOR_ReconRifleman_M",
-			"SOR_Recon_M249AR_M",
-			"SOR_ReconSpotter_M",
 			"SOR_Marksman_M",
+			"SOR_ReconLeaderScuba_M",
+			"SOR_ReconJTACScuba_M",
+			"SOR_ReconRiflemanScuba_M",
+			"SOR_MarksmanScuba_M",
 			"SOR_Spotter_M",
 			"SOR_Sniper_M",
 			"SOR_MechCrew_M",
@@ -70,6 +72,8 @@ class CfgPatches
 			"SOR_USMC_B_MBT_01_arty_F",
 			"SOR_USMC_B_MBT_01_mlrs_F",
 			"SOR_USMC_B_APC_Tracked_01_AA_F",
+			"SOR_USMC_B_APC_Tracked_01_rcws_F",
+			"SOR_USMC_B_APC_Tracked_01_CRV_F",
 
 			"SOR_USMC_B_Boat_Armed_01_minigun_F",
 			"SOR_USMC_I_C_Boat_Transport_02_F",
@@ -78,7 +82,6 @@ class CfgPatches
 			"SOR_USMC_B_Boat_Transport_01_F",
 			"SOR_USMC_B_SDV_01_F",
 
-			"SOR_USMC_RHS_UH1Y_UNARMED_d",
 			"SOR_USMC_RHS_UH1Y_d",
 			"SOR_USMC_RHS_UH1Y_FFAR_d",
 			"SOR_USMC_RHS_UH1Y_d_GS",
@@ -115,14 +118,13 @@ class CfgPatches
 			"160_arifle_MXC_Black_F_Hamr",
 			"160_arifle_MXC_Black_F_xps3",
 			"160_arifle_MX_F_xps3",
-			"160_arifle_SPAR_01_khk_F_erco_viper",
-			"160_arifle_SPAR_01_snd_F_holo",
-			"160_arifle_TRG20_F_eotech",
+			"160_arifle_SPAR_01_khk_F_specter_viper",
+			"160_arifle_SPAR_01_snd_F_specter",
 
 			"160_arifle_MX_SW_Black_F_Hamr",
 			"160_arifle_MX_SW_Black_F_xps3",
 
-			"160_rhs_weap_m240G_xps3",
+			"160_rhs_weap_m240G_specter",
 
 			"160_SMG_05_F_aco",
 
@@ -130,10 +132,10 @@ class CfgPatches
 
 			"160_hgun_P07_F_viper",
 
-			"160_arifle_SPAR_01_blk_F_holo",
-			"160_arifle_SPAR_01_GL_blk_F_holo",
-			"160_arifle_SPAR_02_blk_F_holo",
-			"160_arifle_SPAR_03_blk_F_holo"
+			"160_arifle_SPAR_01_blk_F_specter",
+			"160_arifle_SPAR_01_GL_blk_F_specter",
+			"160_arifle_SPAR_02_blk_F_specter",
+			"160_arifle_SPAR_03_blk_F_specter"
 		};
 		requiredVersion = 0.1;
 		requiredAddons[] =

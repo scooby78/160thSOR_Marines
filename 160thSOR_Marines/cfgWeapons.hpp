@@ -289,58 +289,46 @@ class arifle_SPAR_03_blk_F;
 		};
 	};
 
-	class 160_arifle_SPAR_01_khk_F_erco_viper: arifle_SPAR_01_khk_F
+	class 160_arifle_SPAR_01_khk_F_specter_viper: arifle_SPAR_01_khk_F
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "optic_ERCO_khk_F";
+				item = "rhsusf_acc_SpecterDR_A_3d";
 				slot = "CowsSlot";
 			};
       		class LinkedItemsMuzzle
 			{
-			    item = "muzzle_snds_H";
+			    item = "rhsusf_acc_nt4_black";
 			    slot = "MuzzleSlot";
 		    };
 		    class LinkedItemsAcc
 			{
-				item = "acc_pointer_IR";
+				item = "rhsusf_acc_anpeq15side_bk";
 				slot = "PointerSlot";
 			};
 		};
 	};
 
-	class 160_arifle_SPAR_01_snd_F_holo: arifle_SPAR_01_snd_F
+	class 160_arifle_SPAR_01_snd_F_specter: arifle_SPAR_01_snd_F
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "optic_Holosight";
+				item = "rhsusf_acc_SpecterDR_A_3d";
 				slot = "CowsSlot";
 			};
 		    class LinkedItemsAcc
 			{
-				item = "ACE_acc_pointer_green";
+				item = "rhsusf_acc_M952V";
 				slot = "PointerSlot";
 			};
 		};
 	};
 
-	class 160_arifle_TRG20_F_eotech: arifle_TRG20_F
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "rhsusf_acc_eotech_552";
-				slot = "CowsSlot";
-			};
-		};
-	};
-
-	////////////////////Squad Automatic Machine Guns////////////////////
+	////////////////////Squad Automatic Weapons////////////////////
 
 	class 160_arifle_MX_SW_Black_F_Hamr: arifle_MX_SW_Black_F
 	{
@@ -388,13 +376,13 @@ class arifle_SPAR_03_blk_F;
 
 	////////////////////Light Machine Guns////////////////////
 
-    class 160_rhs_weap_m240G_xps3: rhs_weap_m240G
+    class 160_rhs_weap_m240G_specter: rhs_weap_m240G
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_eotech_xps3";
+				item = "rhsusf_acc_SpecterDR_A_3d";
 				slot = "CowsSlot";
 			};
 		};
@@ -449,37 +437,47 @@ class arifle_SPAR_03_blk_F;
 
 	////////////////////SPAR 16 versions if people dont want the MX////////////////////
 
-	class 160_arifle_SPAR_01_blk_F_holo: arifle_SPAR_01_blk_F //AR//
+	class 160_arifle_SPAR_01_blk_F_specter: arifle_SPAR_01_blk_F //AR//
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "optic_Holosight_blk_F";
+				item = "rhsusf_acc_SpecterDR_A_3d";
 				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc
+			{
+				item = "rhsusf_acc_anpeq15side_bk";
+				slot = "PointerSlot";
 			};
 		};
 	};
 
-	class 160_arifle_SPAR_01_GL_blk_F_holo: arifle_SPAR_01_GL_blk_F //GL//
+	class 160_arifle_SPAR_01_GL_blk_F_specter: arifle_SPAR_01_GL_blk_F //GL//
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "optic_Holosight_blk_F";
+				item = "rhsusf_acc_SpecterDR_A_3d";
 				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc
+			{
+				item = "rhsusf_acc_anpeq15side_bk";
+				slot = "PointerSlot";
 			};
 		};
 	};
 
-	class 160_arifle_SPAR_02_blk_F_holo: arifle_SPAR_02_blk_F //SAW//
+	class 160_arifle_SPAR_02_blk_F_specter: arifle_SPAR_02_blk_F //SAW//
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "optic_Holosight_blk_F";
+				item = "rhsusf_acc_SpecterDR_A_3d";
 				slot = "CowsSlot";
 			};
 			class LinkedItemsUnder
@@ -487,18 +485,33 @@ class arifle_SPAR_03_blk_F;
 				item = "bipod_01_F_blk";
 				slot = "UnderBarrelSlot";
 			};
+			class LinkedItemsAcc
+			{
+				item = "rhsusf_acc_anpeq15side_bk";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsMuzzle
+			{
+			    item = "ACE_muzzle_mzls_L";
+			    slot = "MuzzleSlot";
+		    };
 		};
 	};
 
-	class 160_arifle_SPAR_03_blk_F_holo: arifle_SPAR_03_blk_F //DMR//
+	class 160_arifle_SPAR_03_blk_F_specter: arifle_SPAR_03_blk_F //DMR//
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "optic_Holosight_blk_F";
+				item = "rhsusf_acc_SpecterDR_A_3d";
 				slot = "CowsSlot";
 			};
-		};
-	};
+			class LinkedItemsAcc
+			{
+				item = "rhsusf_acc_anpeq15side_bk";
+				slot = "PointerSlot";
+			};
+	    };
+    };
 };

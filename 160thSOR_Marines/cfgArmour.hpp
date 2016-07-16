@@ -35,34 +35,6 @@ class B_APC_Tracked_01_AA_F;
 
     ////////////////////Main Battle Tanks////////////////////
 
-class SOR_USMC_rhsusf_m1a1fep_wd : rhsusf_m1a1fep_wd
-{
-	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Vehicles";
-	displayName = "USMC M1A1FEP (WD)";
-	peakTorque = 10355;
-	enginePower = 3000;
-	armor = 900;
-	brakeDistance = 1;
-	class TransportItems
-	{
-		item_xx(ACE_FieldDressing,20);
-	};
-	class TransportWeapons
-	{
-		weap_xx(rhs_weap_M136_hp,2)
-		weap_xx(160_arifle_SPAR_01_snd_F_specter,2)
-	};
-	class TransportMagazines
-	{
-		mag_xx(30Rnd_556x45_Stanag,20)
-	};
-	class TransportBackpacks
-	{
-		pack_xx(USMC_SOR_Repair_Pack_M,1)
-	};
-};
-
 class SOR_USMC_rhsusf_m1a1hc_wd : rhsusf_m1a1hc_wd
 {
 	faction = SOR_Faction_M;
@@ -116,37 +88,6 @@ class SOR_USMC_rhsusf_m1a1fep_od : rhsusf_m1a1fep_od
 	class TransportBackpacks
 	{
 		pack_xx(USMC_SOR_Repair_Pack_M,1)
-	};
-};
-
-class SOR_USMC_rhsusf_m1a1fep_d : rhsusf_m1a1fep_d
-{
-	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Vehicles";
-	displayName = "USMC M1A1FEP (OD)";
-	hiddenSelections[] = {"camo1","camo2","camo3","camo4","duke_tex","","","n1","n2","n3","i1","i2","i3"};
-	hiddenSelectionsTextures[] = {"rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1fep_od_01_co.paa","rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1fep_od_02_co.paa","rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_03_co.paa","rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_wd_co.paa","rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_wd_co.paa"};
-	hiddenSelectionsMaterials[] = {"rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1fep_od_01.rvmat","rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1fep_od_02.rvmat","rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_03.rvmat","rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_wd.rvmat","rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_d.rvmat"};
-	peakTorque = 10355;
-	enginePower = 3000;
-	armor = 900;
-	brakeDistance = 1;
-	class TransportItems
-	{
-		item_xx(ACE_FieldDressing,20);
-	};
-	class TransportWeapons
-	{
-		weap_xx(rhs_weap_M136_hp,2);
-		weap_xx(160_arifle_SPAR_01_snd_F_specter,2);
-	};
-	class TransportMagazines
-	{
-		mag_xx(30Rnd_556x45_Stanag,20);
-	};
-	class TransportBackpacks
-	{
-		pack_xx(USMC_SOR_Repair_Pack_M,1);
 	};
 };
 

@@ -33,4 +33,24 @@ class CfgEditorSubcategories
 	{
 		displayName = "Containers (USMC 2021)";
 	};
+    class SOR_USMC_SubCat_Infantry
+	{
+		displayName = "USMC 2021 (Infantry)";
+	};
+	class SOR_USMC_SubCat_Infantry_AIR
+	{
+		displayName = "USMC 2021 (Airborne)";
+	};
+	class SOR_USMC_SubCat_Infantry_MECH
+	{
+		displayName = "USMC 2021 (Mechanised)";
+	};
+	class SOR_USMC_SubCat_Infantry_Support
+	{
+		displayName = "USMC 2021 (Support)";
+	};
+	class SOR_USMC_SubCat_Infantry_Recon
+	{
+		displayName = "USMC 2021 (Recon)";
+	};
 };

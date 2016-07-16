@@ -191,14 +191,12 @@ class SOR_AirCommand_M : SOR_Commander_M
 	{
 		"rhsusf_spc_marksman",
 		"H_PilotHelmetHeli_O",
-		"NVGogglesB_blk_F",
 		Airborne_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_marksman",
 		"H_PilotHelmetHeli_O",
-		"NVGogglesB_blk_F",
 		Airborne_Equipment
 	};
 };
@@ -820,14 +818,12 @@ class SOR_HeliPilot_M : B_Pilot_F
 	{
 		"rhsusf_spc_marksman",
 		"H_PilotHelmetHeli_B",
-		"NVGogglesB_blk_F",
 		Airborne_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_marksman",
 		"H_PilotHelmetHeli_B",
-		"NVGogglesB_blk_F",
 		Airborne_Equipment
 	};
 };
@@ -881,14 +877,12 @@ class SOR_HeliCrew_M : B_crew_F
 	{
 		"rhsusf_spc_light",
 		"rhsusf_hgu56p_mask",
-		"NVGogglesB_blk_F",
 		Airborne_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_light",
 		"rhsusf_hgu56p_mask",
-		"NVGogglesB_blk_F",
 		Airborne_Equipment
 	};
 };
@@ -953,7 +947,6 @@ class SOR_MEVPilot_M : SOR_HeliPilot_M
 		"rhsusf_spc_light",
 		"H_CrewHelmetHeli_O",
 		"ItemGPS",
-		"NVGogglesB_blk_F",
 		Airborne_Equipment
 	};
 	respawnLinkedItems[] =
@@ -961,7 +954,6 @@ class SOR_MEVPilot_M : SOR_HeliPilot_M
 		"rhsusf_spc_light",
 		"H_CrewHelmetHeli_O",
 		"ItemGPS",
-		"NVGogglesB_blk_F",
 		Airborne_Equipment
 	};
 };
@@ -1074,9 +1066,9 @@ class SOR_ReconLeader_M : B_recon_TL_F
 	uniformClass = "U_B_CTRG_Soldier_3_F";
 	displayName = "(I) Viper Lead";
 	accuracy = 3.5;
-//		cost = 500000;
-//		camouflage = 1;
-//		threat[] = {1.2,0.2,0.2};
+//	cost = 500000;
+	camouflage = 0.7;
+//	threat[] = {1.2,0.2,0.2};
 	weapons[] = {"160_arifle_SPAR_01_khk_F_specter_viper","160_hgun_P07_F_viper","Throw","Put","Laserdesignator"};
 	respawnWeapons[] = {"160_arifle_SPAR_01_khk_F_specter_viper","160_hgun_P07_F_viper","Throw","Put","Laserdesignator"};
 	Items[] =
@@ -1251,9 +1243,9 @@ class SOR_ReconLeaderScuba_M : B_diver_TL_F
 	backpack = "USMC_SOR_B_Carryall_oli";
 	displayName = "(I) Viper Lead [Scuba]";
 	accuracy = 3.5;
-//		cost = 500000;
-//		camouflage = 1;
-//		threat[] = {1.2,0.2,0.2};
+//	cost = 500000;
+    camouflage = 0.7;
+//	threat[] = {1.2,0.2,0.2};
 	weapons[] = {"160_arifle_SPAR_01_khk_F_specter_viper","160_hgun_P07_F_viper","Throw","Put","Laserdesignator"};
 	respawnWeapons[] = {"160_arifle_SPAR_01_khk_F_specter_viper","160_hgun_P07_F_viper","Throw","Put","Laserdesignator"};
 	Items[] =
@@ -1346,8 +1338,8 @@ class SOR_Sniper_M : B_sniper_F
 	camouflage = 0.3;
 	uniformClass = "U_B_T_FullGhillie_tna_F";
 	backpack = "USMC_SOR_Sniper_Camo";
-	weapons[] = {"160_rhs_weap_XM2010_wd_premier","160_hgun_P07_F_viper","Throw","Put","Laserdesignator"};
-	respawnWeapons[] = {"160_rhs_weap_XM2010_wd_premier","160_hgun_P07_F_viper","Throw","Put","Laserdesignator"};
+	weapons[] = {"160_srifle_DMR_02_F_premier","160_hgun_P07_F_viper","Throw","Put","Laserdesignator"};
+	respawnWeapons[] = {"160_srifle_DMR_02_F_premier","160_hgun_P07_F_viper","Throw","Put","Laserdesignator"};
 	Items[] =
 	{
 		Recon_Equip,
@@ -1362,19 +1354,19 @@ class SOR_Sniper_M : B_sniper_F
 	};
 	magazines[] =
 	{
-		"rhsusf_5Rnd_300winmag_xm2010",
-		"rhsusf_5Rnd_300winmag_xm2010",
-		"rhsusf_5Rnd_300winmag_xm2010",
-		"rhsusf_5Rnd_300winmag_xm2010",
+		"ACE_10Rnd_338_API526_Mag",
+		"ACE_10Rnd_338_API526_Mag",
+		"ACE_10Rnd_338_API526_Mag",
+		"ACE_10Rnd_338_API526_Mag",
 		V_P09,
 		"Laserbatteries"
 	};
 	respawnMagazines[] =
 	{
-		"rhsusf_5Rnd_300winmag_xm2010",
-		"rhsusf_5Rnd_300winmag_xm2010",
-		"rhsusf_5Rnd_300winmag_xm2010",
-		"rhsusf_5Rnd_300winmag_xm2010",
+		"ACE_10Rnd_338_API526_Mag",
+		"ACE_10Rnd_338_API526_Mag",
+		"ACE_10Rnd_338_API526_Mag",
+		"ACE_10Rnd_338_API526_Mag",
 		V_P09,
 		"Laserbatteries"
 	};

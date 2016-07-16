@@ -79,6 +79,7 @@ class CfgPatches
 			"SOR_USMC_I_C_Boat_Transport_02_F",
 			"SOR_USMC_rhsusf_mkvsoc",
 			"SOR_USMC_C_Scooter_Transport_01_F",
+			"SOR_USMC_V_B_Boat_Transport_01_F",
 			"SOR_USMC_B_Boat_Transport_01_F",
 			"SOR_USMC_B_SDV_01_F",
 
@@ -128,14 +129,18 @@ class CfgPatches
 
 			"160_SMG_05_F_aco",
 
-			"160_rhs_weap_XM2010_wd_premier",
+			"160_srifle_DMR_02_F_premier",
 
 			"160_hgun_P07_F_viper",
 
 			"160_arifle_SPAR_01_blk_F_specter",
 			"160_arifle_SPAR_01_GL_blk_F_specter",
 			"160_arifle_SPAR_02_blk_F_specter",
-			"160_arifle_SPAR_03_blk_F_specter"
+			"160_arifle_SPAR_03_blk_F_specter",
+
+			"160_rhs_weap_hk416d10_specter",
+			"160_rhs_weap_hk416d10_m320_specter",
+			"160_rhs_weap_m27iar_specter"
 		};
 		requiredVersion = 0.1;
 		requiredAddons[] =

@@ -127,12 +127,18 @@ class SOR_USMC_B_CTRG_LSV_01_light_F : B_CTRG_LSV_01_light_F
 	vehicleclass = "SOR_Vehicles";
 	displayName = "LSV Mark II [Viper]";
 	class TransportItems{};
-	class TransportWeapons{};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_m32,1);
+		weap_xx(rhs_weap_M320,1);
+		weap_xx(rhs_weap_M136_hedp,1);
+	};
 	class TransportMagazines{};
 	class TransportBackpacks
 	{
 		pack_xx(USMC_SOR_Repair_Pack_M,1);
-		pack_xx(USMC_SOR_VEH_B_Carryall_oli,1);
+		pack_xx(USMC_SOR_M32_Pack,1);
+		pack_xx(USMC_SOR_M320_Pack,1);
 	};
 };
 
@@ -142,7 +148,10 @@ class SOR_USMC_B_Quadbike_01_F : B_Quadbike_01_F
 	vehicleclass = "SOR_Vehicles";
 	displayName = "Yamaha Grizzly 450 [Viper]";
 	class TransportItems{};
-	class TransportWeapons{};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_M136_hedp,1);
+	};
 	class TransportMagazines{};
 	class TransportBackpacks
 	{

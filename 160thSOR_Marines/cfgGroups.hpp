@@ -476,7 +476,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "SOR_Engineer_M";
+						vehicle = "SOR_TL_Engineer_M";
 						rank = SERGEANT;
 						position[] = {0, 0, 0};
 					};

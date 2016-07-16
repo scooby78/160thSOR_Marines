@@ -785,11 +785,14 @@ class SOR_HeliPilot_M : B_Pilot_F
 	{
 		Standard_Meds,
 		SL_Equip,
-		"ACE_DAGR"};
+		"ACE_NVG_Wide",
+		"ACE_DAGR"
+	};
 	RespawnItems[] =
 	{
 		Standard_Meds,
 		SL_Equip,
+		"ACE_NVG_Wide",
 		"ACE_DAGR"
 	};
 	magazines[] =
@@ -845,12 +848,14 @@ class SOR_HeliCrew_M : B_crew_F
 	{
 		Standard_Meds,
 		SL_Equip,
+		"ACE_NVG_Wide",
 		"ACE_DAGR"
 	};
 	RespawnItems[] =
 	{
 		Standard_Meds,
 		SL_Equip,
+		"ACE_NVG_Wide",
 		"ACE_DAGR"
 	};
 	magazines[] =
@@ -999,14 +1004,14 @@ class SOR_ParaJumper_M : B_medic_F
 	{
 		"rhsusf_spcs_ocp_rifleman",
 		"rhsusf_opscore_mc_cover_pelt_cam",
-		"G_Balaclava_TI_G_blk_F",
+		"G_Tactical_Clear",
 		Airborne_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spcs_ocp_rifleman",
 		"rhsusf_opscore_mc_cover_pelt_cam",
-		"G_Balaclava_TI_G_blk_F",
+		"G_Tactical_Clear",
 		Airborne_Equipment
 	};
 	headgearList[] =
@@ -1098,26 +1103,20 @@ class SOR_ReconLeader_M : B_recon_TL_F
 	};
 	linkedItems[] =
 	{
-		"rhsusf_spc_squadleader",
+		"V_PlateCarrier2_rgr",
 		"rhsusf_opscore_fg_pelt",
 		"G_Balaclava_TI_G_tna_F",
 		Recon_Equipment
 	};
 	respawnLinkedItems[] =
 	{
-		"rhsusf_spc_squadleader",
+		"V_PlateCarrier2_rgr",
 		"rhsusf_opscore_fg_pelt",
 		"G_Balaclava_TI_G_tna_F",
 		Recon_Equipment
 	};
     headgearList[] =
     {
-        "rhsusf_ach_bare", 1,
-        "rhsusf_ach_bare_headset", 1,
-        "rhsusf_ach_bare_semi", 1,
-        "rhsusf_ach_bare_semi_headset", 1,
-        "rhsusf_ach_bare_wood", 1,
-        "rhsusf_ach_bare_wood_headset", 1,
         "rhsusf_opscore_fg", 1,
         "rhsusf_opscore_fg_pelt", 1,
         "rhsusf_opscore_fg_pelt_cam", 1,
@@ -1157,12 +1156,6 @@ class SOR_ReconJTAC_M : SOR_ReconLeader_M
 	respawnWeapons[] = {"160_arifle_SPAR_01_khk_F_specter_viper","160_hgun_P07_F_viper","Throw","Put","ACE_Vector"};
     headgearList[] =
     {
-        "rhsusf_ach_bare", 1,
-        "rhsusf_ach_bare_headset", 1,
-        "rhsusf_ach_bare_semi", 1,
-        "rhsusf_ach_bare_semi_headset", 1,
-        "rhsusf_ach_bare_wood", 1,
-        "rhsusf_ach_bare_wood_headset", 1,
         "rhsusf_opscore_fg", 1,
         "rhsusf_opscore_fg_pelt", 1,
         "rhsusf_opscore_fg_pelt_cam", 1,
@@ -1185,12 +1178,6 @@ class SOR_ReconRifleman_M : SOR_ReconLeader_M
 	respawnWeapons[] = {"160_arifle_SPAR_01_khk_F_specter_viper","160_hgun_P07_F_viper","Throw","Put","ACE_Vector"};
     headgearList[] =
     {
-        "rhsusf_ach_bare", 1,
-        "rhsusf_ach_bare_headset", 1,
-        "rhsusf_ach_bare_semi", 1,
-        "rhsusf_ach_bare_semi_headset", 1,
-        "rhsusf_ach_bare_wood", 1,
-        "rhsusf_ach_bare_wood_headset", 1,
         "rhsusf_opscore_fg", 1,
         "rhsusf_opscore_fg_pelt", 1,
         "rhsusf_opscore_fg_pelt_cam", 1,
@@ -1213,12 +1200,6 @@ class SOR_Marksman_M : SOR_ReconLeader_M
 	respawnWeapons[] = {"160_arifle_SPAR_01_khk_F_specter_viper","160_hgun_P07_F_viper","Throw","Put","Laserdesignator"};
     headgearList[] =
     {
-        "rhsusf_ach_bare", 1,
-        "rhsusf_ach_bare_headset", 1,
-        "rhsusf_ach_bare_semi", 1,
-        "rhsusf_ach_bare_semi_headset", 1,
-        "rhsusf_ach_bare_wood", 1,
-        "rhsusf_ach_bare_wood_headset", 1,
         "rhsusf_opscore_fg", 1,
         "rhsusf_opscore_fg_pelt", 1,
         "rhsusf_opscore_fg_pelt_cam", 1,
@@ -1755,6 +1736,72 @@ class SOR_MORRFL_M : SOR_Grenadier_M
 
     ////////////////////Blacksmith////////////////////
 
+class SOR_TL_Engineer_M : B_engineer_F
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_Infantry_Support";
+	uniformClass = "rhs_uniform_FROG01_wd";
+	displayName = "(S) Blacksmith TL";
+	backpack = "USMC_SOR_Mech_Radio_M";
+	weapons[] = {"160_arifle_SPAR_01_blk_F_specter","Throw","Put"};
+	respawnWeapons[] = {"160_arifle_SPAR_01_blk_F_specter","Throw","Put"};
+	Items[] =
+	{
+		Standard_Meds,
+		"ACE_NVG_Wide"
+	};
+	RespawnItems[] =
+	{
+		Standard_Meds,
+		"ACE_NVG_Wide"
+	};
+	magazines[] =
+	{
+		"30Rnd_556x45_Stanag",
+		"30Rnd_556x45_Stanag",
+	    "30Rnd_556x45_Stanag"
+	};
+	respawnMagazines[] =
+	{
+		"30Rnd_556x45_Stanag",
+		"30Rnd_556x45_Stanag",
+	    "30Rnd_556x45_Stanag"
+	};
+	linkedItems[] =
+	{
+		"rhsusf_spc_marksman",
+		"H_HelmetSpecB_blk",
+		"rhs_ess_black",
+		Standard_Equipment
+	};
+	respawnLinkedItems[] =
+	{
+		"rhsusf_spc_marksman",
+		"H_HelmetSpecB_blk",
+		"rhs_ess_black",
+		Standard_Equipment
+	};
+	headgearList[] =
+    {
+        "H_HelmetSpecB", 1,
+        "H_HelmetSpecB_blk", 1,
+        "H_HelmetSpecB_paint2", 1,
+        "H_HelmetSpecB_paint1", 1,
+        "H_HelmetSpecB_sand", 1,
+        "H_HelmetSpecB_snakeskin", 1,
+        "H_HelmetB", 1,
+        "H_HelmetB_desert", 1,
+        "H_HelmetB_grass", 1,
+        "H_HelmetB_sand", 1,
+        "H_HelmetB_snakeskin", 1,
+        "H_HelmetB_camo", 1,
+    };
+    class EventHandlers
+    {
+         init = "if (local (_this select 0)) then {[(_this select 0), [], []] call BIS_fnc_unitHeadgear;};";
+    };
+};
+
 class SOR_Engineer_M : B_engineer_F
 {
 	faction = SOR_Faction_M;
@@ -1788,15 +1835,15 @@ class SOR_Engineer_M : B_engineer_F
 	};
 	linkedItems[] =
 	{
-		"rhsusf_spc_crewman",
-		"rhs_booniehat2_marpatwd",
+		"rhsusf_spc_marksman",
+		"H_HelmetSpecB_blk",
 		"rhs_ess_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
-		"rhsusf_spc_crewman",
-		"rhs_booniehat2_marpatwd",
+		"rhsusf_spc_marksman",
+		"H_HelmetSpecB_blk",
 		"rhs_ess_black",
 		Standard_Equipment
 	};

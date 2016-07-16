@@ -687,7 +687,10 @@ class SOR_USMC_B_T_UAV_03_F : B_T_UAV_03_F
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Aircraft";
 	fuelCapacity = 400;
-	class TransportItems{};
+	class TransportItems
+	{
+		item_xx(B_UavTerminal,1);
+	};
 	class TransportWeapons{};
 	class TransportMagazines{};
 	class TransportBackpacks
@@ -701,7 +704,10 @@ class SOR_USMC_B_UAV_02_F : B_UAV_02_F
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Aircraft";
 	fuelCapacity = 800;
-	class TransportItems{};
+	class TransportItems
+	{
+		item_xx(B_UavTerminal,1);
+	};
 	class TransportWeapons{};
 	class TransportMagazines{};
 	class TransportBackpacks
@@ -715,7 +721,10 @@ class SOR_USMC_B_UAV_02_CAS_F : B_UAV_02_CAS_F
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Aircraft";
 	fuelCapacity = 800;
-	class TransportItems{};
+	class TransportItems
+	{
+		item_xx(B_UavTerminal,1);
+	};
 	class TransportWeapons{};
 	class TransportMagazines{};
 	class TransportBackpacks
@@ -732,10 +741,7 @@ class SOR_USMC_B_UAV_01_F : B_UAV_01_F
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
-	class TransportBackpacks
-	{
-		pack_xx(USMC_SOR_Repair_Pack_M,1)
-	};
+	class TransportBackpacks{};
 };
 
 class SOR_USMC_B_UGV_01_F : B_UGV_01_F
@@ -743,7 +749,10 @@ class SOR_USMC_B_UGV_01_F : B_UGV_01_F
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Aircraft";
 	fuelCapacity = 3000;
-	class TransportItems{};
+	class TransportItems
+	{
+		item_xx(B_UavTerminal,1);
+	};
 	class TransportWeapons{};
 	class TransportMagazines{};
 	class TransportBackpacks
@@ -757,7 +766,10 @@ class SOR_USMC_B_UGV_01_rcws_F : B_UGV_01_rcws_F
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Aircraft";
 	fuelCapacity = 3000;
-	class TransportItems{};
+	class TransportItems
+	{
+		item_xx(B_UavTerminal,1);
+	};
 	class TransportWeapons{};
 	class TransportMagazines{};
 	class TransportBackpacks

@@ -7,9 +7,10 @@
 
 //Call base backpacks
 class tf_rt1523g_rhs;
-class tf_anprc155_coyote;
+class tf_rt1523g_big_bwmod;
 class B_Kitbag_rgr;
 class B_Carryall_oli;
+class B_AssaultPack_rgr;
 
 //USMC Medic Pack
 class USMC_SOR_Medic_Pack_M : B_Kitbag_rgr
@@ -222,7 +223,7 @@ class USMC_SOR_CombatPack_M : B_Kitbag_rgr
 };
 
 //USMC Custom JTAC Pack
-class USMC_SOR_JTAC_Pack_M : tf_anprc155_coyote
+class USMC_SOR_JTAC_Pack_M : tf_rt1523g_big_bwmod
 {
 	displayName = "(2021 USMC) JTAC Radio Radio";
 	mass = 10;
@@ -256,18 +257,26 @@ class USMC_SOR_B_Carryall_oli : B_Carryall_oli
 	class TransportBackpacks{};
 };
 
-//USMC Viper VEH Scuba
-class USMC_SOR_VEH_B_Carryall_oli : B_Carryall_oli
+//USMC Viper M32 Pack
+class USMC_SOR_M32_Pack : B_AssaultPack_rgr
 {
-	displayName = "(2021 USMC) Viper Scuba Gear";
-	maximumLoad = 400;
-	class TransportItems
+	displayName = "(2021 USMC) M32 Ammo ";
+	class TransportMagazines
 	{
-		item_xx(U_B_Wetsuit,1);
-		item_xx(V_RebreatherB,1);
-		item_xx(G_B_Diving,1);
+		mag_xx(rhsusf_mag_6Rnd_M714_white,2);
+		mag_xx(rhsusf_mag_6Rnd_M713_red,2);
 	};
-	class TransportWeapons{};
-	class TransportMagazines{};
-	class TransportBackpacks{};
+};
+
+//USMC M320 GLM Pack
+class USMC_SOR_M320_Pack : B_AssaultPack_rgr
+{
+	displayName = "(2021 USMC) M320 Ammo";
+	class TransportMagazines
+	{
+		mag_xx(1Rnd_HE_Grenade_shell,5);
+		mag_xx(1Rnd_Smoke_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeRed_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+	};
 };

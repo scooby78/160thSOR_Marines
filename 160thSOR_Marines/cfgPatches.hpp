@@ -51,6 +51,7 @@ class CfgPatches
 			"SOR_MORGunner_M",
 			"SOR_MORCarrier_M",
 			"SOR_MORRFL_M",
+			"SOR_TL_Engineer_M",
 			"SOR_Engineer_M",
 
 			"SOR_USMC_rhsusf_m1a1fep_wd",

@@ -1,7 +1,7 @@
 /*
-	Name: 160th SOR Mod Marines
-	Author: Scooby
-	Date: 28/12/15
+	Name: 160th SOR USMC Mod
+	Author: Buck & (Scooby - Initial Framework)
+	Date: 16/07/16
 	Description: cfgGroups.hpp
 */
 

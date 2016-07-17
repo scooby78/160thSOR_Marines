@@ -1,7 +1,7 @@
 /*
-	Name: 160th SOR Mod
-	Author: Scooby
-	Date: 07/03/16
+	Name: 160th SOR USMC Mod
+	Author: Buck & (Scooby - Initial Framework)
+	Date: 16/07/16
 	Description: cfgWeapons.hpp
 */
 class cfgWeapons

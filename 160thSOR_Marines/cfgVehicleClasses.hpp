@@ -1,7 +1,7 @@
 /*
 	Name: 160th SOR Mod
-	Author: Scooby
-	Date: 27/02/16
+	Author: Buck & (Scooby - Initial Framework)
+	Date: 16/07/16
 	Description: cfgVehicleClasses.hpp
 */
 

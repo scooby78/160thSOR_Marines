@@ -1,7 +1,7 @@
 /*
 	Name: 160th SOR Mod Marines
-	Author: Scooby
-	Date: 28/12/15
+	Author: Buck & (Scooby - Initial Framework)
+	Date: 16/07/16
 	Description: cfgFactionClasses.hpp
 */
 

@@ -1,7 +1,7 @@
 /*
 	Name: 160th SOR Mod
-	Author: Scooby
-	Date: 28/09/15 02:05
+	Author: Buck & (Scooby - Initial Framework)
+	Date: 16/07/16
 	Description: cfgCrates.hpp
 */
 

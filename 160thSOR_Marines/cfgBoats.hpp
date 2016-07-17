@@ -1,7 +1,7 @@
 /*
 	Name: 160th SOR Mod Marines
-	Author: Scooby/Snapage
-	Date: 26/02/16
+	Author: Buck & (Scooby - Initial Framework)/Snapage
+	Date: 16/07/16
 	Description: cfgBoats.hpp
 */
 

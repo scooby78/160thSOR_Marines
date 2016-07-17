@@ -1,7 +1,7 @@
 /*
-	Name: 160th SOR Mod (cfgArmour.hpp)
-	Author: Scooby/Snapage
-	Date: 28/12/15
+	Name: 160th SOR USMC Mod (cfgArmour.hpp)
+	Author: Buck & (Scooby - Initial Framework)
+	Date: 16/07/16
 	Description: Only Armour units that are proven not "buggy" should be put in here.  Custom loadouts used.
 */
 

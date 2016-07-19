@@ -11,6 +11,7 @@ class tf_rt1523g_big_bwmod;
 class B_Kitbag_rgr;
 class B_Carryall_oli;
 class B_AssaultPack_rgr;
+class B_Kitbag_cbr;
 
 //USMC Medic Pack
 class USMC_SOR_Medic_Pack_M : B_Kitbag_rgr
@@ -225,7 +226,7 @@ class USMC_SOR_CombatPack_M : B_Kitbag_rgr
 //USMC Custom JTAC Pack
 class USMC_SOR_JTAC_Pack_M : tf_rt1523g_big_bwmod
 {
-	displayName = "(2021 USMC) JTAC Radio Radio";
+	displayName = "(2021 USMC) Viper JTAC Radio";
 	mass = 10;
 	class TransportMagazines
 	{
@@ -260,7 +261,7 @@ class USMC_SOR_B_Carryall_oli : B_Carryall_oli
 //USMC Viper M32 Pack
 class USMC_SOR_M32_Pack : B_AssaultPack_rgr
 {
-	displayName = "(2021 USMC) M32 Ammo ";
+	displayName = "(2021 USMC) Viper M32 Ammo ";
 	class TransportMagazines
 	{
 		mag_xx(rhsusf_mag_6Rnd_M714_white,2);
@@ -271,12 +272,37 @@ class USMC_SOR_M32_Pack : B_AssaultPack_rgr
 //USMC M320 GLM Pack
 class USMC_SOR_M320_Pack : B_AssaultPack_rgr
 {
-	displayName = "(2021 USMC) M320 Ammo";
+	displayName = "(2021 USMC) Viper M320 Ammo";
 	class TransportMagazines
 	{
 		mag_xx(1Rnd_HE_Grenade_shell,5);
 		mag_xx(1Rnd_Smoke_Grenade_shell,3);
 		mag_xx(1Rnd_SmokeRed_Grenade_shell,3);
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+	};
+};
+
+//USMC Raven Viper Pack
+class USMC_SOR_RavenUAV_pack : B_Kitbag_cbr
+{
+	scope = 2;
+	author = "Feint";
+	displayName = "(2021 USMC) Viper Raven UAV";
+	maximumLoad = 0.1;
+	mass = 40;
+	class UserActions
+	{
+		class UNPACKRAVENACTION
+		{
+			displayName = "Assemble RQ-11 B Raven";
+			priority = 0;
+			shortcut = "";
+			condition = "alive this";
+			statement = "[this] execVM '\rhsusf\addons\rhsusf_c_uav\scripts\backpack_UnpackRaven.sqf'";
+			displayNameDefault = "";
+			position = "camo";
+			radius = 5;
+			onlyforplayer = 1;
+		};
 	};
 };

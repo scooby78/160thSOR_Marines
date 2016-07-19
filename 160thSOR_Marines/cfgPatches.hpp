@@ -67,6 +67,10 @@ class CfgPatches
 			"SOR_USMC_B_MRAP_01_gmg_F",
 			"SOR_USMC_B_MRAP_01__F",
 			"SOR_USMC_B_MRAP_01_Engineer_F",
+			"SOR_USMC_I_MRAP_03_hmg_F",
+			"SOR_USMC_I_MRAP_03_gmg_F",
+			"SOR_USMC_I_MRAP_03_F",
+			"SOR_USMC_I_MRAP_03_F_Engineer_F",
 			"SOR_USMC_rhsusf_M977A4_AMMO_BKIT_M2_usarmy_wd",
 			"SOR_USMC_rhsusf_M978A4_BKIT_usarmy_wd",
 			"SOR_USMC_rhsusf_M977A4_REPAIR_BKIT_M2_usarmy_wd",
@@ -100,7 +104,24 @@ class CfgPatches
 			"SOR_USMC_B_UAV_02_CAS_F",
 			"SOR_USMC_B_UAV_01_F",
 			"SOR_USMC_B_UGV_01_F",
-			"SOR_USMC_B_UGV_01_rcws_F"
+			"SOR_USMC_B_UGV_01_rcws_F",
+
+			"SOR_USMC_PJ_Box_F",
+			"SOR_USMC_PJ_Pack_Box_F",
+			"SOR_USMC_Air_LP",
+			"SOR_USMC_A_Box_F",
+			"SOR_USMC_M_Box_F",
+			"SOR_USMC_E_Box_F",
+			"SOR_USMC_G_Box_F",
+			"SOR_USMC_S_Box_F",
+			"SOR_USMC_divegear",
+			"SOR_USMC_HW_Box_F",
+			"SOR_USMC_Launcher_Box_F",
+			"SOR_USMC_Box_NATO_WpsSpecial_F",
+			"SOR_USMC_A_Crate_F",
+			"SOR_USMC_AM_Crate_F",
+			"SOR_USMC_HMG_Crate_F",
+			"SOR_USMC_MOR_Crate_F"
 		};
 		weapons[] =
 		{
@@ -109,22 +130,9 @@ class CfgPatches
 			"160_srifle_DMR_05_blk_F_premier",
 			"160_arifle_SPAR_03_khk_F_ERCO_viper",
 			"160_srifle_DMR_05_blk_F_xps3",
-			"160_arifle_MXM_Black_F_Hamr",
-			"160_arifle_MXM_Black_F_xps3",
 
-			"160_arifle_MX_Black_F_Hamr",
-			"160_arifle_MX_Black_F_eotech",
-			"160_arifle_MX_Black_F_xps3",
-			"160_arifle_MX_GL_Black_F_Hamr",
-			"160_arifle_MX_GL_Black_F_xps3",
-			"160_arifle_MXC_Black_F_Hamr",
-			"160_arifle_MXC_Black_F_xps3",
-			"160_arifle_MX_F_xps3",
 			"160_arifle_SPAR_01_khk_F_specter_viper",
 			"160_arifle_SPAR_01_snd_F_specter",
-
-			"160_arifle_MX_SW_Black_F_Hamr",
-			"160_arifle_MX_SW_Black_F_xps3",
 
 			"160_rhs_weap_m240G_specter",
 

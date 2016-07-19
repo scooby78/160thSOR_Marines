@@ -7,11 +7,6 @@
 
 class CfgVehicleClasses
 {
-	class SOR_Boat
-	{
-		displayName = "160th Boats (USMC 2021)";
-		priority = 7;
-	};
 	class SOR_USMC_SupplyBoxes
 	{
 		displayName = "160th Boxes (USMC 2021)";
@@ -26,5 +21,20 @@ class CfgVehicleClasses
 	{
 		displayName = "160th Containers (USMC 2021)";
 		priority = 3;
+	};
+	class SOR_USMC_Aircraft
+	{
+		displayName = "160th USAF/USMC Aircraft";
+		priority = 4;
+	};
+	class SOR_USMC_Vehicles
+	{
+		displayName = "160th USMC Vehicles";
+		priority = 5;
+	};
+	class SOR_USMC_Boats
+	{
+		displayName = "160th USMC Boats";
+		priority = 6;
 	};
 };

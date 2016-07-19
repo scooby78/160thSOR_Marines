@@ -25,12 +25,16 @@ class B_UAV_01_F;
 class B_UGV_01_F;
 class B_UGV_01_rcws_F;
 
+class rhsusf_f22;
+class RHS_A10;
+class RHS_A10_AT;
+
     ////////////////////Transport Helicopters////////////////////
 
 class SOR_USMC_RHS_UH1Y_d : RHS_UH1Y_d
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 	displayName = "UH-1Y [FFAR/MG] (C2/P9)";
 	class UserActions
 	{
@@ -140,7 +144,7 @@ class SOR_USMC_RHS_UH1Y_d : RHS_UH1Y_d
 class SOR_USMC_RHS_UH1Y_FFAR_d : RHS_UH1Y_FFAR_d
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 	displayName = "UH-1Y [FFAR] (C2/P9)";
 	class UserActions
 	{
@@ -249,7 +253,7 @@ class SOR_USMC_RHS_UH1Y_FFAR_d : RHS_UH1Y_FFAR_d
 class SOR_USMC_RHS_UH1Y_d_GS : RHS_UH1Y_d_GS
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 	displayName = "UH-1Y [GS/MG] (C2/P9)";
 	class UserActions
 	{
@@ -359,7 +363,7 @@ class SOR_USMC_rhsusf_CH53E_USMC_D : rhsusf_CH53E_USMC_D
 {
 	scope = 2;
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 	displayName = "CH-53E (C2/P30)";
 	class UserActions
 	{
@@ -448,7 +452,7 @@ class SOR_USMC_rhsusf_CH53E_USMC_D : rhsusf_CH53E_USMC_D
 class SOR_USMC_MEV_RHS_UH1Y_UNARMED_d : RHS_UH1Y_UNARMED_d
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 	displayName = "UH-1Y [MEV] (C2/P9)";
 	driverCanEject = 1;
 	ejectDeadCargo = 1;
@@ -550,7 +554,7 @@ class SOR_USMC_MEV_RHS_UH1Y_UNARMED_d : RHS_UH1Y_UNARMED_d
 	};
 	class TransportWeapons
 	{
-		weap_xx(srifle_EBR_MRCO_pointer_F,2)
+		weap_xx(srifle_EBR_MRCO_pointer_F,1)
 	};
 	class TransportMagazines
 	{
@@ -567,7 +571,7 @@ class SOR_USMC_MEV_RHS_UH1Y_UNARMED_d : RHS_UH1Y_UNARMED_d
 class SOR_USMC_RHS_AH1Z : RHS_AH1Z
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 //		armor = 80; //was 50 (UH-60 is 60!)
 	fuelCapacity = 200;
 	class TransportItems
@@ -585,7 +589,7 @@ class SOR_USMC_RHS_AH1Z : RHS_AH1Z
 class SOR_USMC_RHS_AH1Z_GS : RHS_AH1Z_GS
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 //		armor = 80; //was 50 (UH-60 is 60!)
 	fuelCapacity = 200;
 	class TransportItems
@@ -603,7 +607,7 @@ class SOR_USMC_RHS_AH1Z_GS : RHS_AH1Z_GS
 class SOR_USMC_RHS_AH1Z_CS : RHS_AH1Z_CS
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 //		armor = 80; //was 50 (UH-60 is 60!)
 	fuelCapacity = 200;
 		class TransportItems
@@ -623,14 +627,15 @@ class SOR_USMC_RHS_AH1Z_CS : RHS_AH1Z_CS
 class SOR_USMC_B_T_VTOL_01_armed_F : B_T_VTOL_01_armed_F
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 	hiddenSelections[] = {camo2};
     armor = 120;
 	fuelCapacity = 4000;
-	displayName = "V44 Spooky Gunship (C4/P0) ";
+	displayName = "AV44 Spooky Gunship (C4/P0) ";
 	class TransportItems
 	{
 		item_xx(ACE_FieldDressing,20);
+		item_xx(B_Parachute,4);
 	};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -643,7 +648,7 @@ class SOR_USMC_B_T_VTOL_01_armed_F : B_T_VTOL_01_armed_F
 class SOR_USMC_B_T_VTOL_01_infantry_F : B_T_VTOL_01_infantry_F
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 	hiddenSelections[] = {camo2};
     armor = 120;
 	fuelCapacity = 4000;
@@ -651,6 +656,7 @@ class SOR_USMC_B_T_VTOL_01_infantry_F : B_T_VTOL_01_infantry_F
 	class TransportItems
 	{
 		item_xx(ACE_FieldDressing,20);
+		item_xx(B_Parachute,4);
 	};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -663,7 +669,7 @@ class SOR_USMC_B_T_VTOL_01_infantry_F : B_T_VTOL_01_infantry_F
 class SOR_USMC_B_T_VTOL_01_vehicle_F : B_T_VTOL_01_vehicle_F
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 	hiddenSelections[] = {camo2};
 	armor = 120;
 	fuelCapacity = 4000;
@@ -671,6 +677,7 @@ class SOR_USMC_B_T_VTOL_01_vehicle_F : B_T_VTOL_01_vehicle_F
 	class TransportItems
 	{
 		item_xx(ACE_FieldDressing,20);
+		item_xx(B_Parachute,4);
 	};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -685,7 +692,7 @@ class SOR_USMC_B_T_VTOL_01_vehicle_F : B_T_VTOL_01_vehicle_F
 class SOR_USMC_B_T_UAV_03_F : B_T_UAV_03_F
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 	fuelCapacity = 400;
 	class TransportItems
 	{
@@ -702,7 +709,7 @@ class SOR_USMC_B_T_UAV_03_F : B_T_UAV_03_F
 class SOR_USMC_B_UAV_02_F : B_UAV_02_F
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 	fuelCapacity = 800;
 	class TransportItems
 	{
@@ -719,7 +726,7 @@ class SOR_USMC_B_UAV_02_F : B_UAV_02_F
 class SOR_USMC_B_UAV_02_CAS_F : B_UAV_02_CAS_F
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 	fuelCapacity = 800;
 	class TransportItems
 	{
@@ -736,7 +743,7 @@ class SOR_USMC_B_UAV_02_CAS_F : B_UAV_02_CAS_F
 class SOR_USMC_B_UAV_01_F : B_UAV_01_F
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 	fuelCapacity = 110;
 	class TransportItems{};
 	class TransportWeapons{};
@@ -747,7 +754,7 @@ class SOR_USMC_B_UAV_01_F : B_UAV_01_F
 class SOR_USMC_B_UGV_01_F : B_UGV_01_F
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 	fuelCapacity = 3000;
 	class TransportItems
 	{
@@ -764,7 +771,7 @@ class SOR_USMC_B_UGV_01_F : B_UGV_01_F
 class SOR_USMC_B_UGV_01_rcws_F : B_UGV_01_rcws_F
 {
 	faction = SOR_Faction_M;
-	vehicleclass = "SOR_Aircraft";
+	vehicleclass = "SOR_USMC_Aircraft";
 	fuelCapacity = 3000;
 	class TransportItems
 	{
@@ -775,5 +782,66 @@ class SOR_USMC_B_UGV_01_rcws_F : B_UGV_01_rcws_F
 	class TransportBackpacks
 	{
 		pack_xx(USMC_SOR_Repair_Pack_M,1)
+	};
+};
+
+    ////////////////////Fixed Wing////////////////////
+
+class SOR_USMC_rhsusf_f22 : rhsusf_f22
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_USMC_Aircraft";
+	armor = 60;
+	fuelCapacity = 1000;
+	displayName = "F22 Raptor (USAF)";
+	class TransportItems
+	{
+		item_xx(ACE_FieldDressing,10);
+	};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(USMC_SOR_Repair_Pack_M,1);
+	};
+};
+
+class SOR_USMC_RHS_A10 : RHS_A10
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_USMC_Aircraft";
+	armor = 100;
+	fuelCapacity = 1000;
+	maxSpeed = 706
+	displayName = "A10A Thunderbolt [CAS] (USAF)";
+	class TransportItems
+	{
+		item_xx(ACE_FieldDressing,10);
+	};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(USMC_SOR_Repair_Pack_M,1);
+	};
+};
+
+class SOR_USMC_RHS_A10_AT : RHS_A10_AT
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_USMC_Aircraft";
+	armor = 100;
+	fuelCapacity = 1000;
+	maxSpeed = 706
+	displayName = "A10A Thunderbolt [AT] (USAF)";
+	class TransportItems
+	{
+		item_xx(ACE_FieldDressing,10);
+	};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(USMC_SOR_Repair_Pack_M,1);
 	};
 };

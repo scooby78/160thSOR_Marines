@@ -134,281 +134,6 @@ class rhs_weap_m27iar;
 		};
 	};
 
-	class 160_arifle_MXM_Black_F_Hamr : arifle_MXM_Black_F
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "optic_Hamr";
-				slot = "CowsSlot";
-			};
-			class LinkedItemsUnder
-			{
-				item = "bipod_01_F_blk";
-				slot = "UnderBarrelSlot";
-			};
-			class LinkedItemsAcc
-			{
-				item = "acc_pointer_IR";
-				slot = "PointerSlot";
-			};
-		};
-	};
-
-	class 160_arifle_MXM_Black_F_xps3 : arifle_MXM_Black_F
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "rhsusf_acc_eotech_xps3";
-				slot = "CowsSlot";
-			};
-			class LinkedItemsUnder
-			{
-				item = "bipod_01_F_blk";
-				slot = "UnderBarrelSlot";
-			};
-			class LinkedItemsAcc
-			{
-				item = "acc_pointer_IR";
-				slot = "PointerSlot";
-			};
-		};
-	};
-
-	////////////////////Assault Rifles/Carbines////////////////////
-
-	class 160_arifle_MX_Black_F_Hamr : arifle_MX_Black_F
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "optic_Hamr";
-				slot = "CowsSlot";
-			};
-			class LinkedItemsAcc
-			{
-				item = "acc_pointer_IR";
-				slot = "PointerSlot";
-			};
-		};
-	};
-
-	class 160_arifle_MX_Black_F_xps3 : arifle_MX_Black_F
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "rhsusf_acc_eotech_xps3";
-				slot = "CowsSlot";
-			};
-			class LinkedItemsAcc
-			{
-				item = "acc_pointer_IR";
-				slot = "PointerSlot";
-			};
-		};
-	};
-
-	class 160_arifle_MX_GL_Black_F_Hamr : arifle_MX_GL_Black_F
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "optic_Hamr";
-				slot = "CowsSlot";
-			};
-			class LinkedItemsAcc
-			{
-				item = "acc_pointer_IR";
-				slot = "PointerSlot";
-			};
-		};
-	};
-
-	class 160_arifle_MX_GL_Black_F_xps3 : arifle_MX_GL_Black_F
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "rhsusf_acc_eotech_xps3";
-				slot = "CowsSlot";
-			};
-			class LinkedItemsAcc
-			{
-				item = "acc_pointer_IR";
-				slot = "PointerSlot";
-			};
-		};
-	};
-
-	class 160_arifle_MXC_Black_F_Hamr : arifle_MXC_Black_F
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "optic_Hamr";
-				slot = "CowsSlot";
-			};
-			class LinkedItemsAcc
-			{
-				item = "acc_flashlight";
-				slot = "PointerSlot";
-            };
-		};
-	};
-
-	class 160_arifle_MXC_Black_F_xps3 : arifle_MXC_Black_F
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "rhsusf_acc_eotech_xps3";
-				slot = "CowsSlot";
-			};
-		};
-	};
-
-	class 160_arifle_MX_F_xps3 : arifle_MX_F
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "rhsusf_acc_eotech_xps3";
-				slot = "CowsSlot";
-			};
-			class LinkedItemsAcc
-			{
-				item = "acc_pointer_IR";
-				slot = "PointerSlot";
-			};
-		};
-	};
-
-	class 160_arifle_SPAR_01_khk_F_specter_viper : arifle_SPAR_01_khk_F
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
-				slot = "CowsSlot";
-			};
-      		class LinkedItemsMuzzle
-			{
-			    item = "rhsusf_acc_nt4_black";
-			    slot = "MuzzleSlot";
-		    };
-		    class LinkedItemsAcc
-			{
-				item = "rhsusf_acc_anpeq15side_bk";
-				slot = "PointerSlot";
-			};
-		};
-	};
-
-	class 160_arifle_SPAR_01_snd_F_specter : arifle_SPAR_01_snd_F
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
-				slot = "CowsSlot";
-			};
-		    class LinkedItemsAcc
-			{
-				item = "rhsusf_acc_M952V";
-				slot = "PointerSlot";
-			};
-		};
-	};
-
-	////////////////////Squad Automatic Weapons////////////////////
-
-	class 160_arifle_MX_SW_Black_F_Hamr : arifle_MX_SW_Black_F
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "optic_Hamr";
-				slot = "CowsSlot";
-			};
-			class LinkedItemsUnder
-			{
-				item = "bipod_01_F_blk";
-				slot = "UnderBarrelSlot";
-			};
-			class LinkedItemsAcc
-			{
-				item = "acc_pointer_IR";
-				slot = "PointerSlot";
-			};
-		};
-	};
-
-	class 160_arifle_MX_SW_Black_F_xps3 : arifle_MX_SW_Black_F
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "rhsusf_acc_eotech_xps3";
-				slot = "CowsSlot";
-			};
-			class LinkedItemsUnder
-			{
-				item = "bipod_01_F_blk";
-				slot = "UnderBarrelSlot";
-			};
-			class LinkedItemsAcc
-			{
-				item = "acc_pointer_IR";
-				slot = "PointerSlot";
-			};
-		};
-	};
-
-	////////////////////Light Machine Guns////////////////////
-
-    class 160_rhs_weap_m240G_specter : rhs_weap_m240G
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
-				slot = "CowsSlot";
-			};
-		};
-	};
-
-	////////////////////SMGs////////////////////
-
-	class 160_SMG_05_F_aco : SMG_05_F
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "optic_ACO_grn_smg";
-				slot = "CowsSlot";
-			};
-		};
-	};
-
-	////////////////////Sniper Rifles////////////////////
-
 	class 160_srifle_DMR_02_F_premier : srifle_DMR_02_F
 	{
 		class LinkedItems
@@ -431,21 +156,63 @@ class rhs_weap_m27iar;
 		};
 	};
 
-	////////////////////Pistols////////////////////
-
-	class 160_hgun_P07_F_viper : hgun_P07_F
+	class 160_arifle_SPAR_03_blk_F_specter : arifle_SPAR_03_blk_F //DMR//
 	{
 		class LinkedItems
 		{
+			class LinkedItemsOptic
+			{
+				item = "rhsusf_acc_SpecterDR_CX_3D";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc
+			{
+				item = "rhsusf_acc_anpeq15side_bk";
+				slot = "PointerSlot";
+			};
+	    };
+    };
+
+	////////////////////Assault Rifles/Carbines////////////////////
+
+	class 160_arifle_SPAR_01_khk_F_specter_viper : arifle_SPAR_01_khk_F
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = "rhsusf_acc_SpecterDR_CX_3D";
+				slot = "CowsSlot";
+			};
       		class LinkedItemsMuzzle
 			{
-			    item = "muzzle_snds_L";
+			    item = "rhsusf_acc_nt4_black";
 			    slot = "MuzzleSlot";
 		    };
+		    class LinkedItemsAcc
+			{
+				item = "rhsusf_acc_anpeq15side_bk";
+				slot = "PointerSlot";
+			};
 		};
 	};
 
-	////////////////////SPAR 16 versions if people dont want the MX////////////////////
+	class 160_arifle_SPAR_01_snd_F_specter : arifle_SPAR_01_snd_F
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = "rhsusf_acc_SpecterDR_CX_3D";
+				slot = "CowsSlot";
+			};
+		    class LinkedItemsAcc
+			{
+				item = "rhsusf_acc_M952V";
+				slot = "PointerSlot";
+			};
+		};
+	};
 
 	class 160_arifle_SPAR_01_blk_F_specter : arifle_SPAR_01_blk_F //AR//
 	{
@@ -453,7 +220,7 @@ class rhs_weap_m27iar;
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
+				item = "rhsusf_acc_SpecterDR_CX_3D";
 				slot = "CowsSlot";
 			};
 			class LinkedItemsAcc
@@ -470,7 +237,7 @@ class rhs_weap_m27iar;
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
+				item = "rhsusf_acc_SpecterDR_CX_3D";
 				slot = "CowsSlot";
 			};
 			class LinkedItemsAcc
@@ -481,13 +248,15 @@ class rhs_weap_m27iar;
 		};
 	};
 
+	////////////////////Squad Automatic Weapons////////////////////
+
 	class 160_arifle_SPAR_02_blk_F_specter : arifle_SPAR_02_blk_F //SAW//
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
+				item = "rhsusf_acc_SpecterDR_CX_3D";
 				slot = "CowsSlot";
 			};
 			class LinkedItemsUnder
@@ -503,22 +272,49 @@ class rhs_weap_m27iar;
 		};
 	};
 
-	class 160_arifle_SPAR_03_blk_F_specter : arifle_SPAR_03_blk_F //DMR//
+	////////////////////Light Machine Guns////////////////////
+
+    class 160_rhs_weap_m240G_acog : rhs_weap_m240G
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
+				item = "rhsusf_acc_ACOG";
 				slot = "CowsSlot";
 			};
-			class LinkedItemsAcc
+		};
+	};
+
+	////////////////////SMGs////////////////////
+
+	class 160_SMG_05_F_aco : SMG_05_F
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_anpeq15side_bk";
-				slot = "PointerSlot";
+				item = "optic_ACO_grn_smg";
+				slot = "CowsSlot";
 			};
-	    };
-    };
+		};
+	};
+
+	////////////////////Sniper Rifles////////////////////
+
+	////////////////////Pistols////////////////////
+
+	class 160_hgun_P07_F_viper : hgun_P07_F
+	{
+		class LinkedItems
+		{
+      		class LinkedItemsMuzzle
+			{
+			    item = "muzzle_snds_L";
+			    slot = "MuzzleSlot";
+		    };
+		};
+	};
 
     ////////////////////RHS HK417 versions if people dont want the MX////////////////////
 
@@ -528,7 +324,7 @@ class rhs_weap_m27iar;
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
+				item = "rhsusf_acc_SpecterDR_CX_3D";
 				slot = "CowsSlot";
 			};
 		};
@@ -540,7 +336,7 @@ class rhs_weap_m27iar;
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
+				item = "rhsusf_acc_SpecterDR_CX_3D";
 				slot = "CowsSlot";
 			};
 		};
@@ -552,7 +348,7 @@ class rhs_weap_m27iar;
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_SpecterDR_A_3d";
+				item = "rhsusf_acc_SpecterDR_CX_3D";
 				slot = "CowsSlot";
 			};
 			class LinkedItemsUnder

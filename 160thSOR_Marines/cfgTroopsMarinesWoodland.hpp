@@ -478,8 +478,8 @@ class SOR_M240_M : B_soldier_AR_F
 	uniformClass = "rhs_uniform_FROG01_wd";
 	displayName = "(I) AutoRifleman M240G";
 	backpack = "USMC_SOR_M240_Pack_M";
-	weapons[] = {"160_rhs_weap_m240G_specter","hgun_P07_F","Throw","Put"};
-	respawnWeapons[] = {"160_rhs_weap_m240G_specter","hgun_P07_F","Throw","Put"};
+	weapons[] = {"160_rhs_weap_m240G_acog","hgun_P07_F","Throw","Put"};
+	respawnWeapons[] = {"160_rhs_weap_m240G_acog","hgun_P07_F","Throw","Put"};
 	Items[] =
 	{
 		Standard_Meds,
@@ -1660,7 +1660,7 @@ class SOR_MORGunner_M : SOR_Rifleman_M
 {
 	vehicleclass = "SOR_Infantry_Support";
 	displayName = "(S) Mortar Gunner";
-	backpack = "B_Mortar_01_weapon_F";
+	backpack = "rhs_M252_Gun_Bag";
 	headgearList[] =
     {
         "H_HelmetSpecB", 1,
@@ -1686,7 +1686,7 @@ class SOR_MORCarrier_M : SOR_Rifleman_M
 {
 	vehicleclass = "SOR_Infantry_Support";
 	displayName = "(S) Mortar Carrier";
-	backpack = "B_Mortar_01_support_F";
+	backpack = "rhs_M252_Bipod_Bag";
 	headgearList[] =
     {
         "H_HelmetSpecB", 1,

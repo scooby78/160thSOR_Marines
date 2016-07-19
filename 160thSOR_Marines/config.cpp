@@ -9,7 +9,9 @@
 #include "cfgPatches.hpp"
 #include "cfgFactionClasses.hpp"
 #include "cfgVehicleClasses.hpp"
+#include "cfgEditorCategories.hpp"
 #include "cfgVehicles.hpp"
 #include "cfgGroups.hpp"
 #include "cfgWeapons.hpp"
+
 

@@ -38,14 +38,14 @@ class CfgGroups
 						side = 1;
 						vehicle = "SOR_MechCommand_M";
 						rank = CAPTAIN;
-						position[] = {-2, 0, 0};
+						position[] = {0, -2, 0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "SOR_AirCommand_M";
 						rank = CAPTAIN;
-						position[] = {-4, 0, 0};
+						position[] = {0, -4, 0};
 					};
 				};
 				class SOR_HavocGroup_M
@@ -68,21 +68,21 @@ class CfgGroups
 						side = 1;
 						vehicle = "SOR_Commander_M";
 						rank = SERGEANT;
-						position[] = {-2, 0, 0};
+						position[] = {0, -2, 0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "SOR_RTO_M";
 						rank = CORPORAL;
-						position[] = {-4, 0, 0};
+						position[] = {0, -4, 0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "SOR_Medic_M";
 						rank = CORPORAL;
-						position[] = {-6, 0, 0};
+						position[] = {0, -6, 0};
 					};
 				};
 				class SOR_INFSquadA_M
@@ -96,7 +96,7 @@ class CfgGroups
 						side = 1;
 						vehicle = "SOR_Actual_M";
 						rank = SERGEANT;
-						position[] = {0, -0, 0};
+						position[] = {0, 0, 0};
 					};
 
 					class Unit8
@@ -217,7 +217,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 1;
-						vehicle = "SOR_Rifleman_M";
+						vehicle = "SOR_Rifleman_ammo_M";
 						rank = PRIVATE;
 						position[] = {0, -6, 0};
 					};
@@ -254,7 +254,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 1;
-						vehicle = "SOR_RiflemanAT_M";
+						vehicle = "SOR_Rifleman_M";
 						rank = PRIVATE;
 						position[] = {0, -6, 0};
 					};
@@ -413,21 +413,21 @@ class CfgGroups
 						side = 1;
 						vehicle = "SOR_HMGGunner_M";
 						rank = CORPORAL;
-						position[] = {-2, 0, 0};
+						position[] = {0, -2, 0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "SOR_HMGCarrier_M";
 						rank = PRIVATE;
-						position[] = {-4, 0, 0};
+						position[] = {0, -4, 0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "SOR_HMGRFL_M";
 						rank = PRIVATE;
-						position[] = {-6, 0, 0};
+						position[] = {0, -6, 0};
 					};
 				};
 			    class SOR_SupGroup3_M
@@ -449,21 +449,21 @@ class CfgGroups
 						side = 1;
 						vehicle = "SOR_MORGunner_M";
 						rank = CORPORAL;
-						position[] = {-2, 0, 0};
+						position[] = {0, -2, 0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "SOR_MORCarrier_M";
 						rank = PRIVATE;
-						position[] = {-4, 0, 0};
+						position[] = {0, -4, 0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "SOR_MORRFL_M";
 						rank = PRIVATE;
-						position[] = {-6, 0, 0};
+						position[] = {0, -6, 0};
 					};
 				};
 			    class SOR_SupGroup4_M
@@ -485,21 +485,21 @@ class CfgGroups
 						side = 1;
 						vehicle = "SOR_Engineer_M";
 						rank = CORPORAL;
-						position[] = {-2, 0, 0};
+						position[] = {0, -2, 0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "SOR_Engineer_M";
 						rank = PRIVATE;
-						position[] = {-4, 0, 0};
+						position[] = {0, -4, 0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "SOR_Engineer_M";
 						rank = PRIVATE;
-						position[] = {-6, 0, 0};
+						position[] = {0, -6, 0};
 					};
 				};
 			};
@@ -527,21 +527,21 @@ class CfgGroups
 						side = 1;
 						vehicle = "SOR_MechCrew_M";
 						rank = CORPORAL;
-						position[] = {-2, 0, 0};
+						position[] = {0, -2, 0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "SOR_MechOperator_M";
 						rank = CORPORAL;
-						position[] = {-4, 0, 0};
+						position[] = {0, -4, 0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "SOR_MechDriver_M";
 						rank = CORPORAL;
-						position[] = {-6, 0, 0};
+						position[] = {0, -6, 0};
 					};
 				};
 				class SOR_RhinoGroup_D
@@ -563,14 +563,14 @@ class CfgGroups
 						side = 1;
 						vehicle = "SOR_MechDriver_M";
 						rank = CORPORAL;
-						position[] = {-2, 0, 0};
+						position[] = {0, -2, 0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "SOR_MechCrew_M";
 						rank = CORPORAL;
-						position[] = {-4, 0, 0};
+						position[] = {0, -4, 0};
 					};
 				};
 				class SOR_OutlawGroup_D
@@ -592,7 +592,7 @@ class CfgGroups
 						side = 1;
 						vehicle = "SOR_MechDriver_M";
 						rank = CORPORAL;
-						position[] = {-2, 0, 0};
+						position[] = {0, -2, 0};
 					};
 				}
 			};
@@ -613,28 +613,28 @@ class CfgGroups
 							side = 1;
 							vehicle = "SOR_HeliPilot_M";
 							rank = LIEUTENANT;
-							position[] = {-0, 0, 0};
+							position[] = {0, 0, 0};
 						};
 						class Unit1
 						{
 							side = 1;
 							vehicle = "SOR_HeliPilot_M";
 							rank = CORPORAL;
-							position[] = {-2, 0, 0};
+							position[] = {0, -2, 0};
 						};
 						class Unit2
 						{
 							side = 1;
 							vehicle = "SOR_HeliCrew_M";
 							rank = CORPORAL;
-							position[] = {-4, 0, 0};
+							position[] = {0, -4, 0};
 						};
 						class Unit3
 						{
 							side = 1;
 							vehicle = "SOR_HeliCrew_M";
 							rank = CORPORAL;
-							position[] = {-6, 0, 0};
+							position[] = {0, -6, 0};
 						};
 				};
 				class SOR_PegGroup2_M
@@ -656,7 +656,7 @@ class CfgGroups
 						side = 1;
 						vehicle = "SOR_HeliPilot_M";
 						rank = CORPORAL;
-						position[] = {-2, 0, 0};
+						position[] = {0, -2, 0};
 					};
 				};
 				class SOR_MEVGroup2_M
@@ -678,14 +678,14 @@ class CfgGroups
 						side = 1;
 						vehicle = "SOR_MEVPilot_M";
 						rank = SERGEANT;
-						position[] = {-2, 0, 0};
+						position[] = {0, -2, 0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "SOR_ParaJumper_M";
 						rank = PRIVATE;
-						position[] = {-4, 0, 0};
+						position[] = {0, -4, 0};
 					};
 					class Unit3
 
@@ -693,14 +693,14 @@ class CfgGroups
 						side = 1;
 						vehicle = "SOR_ParaJumper_M";
 						rank = PRIVATE;
-						position[] = {-6, 0, 0};
+						position[] = {0, -6, 0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "SOR_ParaJumper_M";
 						rank = PRIVATE;
-						position[] = {-8, 0, 0};
+						position[] = {0, -8, 0};
 					};
 				};
 				class SOR_EagleGroup2_M
@@ -722,7 +722,7 @@ class CfgGroups
 						side = 1;
 						vehicle = "SOR_JetPilot_M";
 						rank = LIEUTENANT;
-						position[] = {-2, 0, 0};
+						position[] = {0, -2, 0};
 					};
 				};
 			};

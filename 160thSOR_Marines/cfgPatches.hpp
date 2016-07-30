@@ -111,6 +111,7 @@ class CfgPatches
 			"SOR_USMC_B_T_LSV_01_unarmed_desert_F",
 			"SOR_USMC_B_CTRG_LSV_01_light_F",
 			"SOR_USMC_B_Quadbike_01_F",
+			"SOR_USMC_B_Quadbike_01_F_inf",
 			"SOR_USMC_B_APC_Wheeled_01_cannon_F",
 			"SOR_USMC_I_APC_Wheeled_03_cannon_F",
 			"SOR_USMC_B_MRAP_01_hmg_F",

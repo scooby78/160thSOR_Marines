@@ -223,6 +223,23 @@ class SOR_USMC_B_Quadbike_01_F : B_Quadbike_01_F //Viper//
 	};
 };
 
+class SOR_USMC_B_Quadbike_01_F_inf : B_Quadbike_01_F //Infantry//
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_USMC_Vehicles";
+	displayName = "Yamaha Grizzly 450";
+	class TransportItems
+	{
+		item_xx(ACE_FieldDressing,5);
+	};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(USMC_SOR_Repair_Pack_M,1);
+	};
+};
+
 ////////////////////Infantry Fighting Vehicles/APC////////////////////
 
 class SOR_USMC_B_APC_Wheeled_01_cannon_F : B_APC_Wheeled_01_cannon_F
@@ -401,7 +418,7 @@ class SOR_USMC_I_MRAP_03_gmg_F : I_MRAP_03_gmg_F
     hiddenSelections[] = {"camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\A3\soft_f_beta\mrap_03\data\mrap_03_ext_co.paa","\A3\data_f\vehicles\turret_co.paa"};
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "LSG Fennek Armed HMG";
+	displayName = "LSG Fennek Armed GMG";
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};

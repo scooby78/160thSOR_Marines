@@ -9,7 +9,7 @@ class cfgFactionClasses
 {
 	class SOR_Faction_M
 	{
-		displayName = "160th SOR (USMC 2021)";
+		displayName = "160th Marine Raiders (USMC 2021)";
 		priority = 1;
 		side = 1;
 	};

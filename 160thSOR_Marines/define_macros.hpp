@@ -73,17 +73,6 @@
 						"SmokeShell",\
 						"SmokeShellGreen"
 
-#define V_Mags_762 	    "20Rnd_762x51_Mag",\
-						"20Rnd_762x51_Mag",\
-						"20Rnd_762x51_Mag",\
-						"20Rnd_762x51_Mag",\
-						"HandGrenade",\
-						"HandGrenade",\
-						"SmokeShell",\
-						"SmokeShell",\
-						"SmokeShell",\
-						"SmokeShellGreen"
-
 #define V_SL_Mags	    "30Rnd_556x45_Stanag",\
 						"30Rnd_556x45_Stanag",\
 						"30Rnd_556x45_Stanag",\

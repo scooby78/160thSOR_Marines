@@ -602,7 +602,7 @@ class CfgGroups
 
 			    class SOR_AngGroup1_M
 				{
-						name = "Angel Crew [VTOL]";
+						name = "Angel Crew [Heli/VTOL]";
 						faction = "SOR_Faction_M";
 						side = 1;
 						rarityGroup = 0.75;
@@ -1319,7 +1319,7 @@ class CfgGroups
 
 			    class SOR_AngGroup1_D_M
 				{
-						name = "Angel Crew [VTOL]";
+						name = "Angel Crew [Heli/VTOL]";
 						faction = "SOR_Faction_M";
 						side = 1;
 						rarityGroup = 0.75;

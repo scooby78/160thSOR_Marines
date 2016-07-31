@@ -17,6 +17,7 @@ class tf_rt1523g_big_bwmod_tropen;
 class tf_rt1523g_bwmod;
 
 class rhsusf_assault_eagleaiii_coy;
+class rhsusf_assault_eagleaiii_ocp;
 
 class tfw_ilbe_coy;
 class tfw_ilbe_blade_coy;
@@ -41,7 +42,7 @@ class USMC_SOR_Medic_Pack_M : rhsusf_assault_eagleaiii_coy
 };
 
 //USMC Parajumper Pack
-class USMC_SOR_PJMedicPack_M : rhsusf_assault_eagleaiii_coy
+class USMC_SOR_PJMedicPack_M : rhsusf_assault_eagleaiii_ocp
 {
 	displayName = "(2021 USMC) Parajumper Pack";
 	class TransportMagazines
@@ -314,7 +315,7 @@ class USMC_SOR_Medic_Pack_D_M : rhsusf_assault_eagleaiii_coy
 };
 
 //USMC Parajumper Pack
-class USMC_SOR_PJMedicPack_D_M : rhsusf_assault_eagleaiii_coy
+class USMC_SOR_PJMedicPack_D_M : rhsusf_assault_eagleaiii_ocp
 {
 	displayName = "(2021 USMC) Parajumper Pack [D]";
 	class TransportMagazines

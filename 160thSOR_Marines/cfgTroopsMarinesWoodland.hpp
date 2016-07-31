@@ -1495,11 +1495,13 @@ class SOR_MechCrew_M : B_crew_F
 	Items[] =
 	{
 		Standard_Meds,
+		"ACE_MapTools",
 		"ACE_NVG_Wide"
 	};
 	RespawnItems[] =
 	{
 		Standard_Meds,
+		"ACE_MapTools",
 		"ACE_NVG_Wide"
 	};
 	magazines[] =
@@ -3383,11 +3385,13 @@ class SOR_MechCrew_D_M : B_crew_F
 	Items[] =
 	{
 		Standard_Meds,
+		"ACE_MapTools",
 		"ACE_NVG_Wide"
 	};
 	RespawnItems[] =
 	{
 		Standard_Meds,
+		"ACE_MapTools",
 		"ACE_NVG_Wide"
 	};
 	magazines[] =

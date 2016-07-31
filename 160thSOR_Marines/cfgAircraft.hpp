@@ -762,6 +762,7 @@ class SOR_USMC_B_UAV_02_F : B_UAV_02_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
+	displayName = "YABHON-R3 (AGM)";
 	fuelCapacity = 800;
 	class TransportItems
 	{
@@ -779,6 +780,7 @@ class SOR_USMC_B_UAV_02_CAS_F : B_UAV_02_CAS_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
+	displayName = "YABHON-R3 (GBU)";
 	fuelCapacity = 800;
 	class TransportItems
 	{

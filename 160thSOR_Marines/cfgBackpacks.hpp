@@ -7,16 +7,16 @@
 
 //Call base backpacks
 class tf_rt1523g_rhs;
-class B_Kitbag_rgr;
 class B_Carryall_oli;
 class B_AssaultPack_rgr;
 class tf_rt1523g_big_bwmod;
 
-class B_Kitbag_cbr;
 class B_Carryall_cbr;
 class B_AssaultPack_cbr;
 class tf_rt1523g_big_bwmod_tropen;
 class tf_rt1523g_bwmod;
+
+class rhsusf_assault_eagleaiii_coy;
 
 class tfw_ilbe_coy;
 class tfw_ilbe_blade_coy;
@@ -24,7 +24,7 @@ class tfw_ilbe_dd_coy;
 
 
 //USMC Medic Pack
-class USMC_SOR_Medic_Pack_M : B_Kitbag_rgr
+class USMC_SOR_Medic_Pack_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Medic Pack";
 	class TransportMagazines
@@ -41,7 +41,7 @@ class USMC_SOR_Medic_Pack_M : B_Kitbag_rgr
 };
 
 //USMC Parajumper Pack
-class USMC_SOR_PJMedicPack_M : B_Kitbag_rgr
+class USMC_SOR_PJMedicPack_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Parajumper Pack";
 	class TransportMagazines
@@ -59,7 +59,7 @@ class USMC_SOR_PJMedicPack_M : B_Kitbag_rgr
 };
 
 //USMC Rifleman Pack
-class USMC_SOR_Rifleman_SPAR16S_Pack_M : B_Kitbag_rgr
+class USMC_SOR_Rifleman_SPAR16S_Pack_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Rifleman Pack (M27IAR)";
 	class TransportMagazines
@@ -69,7 +69,7 @@ class USMC_SOR_Rifleman_SPAR16S_Pack_M : B_Kitbag_rgr
 };
 
 //USMC Rilfeman Ammobearer Pack
-class USMC_SOR_Rifleman_M240_Pack_M : B_Kitbag_rgr
+class USMC_SOR_Rifleman_M240_Pack_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Rifleman Pack (M240G)";
 	class TransportMagazines
@@ -79,7 +79,7 @@ class USMC_SOR_Rifleman_M240_Pack_M : B_Kitbag_rgr
 };
 
 //USMC SAW Pack
-class USMC_SOR_SPAR16S_Pack_M : B_Kitbag_rgr
+class USMC_SOR_SPAR16S_Pack_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) M27IAR Ammo Pack";
 	class TransportMagazines
@@ -89,7 +89,7 @@ class USMC_SOR_SPAR16S_Pack_M : B_Kitbag_rgr
 };
 
 //USMC LMG Pack
-class USMC_SOR_M240_Pack_M : B_Kitbag_rgr
+class USMC_SOR_M240_Pack_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) M240G Ammo Pack";
 	class TransportMagazines
@@ -99,7 +99,7 @@ class USMC_SOR_M240_Pack_M : B_Kitbag_rgr
 };
 
 //USMC Repair Pack With Toolkit
-class USMC_SOR_Repair_Pack_M : B_Kitbag_rgr
+class USMC_SOR_Repair_Pack_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Repair Pack";
 	class TransportItems
@@ -113,7 +113,7 @@ class USMC_SOR_Repair_Pack_M : B_Kitbag_rgr
 };
 
 //USMC Custom Grenadier Pack
-class USMC_SOR_GD_Pack_M : B_Kitbag_rgr
+class USMC_SOR_GD_Pack_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Grednadier Pack";
 	class TransportMagazines
@@ -138,14 +138,14 @@ class USMC_SOR_RTO_Pack_M : tf_rt1523g_bwmod
 };
 
 //USMC Custom Rifleman AT Pack
-class USMC_SOR_RFLAT_Pack_M : B_Kitbag_rgr
+class USMC_SOR_RFLAT_Pack_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Empty Pack";
 	class TransportMagazines{};
 };
 
 //USMC Custom Sniper Pack
-class USMC_SOR_Sniper_Camo_M : B_Kitbag_rgr
+class USMC_SOR_Sniper_Camo_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Sniper Pack";
 	class TransportItems
@@ -193,7 +193,7 @@ class USMC_SOR_Mech_Radio_M : tf_rt1523g_bwmod
 };
 
 //USMC Custom Engineer Repair Pack
-class USMC_SOR_Eng_Repair_Pack_M : B_Kitbag_rgr
+class USMC_SOR_Eng_Repair_Pack_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Engi Repair Pack";
 	class TransportMagazines{};
@@ -205,7 +205,7 @@ class USMC_SOR_Eng_Repair_Pack_M : B_Kitbag_rgr
 };
 
 //USMC Custom Engineer Ordanance Pack
-class USMC_SOR_OrdanancePack_M : B_Kitbag_rgr
+class USMC_SOR_OrdanancePack_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Engi Ordanance Pack";
 	class TransportMagazines{};
@@ -219,7 +219,7 @@ class USMC_SOR_OrdanancePack_M : B_Kitbag_rgr
 };
 
 //USMC Custom Engineer Combat Pack
-class USMC_SOR_CombatPack_M : B_Kitbag_rgr
+class USMC_SOR_CombatPack_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Combat Pack";
 	class TransportMagazines
@@ -297,7 +297,7 @@ class USMC_SOR_M320_Pack_M : B_AssaultPack_rgr
 ////////////////////////////////////////////////////////////////Desert Backpacks////////////////////////////////////////////////////////////////
 
 //USMC Medic Pack
-class USMC_SOR_Medic_Pack_D_M : B_Kitbag_cbr
+class USMC_SOR_Medic_Pack_D_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Medic Pack [D]";
 	class TransportMagazines
@@ -314,7 +314,7 @@ class USMC_SOR_Medic_Pack_D_M : B_Kitbag_cbr
 };
 
 //USMC Parajumper Pack
-class USMC_SOR_PJMedicPack_D_M : B_Kitbag_cbr
+class USMC_SOR_PJMedicPack_D_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Parajumper Pack [D]";
 	class TransportMagazines
@@ -332,7 +332,7 @@ class USMC_SOR_PJMedicPack_D_M : B_Kitbag_cbr
 };
 
 //USMC Rifleman Pack
-class USMC_SOR_Rifleman_SPAR16S_Pack_D_M : B_Kitbag_cbr
+class USMC_SOR_Rifleman_SPAR16S_Pack_D_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Rifleman Pack (M27IAR) [D]";
 	class TransportMagazines
@@ -342,7 +342,7 @@ class USMC_SOR_Rifleman_SPAR16S_Pack_D_M : B_Kitbag_cbr
 };
 
 //USMC Rilfeman Ammobearer Pack
-class USMC_SOR_Rifleman_M240_Pack_D_M : B_Kitbag_cbr
+class USMC_SOR_Rifleman_M240_Pack_D_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Rifleman Pack (M240G) [D]";
 	class TransportMagazines
@@ -352,17 +352,17 @@ class USMC_SOR_Rifleman_M240_Pack_D_M : B_Kitbag_cbr
 };
 
 //USMC SAW Pack
-class USMC_SOR_SPAR16S_Pack_D_M : B_Kitbag_cbr
+class USMC_SOR_SPAR16S_Pack_D_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) M27IAR Ammo Pack [D]";
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_556x45_Stanag,4);
+		mag_xx(30Rnd_556x45_Stanag,6);
 	};
 };
 
 //USMC LMG Pack
-class USMC_SOR_M240_Pack_D_M : B_Kitbag_cbr
+class USMC_SOR_M240_Pack_D_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) M240G Ammo Pack [D]";
 	class TransportMagazines
@@ -372,7 +372,7 @@ class USMC_SOR_M240_Pack_D_M : B_Kitbag_cbr
 };
 
 //USMC Repair Pack With Toolkit
-class USMC_SOR_Repair_Pack_D_M : B_Kitbag_cbr
+class USMC_SOR_Repair_Pack_D_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Repair Pack [D]";
 	class TransportItems
@@ -386,7 +386,7 @@ class USMC_SOR_Repair_Pack_D_M : B_Kitbag_cbr
 };
 
 //USMC Custom Grenadier Pack
-class USMC_SOR_GD_Pack_D_M : B_Kitbag_cbr
+class USMC_SOR_GD_Pack_D_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Grednadier Pack [D]";
 	class TransportMagazines
@@ -411,14 +411,14 @@ class USMC_SOR_RTO_Pack_D_M : tf_rt1523g_rhs
 };
 
 //USMC Custom Rifleman AT Pack
-class USMC_SOR_RFLAT_Pack_D_M : B_Kitbag_cbr
+class USMC_SOR_RFLAT_Pack_D_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Empty Pack [D]";
 	class TransportMagazines{};
 };
 
 //USMC Custom Sniper Pack
-class USMC_SOR_Sniper_Camo_D_M : B_Kitbag_cbr
+class USMC_SOR_Sniper_Camo_D_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Sniper Pack [D]";
 	class TransportItems
@@ -466,7 +466,7 @@ class USMC_SOR_Mech_Radio_D_M : tf_rt1523g_rhs
 };
 
 //USMC Custom Engineer Repair Pack
-class USMC_SOR_Eng_Repair_Pack_D_M : B_Kitbag_cbr
+class USMC_SOR_Eng_Repair_Pack_D_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Engi Repair Pack [D]";
 	class TransportMagazines{};
@@ -478,7 +478,7 @@ class USMC_SOR_Eng_Repair_Pack_D_M : B_Kitbag_cbr
 };
 
 //USMC Custom Engineer Ordanance Pack
-class USMC_SOR_OrdanancePack_D_M : B_Kitbag_cbr
+class USMC_SOR_OrdanancePack_D_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Engi Ordanance Pack [D]";
 	class TransportMagazines{};
@@ -492,7 +492,7 @@ class USMC_SOR_OrdanancePack_D_M : B_Kitbag_cbr
 };
 
 //USMC Custom Engineer Combat Pack
-class USMC_SOR_CombatPack_D_M : B_Kitbag_cbr
+class USMC_SOR_CombatPack_D_M : rhsusf_assault_eagleaiii_coy
 {
 	displayName = "(2021 USMC) Combat Pack [D]";
 	class TransportMagazines
@@ -583,9 +583,9 @@ class USMC_SOR_RTO_Pack_ILBE : tfw_ilbe_coy
 	};
 	class TransportMagazines
 	{
-		mag_xx(1Rnd_SmokeRed_Grenade_shell,5);
-		mag_xx(1Rnd_SmokeGreen_Grenade_shell,5);
-		mag_xx(1Rnd_SmokeYellow_Grenade_shell,5);
+		mag_xx(1Rnd_SmokeRed_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeYellow_Grenade_shell,3);
 	};
 };
 
@@ -631,8 +631,6 @@ class USMC_SOR_JTAC_Pack_ILBE : tfw_ilbe_coy
 	};
 	class TransportMagazines
 	{
-		mag_xx(SmokeShellRed,8);
-		mag_xx(SmokeShellGreen,2);
-		mag_xx(SmokeShellYellow,2);
+		mag_xx(SmokeShellRed,5);
 	};
 };

@@ -46,7 +46,7 @@ class SOR_USMC_rhsusf_m1a1hc_wd : rhsusf_m1a1hc_wd
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "USMC M1A1HC [OD]";
+	displayName = "[OD] USMC M1A1HC";
 	peakTorque = 10355;
 	enginePower = 3000;
 	armor = 900;
@@ -74,7 +74,7 @@ class SOR_USMC_rhsusf_m1a1fep_od : rhsusf_m1a1fep_od
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "USMC M1A1FEP [OD]";
+	displayName = "[OD] USMC M1A1FEP";
 	peakTorque = 10355;
 	enginePower = 3000;
 	armor = 900;
@@ -102,7 +102,7 @@ class SOR_USMC_rhsusf_m1a1fep_d : rhsusf_m1a1fep_d
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "USMC M1A1FEP [D]";
+	displayName = "[D] USMC M1A1FEP";
 	peakTorque = 10355;
 	enginePower = 3000;
 	armor = 900;
@@ -132,7 +132,7 @@ class SOR_USMC_B_T_LSV_01_armed_F : B_T_LSV_01_armed_F //Olive//
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "Polaris Dagor [Armed]";
+	displayName = "[W] Polaris Dagor [Armed]";
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -146,7 +146,7 @@ class SOR_USMC_B_T_LSV_01_unarmed_F : B_T_LSV_01_unarmed_F //Olive//
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "Polaris Dagor [Unarmed]";
+	displayName = "[W] Polaris Dagor [Unarmed]";
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -160,7 +160,7 @@ class SOR_USMC_B_T_LSV_01_armed_desert_F : B_LSV_01_armed_F //Sand//
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "Polaris Dagor [Armed] [D]";
+	displayName = "[D] Polaris Dagor [Armed]";
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -174,7 +174,7 @@ class SOR_USMC_B_T_LSV_01_unarmed_desert_F : B_LSV_01_unarmed_F //Sand//
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "Polaris Dagor [Unarmed] [D]";
+	displayName = "[D] Polaris Dagor [Unarmed]";
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -246,7 +246,33 @@ class SOR_USMC_B_APC_Wheeled_01_cannon_F : B_APC_Wheeled_01_cannon_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "Patria AMV (C3/P8)";
+	displayName = "[D] Patria AMV (C3/P8)";
+	class TransportItems
+	{
+		item_xx(ACE_FieldDressing,10);
+	};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_M136_hp,1);
+		weap_xx(160_rhs_weap_m4_pmag_eotech,1);
+	};
+	class TransportMagazines
+	{
+		mag_xx(30Rnd_556x45_Stanag,5);
+	};
+	class TransportBackpacks
+	{
+		pack_xx(USMC_SOR_Repair_Pack_M,1);
+	};
+};
+
+class SOR_USMC_B_APC_Wheeled_01_cannon_F_W : B_APC_Wheeled_01_cannon_F
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_USMC_Vehicles";
+	hiddenSelections[] = {"camo1","camo2","camo3"};
+	hiddenSelectionsTextures[] = {"160thSOR_Marines\data\apc_wheeled_01_base_co.paa","160thSOR_Marines\data\apc_wheeled_01_adds_co.paa","160thSOR_Marines\data\apc_wheeled_01_tows_co.paa"};
+	displayName = "[W] Patria AMV (C3/P8)";
 	class TransportItems
 	{
 		item_xx(ACE_FieldDressing,10);
@@ -270,7 +296,7 @@ class SOR_USMC_I_APC_Wheeled_03_cannon_F : I_APC_Wheeled_03_cannon_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "Pandur II (C3/P8)";
+	displayName = "[D] Pandur II (C3/P8)";
 	side = 1
     hiddenSelections[] = {"camo1","camo2","camo3","camo4"};
 	hiddenSelectionsTextures[] = {"A3\Armor_F_Gamma\APC_Wheeled_03\Data\apc_wheeled_03_ext_co.paa","A3\Armor_F_Gamma\APC_Wheeled_03\Data\apc_wheeled_03_ext2_co.paa","A3\Armor_F_Gamma\APC_Wheeled_03\Data\rcws30_co.paa","A3\Armor_F_Gamma\APC_Wheeled_03\Data\apc_wheeled_03_ext_alpha_co.paa"};
@@ -297,7 +323,7 @@ class SOR_USMC_B_APC_Tracked_01_CRV_F : B_APC_Tracked_01_CRV_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "Nammera ARV";
+	displayName = "[D] Nammera ARV";
 	class TransportItems
 	{
 		item_xx(ACE_FieldDressing,10);
@@ -323,7 +349,7 @@ class SOR_USMC_B_MRAP_01_hmg_F : B_MRAP_01_hmg_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "Oshkosh M-ATV Armed HMG";
+	displayName = "[D] Oshkosh M-ATV HMG";
 	enginePower = 370;  //was 276
 	peakTorque = 1850; //was 1253
 	class TransportItems{};
@@ -339,7 +365,7 @@ class SOR_USMC_B_MRAP_01_gmg_F : B_MRAP_01_gmg_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "Oshkosh M-ATV Armed GMG";
+	displayName = "[D] Oshkosh M-ATV GMG";
 	enginePower = 370;  //was 276
 	peakTorque = 1850; //was 1253
 	class TransportItems{};
@@ -355,7 +381,7 @@ class SOR_USMC_B_MRAP_01__F : B_MRAP_01_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "Oshkosh M-ATV Unarmed";
+	displayName = "[D] Oshkosh M-ATV ";
 	enginePower = 370;  //was 276
 	peakTorque = 1850; //was 1253
 	class TransportItems{};
@@ -371,7 +397,90 @@ class SOR_USMC_B_MRAP_01_Engineer_F : B_MRAP_01_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "Oshkosh M-ATV Unarmed (Engineer)";
+	displayName = "[D] Oshkosh M-ATV (Engi)";
+	enginePower = 370;  //was 276
+	peakTorque = 1850; //was 1253
+	class TransportItems{};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_M136_hp,1);
+	};
+	class TransportMagazines
+	{
+		mag_xx(30Rnd_556x45_Stanag,5);
+	};
+	class TransportBackpacks
+	{
+		pack_xx(USMC_SOR_Repair_Pack_M,1);
+		pack_xx(USMC_SOR_OrdanancePack_M,2);
+		pack_xx(rhs_Tow_Gun_Bag,1);
+		pack_xx(rhs_Tow_Tripod_Bag,1);
+		pack_xx(rhs_M252_Gun_Bag,1);
+		pack_xx(rhs_M252_Bipod_Bag,1);
+	};
+};
+
+class SOR_USMC_B_MRAP_01_hmg_F_W : B_MRAP_01_hmg_F
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_USMC_Vehicles";
+	hiddenSelections[] = {"Camo1","Camo2","camo3"};
+	hiddenSelectionsTextures[] = {"160thSOR_Marines\data\hunter_base_co.paa","160thSOR_Marines\data\hunter_adds_co.paa","160thSOR_Marines\data\hunter_turret_co.paa"};
+	displayName = "[W] Oshkosh M-ATV HMG";
+	enginePower = 370;  //was 276
+	peakTorque = 1850; //was 1253
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(USMC_SOR_Repair_Pack_M,1);
+	};
+};
+
+class SOR_USMC_B_MRAP_01_gmg_F_W : B_MRAP_01_gmg_F
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_USMC_Vehicles";
+	hiddenSelections[] = {"Camo1","Camo2","camo3"};
+	hiddenSelectionsTextures[] = {"160thSOR_Marines\data\hunter_base_co.paa","160thSOR_Marines\data\hunter_adds_co.paa","160thSOR_Marines\data\hunter_turret_co.paa"};
+	displayName = "[W] Oshkosh M-ATV GMG";
+	enginePower = 370;  //was 276
+	peakTorque = 1850; //was 1253
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(USMC_SOR_Repair_Pack_M,1);
+	};
+};
+
+class SOR_USMC_B_MRAP_01_F_W : B_MRAP_01_F
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_USMC_Vehicles";
+	hiddenSelections[] = {"Camo1","Camo2","riotpolice"};
+	hiddenSelectionsTextures[] = {"160thSOR_Marines\data\hunter_base_co.paa","160thSOR_Marines\data\hunter_adds_co.paa",""};
+	displayName = "[W] Oshkosh M-ATV";
+	enginePower = 370;  //was 276
+	peakTorque = 1850; //was 1253
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(USMC_SOR_Repair_Pack_M,1);
+	};
+};
+
+class SOR_USMC_B_MRAP_01_Engineer_F_W : B_MRAP_01_F
+{
+	faction = SOR_Faction_M;
+	vehicleclass = "SOR_USMC_Vehicles";
+	hiddenSelections[] = {"Camo1","Camo2","riotpolice"};
+	hiddenSelectionsTextures[] = {"160thSOR_Marines\data\hunter_base_co.paa","160thSOR_Marines\data\hunter_adds_co.paa",""};
+	displayName = "[W] Oshkosh M-ATV (Engi)";
 	enginePower = 370;  //was 276
 	peakTorque = 1850; //was 1253
 	class TransportItems{};
@@ -401,7 +510,7 @@ class SOR_USMC_I_MRAP_03_hmg_F : I_MRAP_03_hmg_F
     hiddenSelections[] = {"camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\A3\soft_f_beta\mrap_03\data\mrap_03_ext_co.paa","\A3\data_f\vehicles\turret_co.paa"};
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "LSG Fennek Armed HMG";
+	displayName = "[D] LSG Fennek HMG";
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -418,7 +527,7 @@ class SOR_USMC_I_MRAP_03_gmg_F : I_MRAP_03_gmg_F
     hiddenSelections[] = {"camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\A3\soft_f_beta\mrap_03\data\mrap_03_ext_co.paa","\A3\data_f\vehicles\turret_co.paa"};
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "LSG Fennek Armed GMG";
+	displayName = "[D] LSG Fennek GMG";
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -435,7 +544,7 @@ class SOR_USMC_I_MRAP_03_F : I_MRAP_03_F
     hiddenSelections[] = {"camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\A3\soft_f_beta\mrap_03\data\mrap_03_ext_co.paa","\A3\data_f\vehicles\turret_co.paa"};
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "LSG Fennek Unarmed";
+	displayName = "[D] LSG Fennek";
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -452,7 +561,7 @@ class SOR_USMC_I_MRAP_03_F_Engineer_F : I_MRAP_03_F
     hiddenSelections[] = {"camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\A3\soft_f_beta\mrap_03\data\mrap_03_ext_co.paa","\A3\data_f\vehicles\turret_co.paa"};
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "LSG Fennek Unarmed (Engineer)";
+	displayName = "[D] LSG Fennek (Engi)";
 	class TransportItems{};
 	class TransportWeapons
 	{
@@ -479,7 +588,7 @@ class SOR_USMC_rhsusf_M977A4_AMMO_BKIT_M2_usarmy_wd : rhsusf_M977A4_AMMO_BKIT_M2
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "M977A4 Ammo M2";
+	displayName = "[W] M977A4 Ammo M2";
 	enginePower = 850;  //was 324
 	peakTorque = 2450; //was 1684
 	crew = "SOR_Engineer_D";
@@ -496,7 +605,7 @@ class SOR_USMC_rhsusf_M978A4_BKIT_usarmy_wd : rhsusf_M978A4_BKIT_usarmy_wd
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "M978A4 Fuel";
+	displayName = "[W] M978A4 Fuel";
 	ace_refuel_fuelCargo = 30000;
 	enginePower = 850;  //was 324
 	peakTorque = 2450; //was 1684
@@ -514,7 +623,7 @@ class SOR_USMC_rhsusf_M977A4_REPAIR_BKIT_M2_usarmy_wd : rhsusf_M977A4_REPAIR_BKI
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "M977A4 Repair M2";
+	displayName = "[W] M977A4 Repair M2";
 	ace_cargo_space = 16;
 	enginePower = 850;  //was 324
 	peakTorque = 2450; //was 1684
@@ -532,7 +641,7 @@ class SOR_USMC_rhsusf_M977A4_AMMO_BKIT_M2_usarmy_d : rhsusf_M977A4_AMMO_BKIT_M2_
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "M977A4 Ammo M2 [D]";
+	displayName = "[D] M977A4 Ammo M2";
 	enginePower = 850;  //was 324
 	peakTorque = 2450; //was 1684
 	crew = "SOR_Engineer_D";
@@ -549,7 +658,7 @@ class SOR_USMC_rhsusf_M978A4_BKIT_usarmy_d : rhsusf_M978A4_BKIT_usarmy_d
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "M978A4 Fuel [D]";
+	displayName = "[D] M978A4 Fuel";
 	ace_refuel_fuelCargo = 30000;
 	enginePower = 850;  //was 324
 	peakTorque = 2450; //was 1684
@@ -567,7 +676,7 @@ class SOR_USMC_rhsusf_M977A4_REPAIR_BKIT_M2_usarmy_d : rhsusf_M977A4_REPAIR_BKIT
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "M977A4 Repair M2 [D]";
+	displayName = "[D] M977A4 Repair M2";
 	ace_cargo_space = 16;
 	enginePower = 850;  //was 324
 	peakTorque = 2450; //was 1684
@@ -587,7 +696,7 @@ class SOR_USMC_B_MBT_01_arty_F : B_MBT_01_arty_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "Sholef SPH 155mm";
+	displayName = "[D] Sholef SPH 155mm";
 	class TransportItems
 	{
 		item_xx(ACE_FieldDressing,10);
@@ -611,7 +720,7 @@ class SOR_USMC_B_MBT_01_mlrs_F : B_MBT_01_mlrs_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "MLRS 230mm";
+	displayName = "[D] MLRS 230mm";
 	class TransportItems
 	{
 		item_xx(ACE_FieldDressing,10);
@@ -637,7 +746,7 @@ class SOR_USMC_B_APC_Tracked_01_AA_F : B_APC_Tracked_01_AA_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Vehicles";
-	displayName = "Merkava ADA";
+	displayName = "[D] Merkava ADA";
 	class TransportItems
 	{
 		item_xx(ACE_FieldDressing,10);

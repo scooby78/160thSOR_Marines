@@ -12,7 +12,7 @@
 	class B_Boat_Transport_01_F;
 	class B_SDV_01_F;
 
-class SOR_USMC_B_Boat_Armed_01_minigun_F : B_Boat_Armed_01_minigun_F
+class SOR_USMC_BOAT_RIVERINE : B_Boat_Armed_01_minigun_F
 	{
 		faction = SOR_Faction_M;
 		displayName = "Riverine SOC-R";
@@ -26,7 +26,7 @@ class SOR_USMC_B_Boat_Armed_01_minigun_F : B_Boat_Armed_01_minigun_F
 	    };
 	};
 
-class SOR_USMC_I_C_Boat_Transport_02_F : I_C_Boat_Transport_02_F
+class SOR_USMC_BOAT_SEAFORCE : I_C_Boat_Transport_02_F
 	{
 		faction = SOR_Faction_M;
 		displayName = "Sea Force 700";
@@ -41,7 +41,7 @@ class SOR_USMC_I_C_Boat_Transport_02_F : I_C_Boat_Transport_02_F
 	    };
 	};
 
-class SOR_USMC_rhsusf_mkvsoc : rhsusf_mkvsoc
+class SOR_USMC_BOAT_MKVSOC : rhsusf_mkvsoc
 	{
 		faction = SOR_Faction_M;
 		vehicleclass = "SOR_USMC_Boats";
@@ -57,7 +57,7 @@ class SOR_USMC_rhsusf_mkvsoc : rhsusf_mkvsoc
 	    };
 	};
 
-class SOR_USMC_C_Scooter_Transport_01_F : C_Scooter_Transport_01_F
+class SOR_USMC_BOAT_JETSKI : C_Scooter_Transport_01_F
 	{
 		faction = SOR_Faction_M;
 		displayName = "Yamaha VX Sport";
@@ -74,7 +74,7 @@ class SOR_USMC_C_Scooter_Transport_01_F : C_Scooter_Transport_01_F
 	    };
 	};
 
-class SOR_USMC_V_B_Boat_Transport_01_F : B_Boat_Transport_01_F
+class SOR_USMC_BOAT_RHIB_VIPER : B_Boat_Transport_01_F
     {
 	    faction = SOR_Faction_M;
 	    displayName = "470 Impact RHIB [Viper]";
@@ -103,7 +103,7 @@ class SOR_USMC_V_B_Boat_Transport_01_F : B_Boat_Transport_01_F
 	    };
     };
 
-class SOR_USMC_B_Boat_Transport_01_F : B_Boat_Transport_01_F
+class SOR_USMC_BOAT_RHIB_INFY : B_Boat_Transport_01_F
     {
 	    faction = SOR_Faction_M;
 	    displayName = "470 Impact RHIB";
@@ -127,7 +127,7 @@ class SOR_USMC_B_Boat_Transport_01_F : B_Boat_Transport_01_F
 	    };
     };
 
-    class SOR_USMC_B_SDV_01_F : B_SDV_01_F
+    class SOR_USMC_BOAT_SDV_VIPER : B_SDV_01_F
     {
 	    faction = SOR_Faction_M;
 	    vehicleclass = "SOR_USMC_Boats";

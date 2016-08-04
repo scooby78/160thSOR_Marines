@@ -14,14 +14,13 @@ class rhs_weap_mk18_grip_KAC_wd;
 class rhs_weap_mk18_grip_KAC_d;
 class rhs_weap_m4a1_blockII_grip_KAC;
 class rhs_weap_mk18;
-class rhs_weap_m4_pmag;
+class rhs_weap_m4a1_carryhandle;
+class rhs_weap_m4a1_blockII_KAC_bk;
 
 class rhs_weap_m27iar_grip;
 class rhs_weap_m249_pip_S_para;
 
 class rhs_weap_m240G;
-
-class rhsusf_weap_MP7A1_base_f;
 
 class rhs_weap_M107_w;
 class rhs_weap_m24sws_blk;
@@ -31,7 +30,7 @@ class hgun_P07_F;
 
     ////////////////////Designated Marksman Rifles////////////////////
 
-    class 160_rhs_weap_m14ebrri_leupold : rhs_weap_m14ebrri
+    class SOR_USMC_WEAP_M14EBR : rhs_weap_m14ebrri
 	{
 		class LinkedItems
 		{
@@ -55,7 +54,7 @@ class hgun_P07_F;
 
 	////////////////////Assault Rifles/Carbines////////////////////
 
-	class 160_rhs_weap_mk18_grip_bk_acog : rhs_weap_mk18_grip_bk //Infantry//
+	class SOR_USMC_WEAP_MK18_GRIP : rhs_weap_mk18_grip_bk //Infantry//
 	{
 		class LinkedItems
 		{
@@ -77,7 +76,7 @@ class hgun_P07_F;
 		};
 	};
 
-	class 160_rhs_weap_mk18_m320_acog : rhs_weap_mk18_m320 //Infantry//
+	class SOR_USMC_WEAP_MK18_M320 : rhs_weap_mk18_m320 //Infantry//
 	{
 		class LinkedItems
 		{
@@ -94,7 +93,7 @@ class hgun_P07_F;
 		};
 	};
 
-	class 160_rhs_weap_mk18_grip_KAC_wd_acog : rhs_weap_mk18_grip_KAC_wd //Viper Woodland//
+	class SOR_USMC_WEAP_MK18_GRIP_VIPER_W : rhs_weap_mk18_grip_KAC_wd //Viper Woodland//
 	{
 		class LinkedItems
 		{
@@ -121,7 +120,7 @@ class hgun_P07_F;
 		};
 	};
 
-	class 160_rhs_weap_mk18_grip_KAC_d_acog : rhs_weap_mk18_grip_KAC_d //Viper Desert//
+	class SOR_USMC_WEAP_MK18_GRIP_VIPER_D : rhs_weap_mk18_grip_KAC_d //Viper Desert//
 	{
 		class LinkedItems
 		{
@@ -148,7 +147,7 @@ class hgun_P07_F;
 		};
 	};
 
-	class 160_rhs_weap_m4a1_blockII_grip_KAC_eotech : rhs_weap_m4a1_blockII_grip_KAC //Parajumper//
+	class SOR_USMC_WEAP_M4A1_BLOCK2_GRIP : rhs_weap_m4a1_blockII_grip_KAC //Parajumper//
 	{
 		class LinkedItems
 		{
@@ -175,7 +174,7 @@ class hgun_P07_F;
 		};
 	};
 
-	class 160_rhs_weap_mk18_eotech : rhs_weap_mk18 //Mech Crew + Airbourne Crew//
+	class SOR_USMC_WEAP_MK18_CREW : rhs_weap_mk18 //Mech Crew + Airbourne Crew//
 	{
 		class LinkedItems
 		{
@@ -187,19 +186,19 @@ class hgun_P07_F;
 		};
 	};
 
-	class 160_rhs_weap_m4_pmag_eotech : rhs_weap_m4_pmag //For vehicles//
+	class SOR_USMC_WEAP_M4_VEH : rhs_weap_m4a1_carryhandle //For vehicles//
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_eotech_552";
+				item = "rhsusf_acc_ACOG2_USMC_3d";
 				slot = "CowsSlot";
 			};
 		};
 	};
 
-	class 160_rhs_weap_mk18_cco : rhs_weap_mk18 //Blacksmith//
+	class SOR_USMC_WEAP_MK18_BLACKSMITH : rhs_weap_mk18 //Blacksmith//
 	{
 		class LinkedItems
 		{
@@ -216,9 +215,26 @@ class hgun_P07_F;
 		};
 	};
 
+	class SOR_USMC_WEAP_M4A1_BLOCK2_FAC : rhs_weap_m4a1_blockII_KAC_bk //FAC//
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = "rhsusf_acc_ACOG2_USMC";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc
+			{
+				item = "rhsusf_acc_anpeq15_bk_top";
+				slot = "PointerSlot";
+			};
+		};
+	};
+
 	////////////////////Squad Automatic Weapons////////////////////
 
-	class 160_rhs_weap_m27iar_grip_eotech : rhs_weap_m27iar_grip //Infanty//
+	class SOR_USMC_WEAP_M27IAR_GRIP : rhs_weap_m27iar_grip //Infanty//
 	{
 		class LinkedItems
 		{
@@ -240,7 +256,7 @@ class hgun_P07_F;
 		};
 	};
 
-	class 160_rhs_weap_m249_pip_S_para_eotech : rhs_weap_m249_pip_S_para //Viper//
+	class SOR_USMC_WEAP_M249_VIPER : rhs_weap_m249_pip_S_para //Viper//
 	{
 		class LinkedItems
 		{
@@ -254,7 +270,7 @@ class hgun_P07_F;
 
 	////////////////////Light Machine Guns////////////////////
 
-    class 160_rhs_weap_m240G_acog : rhs_weap_m240G //Infantry//
+    class SOR_USMC_WEAP_M240G : rhs_weap_m240G //Infantry//
 	{
 		class LinkedItems
 		{
@@ -268,21 +284,9 @@ class hgun_P07_F;
 
 	////////////////////Sub Machine Guns////////////////////
 
-	class 160_rhsusf_weap_MP7A1_base_f_eotech : rhsusf_weap_MP7A1_base_f //Airbourne//
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "rhsusf_acc_eotech_552";
-				slot = "CowsSlot";
-			};
-		};
-	};
-
 	////////////////////Sniper Rifles////////////////////
 
-	class 160_rhs_weap_M107_w_premier : rhs_weap_M107_w //Viper//
+	class SOR_USMC_WEAP_M107_VIPER : rhs_weap_M107_w //Viper//
 	{
 		class LinkedItems
 		{
@@ -294,7 +298,7 @@ class hgun_P07_F;
 		};
 	};
 
-	class 160_rhs_weap_m24sws_blk_premier : rhs_weap_m24sws_blk //Sniper//
+	class SOR_USMC_WEAP_M24 : rhs_weap_m24sws_blk //Sniper//
 	{
 		class LinkedItems
 		{
@@ -314,7 +318,7 @@ class hgun_P07_F;
 
 	////////////////////Pistols////////////////////
 
-	class 160_hgun_P07_F_viper : hgun_P07_F //Everyone//
+	class SOR_USMC_WEAP_P07_VIPER : hgun_P07_F //Viper//
 	{
 		class LinkedItems
 		{

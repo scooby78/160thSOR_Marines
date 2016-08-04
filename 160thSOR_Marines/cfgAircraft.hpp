@@ -7,8 +7,8 @@
 class rhsusf_CH53E_USMC_D;
 class RHS_UH1Y_FFAR_d;
 class RHS_UH1Y_d;
-class RHS_UH1Y_UNARMED_d;
 class RHS_UH1Y_d_GS;
+class RHS_UH60M_MEV2;
 
 class RHS_AH1Z;
 class RHS_AH1Z_GS;
@@ -32,7 +32,7 @@ class RHS_C130J;
 
     ////////////////////Transport Helicopters////////////////////
 
-class SOR_USMC_RHS_UH1Y_d : RHS_UH1Y_d
+class SOR_USMC_HELI_UH1Y_FFAR_DG : RHS_UH1Y_d
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -131,7 +131,7 @@ class SOR_USMC_RHS_UH1Y_d : RHS_UH1Y_d
 	};
 	class TransportWeapons
 	{
-			weap_xx(160_rhs_weap_m4_pmag_eotech,2)
+			weap_xx(SOR_USMC_WEAP_M4_VEH,2)
 	};
 	class TransportMagazines
 	{
@@ -143,7 +143,7 @@ class SOR_USMC_RHS_UH1Y_d : RHS_UH1Y_d
 	};
 };
 
-class SOR_USMC_RHS_UH1Y_FFAR_d : RHS_UH1Y_FFAR_d
+class SOR_USMC_HELI_UH1Y_FFAR : RHS_UH1Y_FFAR_d
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -242,7 +242,7 @@ class SOR_USMC_RHS_UH1Y_FFAR_d : RHS_UH1Y_FFAR_d
 	};
 	class TransportWeapons
 	{
-			weap_xx(160_rhs_weap_m4_pmag_eotech,2)
+			weap_xx(SOR_USMC_WEAP_M4_VEH,2)
 	};
 	class TransportMagazines
 	{
@@ -254,7 +254,7 @@ class SOR_USMC_RHS_UH1Y_FFAR_d : RHS_UH1Y_FFAR_d
 	};
 };
 
-class SOR_USMC_RHS_UH1Y_d_GS : RHS_UH1Y_d_GS
+class SOR_USMC_HELI_UH1Y_GS_DG : RHS_UH1Y_d_GS
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -353,7 +353,7 @@ class SOR_USMC_RHS_UH1Y_d_GS : RHS_UH1Y_d_GS
 	};
 	class TransportWeapons
 	{
-			weap_xx(160_rhs_weap_m4_pmag_eotech,2)
+			weap_xx(SOR_USMC_WEAP_M4_VEH,2)
 	};
 	class TransportMagazines
 	{
@@ -365,126 +365,7 @@ class SOR_USMC_RHS_UH1Y_d_GS : RHS_UH1Y_d_GS
 	};
 };
 
-class SOR_USMC_RHS_UH1Y_UNARMED_d_MEV : RHS_UH1Y_UNARMED_d
-{
-	faction = SOR_Faction_M;
-	vehicleclass = "SOR_USMC_Aircraft";
-	displayName = "UH-1Y [MEV] (C2/P9)";
-	driverCanEject = 1;
-	ejectDeadCargo = 1;
-	crewCrashProtection = 0.20;
-	altFullForce = 5900
-	altNoForce = 6100
-	class UserActions
-	{
-		class SOR_AutoDrop
-		{
-			displayName = "<t color='#008000'>Start Drop!</t>";
-			displayNameDefault = "<t color='#008000'>Start Drop!</t>";
-			condition = "(player == driver this)&&((getPosATL this) select 2 > 200)";
-			priority = 1;
-			showWindow = 0;
-			hideOnUse = 1;
-			radius= 8;
-			position = "";
-			onlyForPlayer = 0;
-			statement = "[this] spawn sor_fnc_autoparadrop";
-		};
-		class CloseCargoDoor
-		{
-			condition = "this doorPhase 'doorRB' > 0 and (alive this) and player in this;";
-			displayName = "Close right cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorRB', 0];this animate ['doorHandler_R',0];";
-		};
-		class CloseCargoLDoor
-		{
-			condition = "this doorPhase 'doorLB' > 0 and (alive this) and player in this;";
-			displayName = "Close left cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorLB', 0];this animate ['doorHandler_L',0];";
-		};
-		class OpenCargoDoor
-		{
-			condition = "this doorPhase 'doorRB' == 0 and (alive this) and player in this;";
-			displayName = "Open right cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorRB', 1];this animate ['doorHandler_R',1]";
-		};
-		class OpenCargoLDoor
-		{
-			condition = "this doorPhase 'doorLB' == 0 and (alive this) and player in this;";
-			displayName = "Open left cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorLB', 1];this animate ['doorHandler_L',1];";
-		};
-		class HUDoff
-		{
-			condition = "(player==driver this)and(this animationphase 'HUDAction' !=1)";
-			displayName = "HUD on";
-			displayNameDefault = "HUD on";
-			onlyForPlayer = 1;
-			position = "zamerny";
-			radius = 1;
-			statement = "this animate ['HUDAction',1];this animate ['HUDAction_1',1]";
-		};
-		class HUDon
-		{
-			condition = "(player==driver this)and(this animationphase 'HUDAction' !=0)";
-			displayName = "HUD off";
-			displayNameDefault = "HUD off";
-			onlyForPlayer = 1;
-			position = "zamerny";
-			radius = 1;
-			statement = "this animate ['HUDAction',0];this animate ['HUDAction_1',0]";
-		};
-		class TogglePIP
-		{
-			condition = "( (call rhsusf_fnc_findPlayer)==driver this) or ((call rhsusf_fnc_findPlayer)==gunner this) ";
-			displayName = "Toggle monitor";
-			displayNameDefault = "Toggle monitor";
-			onlyForPlayer = 1;
-			position = "zamerny";
-			radius = 1;
-			statement = "call rhs_fnc_uh1_toggleCam";
-		};
-	};
-	class TransportItems
-	{
-	    item_xx(ACE_Fielddressing,24)
-		item_xx(ACE_morphine,16)
-		item_xx(ACE_epinephrine,16)
-		item_xx(G_Diving,3)
-		item_xx(U_B_Wetsuit,3)
-		item_xx(V_RebreatherB,3)
-	};
-	class TransportWeapons
-	{
-		weap_xx(160_rhs_weap_m14ebrri_leupold,1)
-	};
-	class TransportMagazines
-	{
-		mag_xx(rhsusf_20Rnd_762x51_m993_Mag,6)
-	};
-	class TransportBackpacks
-	{
-		pack_xx(USMC_SOR_Repair_Pack_M,1)
-	};
-};
-
-class SOR_USMC_rhsusf_CH53E_USMC_D : rhsusf_CH53E_USMC_D
+class SOR_USMC_HELI_CH53E : rhsusf_CH53E_USMC_D
 {
 	scope = 2;
 	faction = SOR_Faction_M;
@@ -564,7 +445,7 @@ class SOR_USMC_rhsusf_CH53E_USMC_D : rhsusf_CH53E_USMC_D
 	};
 	class TransportWeapons
 	{
-		weap_xx(160_rhs_weap_m4_pmag_eotech,2)
+		weap_xx(SOR_USMC_WEAP_M4_VEH,2)
 	};
 	class TransportMagazines
 	{
@@ -576,9 +457,40 @@ class SOR_USMC_rhsusf_CH53E_USMC_D : rhsusf_CH53E_USMC_D
 	};
 };
 
+class SOR_USMC_HELI_UH60_MEV : RHS_UH60M_MEV2
+{
+	scope = 2;
+	faction = SOR_Faction_M;
+	altFullForce = 5600
+	altNoForce = 6000
+	vehicleclass = "SOR_USMC_Aircraft";
+	displayName = "UH60 MEV (C5/P7)";
+	class TransportItems
+	{
+	    item_xx(ACE_Fielddressing,24)
+		item_xx(ACE_morphine,16)
+		item_xx(ACE_epinephrine,16)
+		item_xx(G_Diving,3)
+		item_xx(U_B_Wetsuit,3)
+		item_xx(V_RebreatherB,3)
+	};
+	class TransportWeapons
+	{
+		weap_xx(SOR_USMC_WEAP_M14EBR,1)
+	};
+	class TransportMagazines
+	{
+		mag_xx(rhsusf_20Rnd_762x51_m993_Mag,6)
+	};
+	class TransportBackpacks
+	{
+		pack_xx(USMC_SOR_Repair_Pack_M,1)
+	};
+};
+
     ////////////////////Attack Helicopters////////////////////
 
-class SOR_USMC_RHS_AH1Z : RHS_AH1Z
+class SOR_USMC_HELI_AH1Z : RHS_AH1Z
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -592,11 +504,11 @@ class SOR_USMC_RHS_AH1Z : RHS_AH1Z
 	};
 	class TransportWeapons
 	{
-			weap_xx(160_rhs_weap_m4_pmag_eotech,2)
+		weap_xx(SOR_USMC_WEAP_M4_VEH,2)
 	};
 	class TransportMagazines
 	{
-			mag_xx(30Rnd_556x45_Stanag,6)
+		mag_xx(30Rnd_556x45_Stanag,6)
 	};
 	class TransportBackpacks
 	{
@@ -604,7 +516,7 @@ class SOR_USMC_RHS_AH1Z : RHS_AH1Z
 	};
 };
 
-class SOR_USMC_RHS_AH1Z_GS : RHS_AH1Z_GS
+class SOR_USMC_HELI_AH1Z_GS : RHS_AH1Z_GS
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -618,11 +530,11 @@ class SOR_USMC_RHS_AH1Z_GS : RHS_AH1Z_GS
 	};
 	class TransportWeapons
 	{
-			weap_xx(160_rhs_weap_m4_pmag_eotech,2)
+		weap_xx(SOR_USMC_WEAP_M4_VEH,2)
 	};
 	class TransportMagazines
 	{
-			mag_xx(30Rnd_556x45_Stanag,6)
+		mag_xx(30Rnd_556x45_Stanag,6)
 	};
 	class TransportBackpacks
 	{
@@ -630,7 +542,7 @@ class SOR_USMC_RHS_AH1Z_GS : RHS_AH1Z_GS
 	};
 };
 
-class SOR_USMC_RHS_AH1Z_CS : RHS_AH1Z_CS
+class SOR_USMC_HELI_AH1Z_CS : RHS_AH1Z_CS
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -644,11 +556,11 @@ class SOR_USMC_RHS_AH1Z_CS : RHS_AH1Z_CS
 	};
 	class TransportWeapons
 	{
-			weap_xx(160_rhs_weap_m4_pmag_eotech,2)
+		weap_xx(SOR_USMC_WEAP_M4_VEH,2)
 	};
 	class TransportMagazines
 	{
-			mag_xx(30Rnd_556x45_Stanag,6)
+		mag_xx(30Rnd_556x45_Stanag,6)
 	};
 	class TransportBackpacks
 	{
@@ -658,7 +570,7 @@ class SOR_USMC_RHS_AH1Z_CS : RHS_AH1Z_CS
 
     ////////////////////VTOLS////////////////////
 
-class SOR_USMC_B_T_VTOL_01_armed_F : B_T_VTOL_01_armed_F
+class SOR_USMC_VTOL_V44_ARMED : B_T_VTOL_01_armed_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -673,11 +585,11 @@ class SOR_USMC_B_T_VTOL_01_armed_F : B_T_VTOL_01_armed_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(160_rhs_weap_m4_pmag_eotech,4)
+		weap_xx(SOR_USMC_WEAP_M4_VEH,4)
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_556x45_Stanag,15)
+		mag_xx(30Rnd_556x45_Stanag,16)
 	};
 	class TransportBackpacks
 	{
@@ -685,7 +597,7 @@ class SOR_USMC_B_T_VTOL_01_armed_F : B_T_VTOL_01_armed_F
 	};
 };
 
-class SOR_USMC_B_T_VTOL_01_infantry_F : B_T_VTOL_01_infantry_F
+class SOR_USMC_VTOL_V44_TRANSPORT : B_T_VTOL_01_infantry_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -700,7 +612,7 @@ class SOR_USMC_B_T_VTOL_01_infantry_F : B_T_VTOL_01_infantry_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(160_rhs_weap_m4_pmag_eotech,2)
+		weap_xx(SOR_USMC_WEAP_M4_VEH,2)
 	};
 	class TransportMagazines
 	{
@@ -712,7 +624,7 @@ class SOR_USMC_B_T_VTOL_01_infantry_F : B_T_VTOL_01_infantry_F
 	};
 };
 
-class SOR_USMC_B_T_VTOL_01_vehicle_F : B_T_VTOL_01_vehicle_F
+class SOR_USMC_VTOL_V44_CARGO : B_T_VTOL_01_vehicle_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -727,7 +639,7 @@ class SOR_USMC_B_T_VTOL_01_vehicle_F : B_T_VTOL_01_vehicle_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(160_rhs_weap_m4_pmag_eotech,2)
+		weap_xx(SOR_USMC_WEAP_M4_VEH,2)
 	};
 	class TransportMagazines
 	{
@@ -741,7 +653,7 @@ class SOR_USMC_B_T_VTOL_01_vehicle_F : B_T_VTOL_01_vehicle_F
 
     ////////////////////Drones////////////////////
 
-class SOR_USMC_B_T_UAV_03_F : B_T_UAV_03_F
+class SOR_USMC_UAV_FALCON : B_T_UAV_03_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -758,7 +670,7 @@ class SOR_USMC_B_T_UAV_03_F : B_T_UAV_03_F
 	};
 };
 
-class SOR_USMC_B_UAV_02_F : B_UAV_02_F
+class SOR_USMC_UAV_YABHON_AGM : B_UAV_02_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -776,7 +688,7 @@ class SOR_USMC_B_UAV_02_F : B_UAV_02_F
 	};
 };
 
-class SOR_USMC_B_UAV_02_CAS_F : B_UAV_02_CAS_F
+class SOR_USMC_UAV_YABHON_GBU : B_UAV_02_CAS_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -794,7 +706,7 @@ class SOR_USMC_B_UAV_02_CAS_F : B_UAV_02_CAS_F
 	};
 };
 
-class SOR_USMC_B_UAV_01_F : B_UAV_01_F
+class SOR_USMC_UAV_DARTER : B_UAV_01_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -805,7 +717,7 @@ class SOR_USMC_B_UAV_01_F : B_UAV_01_F
 	class TransportBackpacks{};
 };
 
-class SOR_USMC_B_UGV_01_F : B_UGV_01_F
+class SOR_USMC_UAV_UGV : B_UGV_01_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -822,7 +734,7 @@ class SOR_USMC_B_UGV_01_F : B_UGV_01_F
 	};
 };
 
-class SOR_USMC_B_UGV_01_rcws_F : B_UGV_01_rcws_F
+class SOR_USMC_UAV_UGV_ARMED : B_UGV_01_rcws_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -841,7 +753,7 @@ class SOR_USMC_B_UGV_01_rcws_F : B_UGV_01_rcws_F
 
     ////////////////////Fixed Wing////////////////////
 
-class SOR_USMC_rhsusf_f22 : rhsusf_f22
+class SOR_USMC_FWING_F22 : rhsusf_f22
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
@@ -862,10 +774,12 @@ class SOR_USMC_rhsusf_f22 : rhsusf_f22
 	};
 };
 
-class SOR_USMC_RHS_A10 : RHS_A10
+class SOR_USMC_FWING_A10A_CAS : RHS_A10
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
+	hiddenSelections[] = {"Camo1","Camo2"};
+	hiddenSelectionsTextures[] = {"160thSOR_Marines\a10\a10_01_co_green_shark.paa","160thSOR_Marines\a10\a10_02_co_green.paa"};
 	armor = 100;
 	fuelCapacity = 600;
 	maxSpeed = 706
@@ -884,10 +798,12 @@ class SOR_USMC_RHS_A10 : RHS_A10
 	};
 };
 
-class SOR_USMC_RHS_A10_AT : RHS_A10_AT
+class SOR_USMC_FWING_A10A_AT : RHS_A10_AT
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
+	hiddenSelections[] = {"Camo1","Camo2"};
+	hiddenSelectionsTextures[] = {"160thSOR_Marines\a10\a10_01_co_green_hog.paa","160thSOR_Marines\a10\a10_02_co_green.paa"};
 	armor = 100;
 	fuelCapacity = 600;
 	maxSpeed = 706
@@ -906,10 +822,12 @@ class SOR_USMC_RHS_A10_AT : RHS_A10_AT
 	};
 };
 
-class SOR_USMC_RHS_C130J : RHS_C130J
+class SOR_USMC_FWING_C130J : RHS_C130J
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
+	hiddenSelections[] = {"camo1","camo2"};
+	hiddenSelectionsTextures[] = {"160thSOR_Marines\c130\c130j_body_co.paa","160thSOR_Marines\c130\c130j_wings_co.paa"};
 	armor = 120;
 	fuelCapacity = 1000;
 	altFullForce = 8500

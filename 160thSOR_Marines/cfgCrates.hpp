@@ -61,8 +61,8 @@
 		class TransportItems{};
 		class TransportWeapons
 		{
-			weap_xx(160_rhs_weap_mk18_grip_bk_acog,6)
-			weap_xx(160_rhs_weap_mk18_m320_acog,2)
+			weap_xx(SOR_USMC_WEAP_MK18_GRIP,6)
+			weap_xx(SOR_USMC_WEAP_MK18_M320,2)
 		};
 		class TransportMagazines{};
 		class TransportBackpacks{};
@@ -224,7 +224,8 @@
 		class TransportWeapons
 		{
 			weap_xx(rhs_weap_M136_hedp,2)
-			weap_xx(160_rhs_weap_mk18_grip_KAC_wd_acog,1)
+			weap_xx(SOR_USMC_WEAP_MK18_GRIP_VIPER_W,1)
+			weap_xx(SOR_USMC_WEAP_MK18_GRIP_VIPER_D,1)
 		};
 		class TransportMagazines
 		{
@@ -246,8 +247,8 @@
 		};
 		class TransportWeapons
 		{
-			weap_xx(160_rhs_weap_m249_pip_S_para_eotech,2)
-			weap_xx(160_rhs_weap_M107_w_premier,1)
+			weap_xx(SOR_USMC_WEAP_M249_VIPER,2)
+			weap_xx(SOR_USMC_WEAP_M107_VIPER,1)
 		};
 		class TransportMagazines
 		{
@@ -355,6 +356,27 @@
 		};
 	};
 
+	class SOR_USMC_Eagle_box : Box_NATO_Uniforms_F
+	{
+		editorCategory = "SOR_USMC_Cat_Supplies";
+		editorSubcategory = "SOR_USMC_SubCat_SupplyBoxes";
+		vehicleClass = "SOR_USMC_SupplyBoxes";
+		faction = SOR_USMC_Faction_CRATE;
+		displayName = "Box [Eagle]";
+		class TransportItems
+		{
+			item_xx(V_Rangemaster_belt,5)
+			item_xx(H_PilotHelmetFighter_B,5)
+			item_xx(U_B_PilotCoveralls,5)
+		};
+		class TransportWeapons{};
+		class TransportMagazines{};
+		class TransportBackpacks
+		{
+			pack_xx(B_Parachute,5)
+		};
+	};
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////CRATES
 
 	class SOR_USMC_Ammo_crate : B_CargoNet_01_ammo_F
@@ -396,7 +418,7 @@
 		class TransportWeapons{};
 		class TransportMagazines
 		{
-			mag_xx(30Rnd_556x45_Stanag,55)
+			mag_xx(30Rnd_556x45_Stanag,60)
 			mag_xx(rhsusf_100Rnd_762x51_m62_tracer,5)
 			mag_xx(1Rnd_HE_Grenade_shell,5)
 			mag_xx(1Rnd_Smoke_Grenade_shell,5)

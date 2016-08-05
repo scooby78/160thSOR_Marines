@@ -727,7 +727,7 @@ class CfgGroups
 				};
 			    class SOR_FACGroup1_M
 				{
-					name = "USAF Forward Air Controllers";
+					name = "USAF TACP";
 					faction = "SOR_Faction_M";
 					side = 1;
 					rarityGroup = 0.75;
@@ -1468,7 +1468,7 @@ class CfgGroups
 				};
 			    class SOR_FACGroup1_D_M
 				{
-					name = "USAF Forward Air Controllers";
+					name = "USAF TACP";
 					faction = "SOR_Faction_M";
 					side = 1;
 					rarityGroup = 0.75;

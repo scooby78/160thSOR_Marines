@@ -2237,14 +2237,14 @@ class SOR_USMC_RiflemanAT_D : B_soldier_AT_F
 	linkedItems[] =
 	{
 		"rhsusf_spc_rifleman",
-		"rhsusf_mich_helmet_marpatwd_norotos_headset",
+		"rhsusf_mich_helmet_marpatd_headset",
 		"G_Balaclava_TI_G_blk_F",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_rifleman",
-		"rhsusf_mich_helmet_marpatwd_norotos_headset",
+		"rhsusf_mich_helmet_marpatd_headset",
 		"G_Balaclava_TI_G_blk_F",
 		Standard_Equipment
 	};

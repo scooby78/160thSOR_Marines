@@ -17,11 +17,13 @@ class tf_rt1523g_bwmod;
 
 class rhsusf_assault_eagleaiii_coy;
 class rhsusf_assault_eagleaiii_ocp;
+class B_Kitbag_rgr;
 
 class tfw_ilbe_coy;
 class tfw_ilbe_blade_coy;
 class tfw_ilbe_dd_coy;
 class tfw_ilbe_gr;
+class tfw_ilbe_dd_gr;
 
 
 //USMC Medic Pack
@@ -45,6 +47,24 @@ class USMC_SOR_Medic_Pack_M : rhsusf_assault_eagleaiii_coy
 class USMC_SOR_PJMedicPack_M : rhsusf_assault_eagleaiii_ocp
 {
 	displayName = "(2021 USMC) Parajumper Pack";
+	class TransportMagazines
+	{
+		mag_xx(SmokeShell,5);
+		mag_xx(SmokeShellGreen,2);
+	};
+	class TransportItems
+	{
+		item_xx(ACE_bloodIV_500,6);
+		item_xx(ACE_FieldDressing,30);
+		item_xx(ACE_morphine,20);
+		item_xx(ACE_epinephrine,20);
+	};
+};
+
+//USMC Parajumper Pack Woodland
+class USMC_SOR_PJMedicPack_W_M : B_Kitbag_rgr
+{
+	displayName = "(2021 USMC) Parajumper Pack W";
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,5);
@@ -336,6 +356,19 @@ class USMC_SOR_Spotter_Radio_ILBE : tfw_ilbe_blade_coy
 class USMC_SOR_Mech_Radio_ILBE : tfw_ilbe_dd_coy
 {
 	displayName = "(2021 USMC) Commander ILBE Pack";
+	class TransportItems{};
+	class TransportMagazines
+	{
+		mag_xx(SmokeShellRed,1);
+		mag_xx(SmokeShellGreen,2);
+		mag_xx(SmokeShell,2);
+	};
+};
+
+//USMC Custom Mech Crew Commander Pack Woodland
+class USMC_SOR_Mech_Radio_W_ILBE : tfw_ilbe_dd_gr
+{
+	displayName = "(2021 USMC) Commander ILBE Pack W";
 	class TransportItems{};
 	class TransportMagazines
 	{

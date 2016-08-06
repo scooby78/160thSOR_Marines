@@ -859,17 +859,18 @@ class SOR_USMC_MEVPilot_W : SOR_USMC_HeliPilot_W
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Infantry_AIR";
 	displayName = "(A) [W] USAF MEV Pilot";
-	uniformClass = "rhs_uniform_g3_mc";
+	uniformClass = "rhs_uniform_g3_m81";
+	backpack = "USMC_SOR_Mech_Radio_W_ILBE";
 	linkedItems[] =
 	{
-		"rhsusf_spcs_ocp",
+		"V_PlateCarrier2_rgr",
 		"H_CrewHelmetHeli_O",
 		"ItemGPS",
 		Airborne_Equipment
 	};
 	respawnLinkedItems[] =
 	{
-		"rhsusf_spcs_ocp",
+		"V_PlateCarrier2_rgr",
 		"H_CrewHelmetHeli_O",
 		"ItemGPS",
 		Airborne_Equipment
@@ -881,8 +882,8 @@ class SOR_USMC_ParaJumper_W : B_recon_medic_F
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Infantry_AIR";
 	displayName = "(A) [W] USAF Pararescue Jumper";
-	backpack = "USMC_SOR_PJMedicPack_M";
-	uniformClass = "rhs_uniform_g3_mc";
+	backpack = "USMC_SOR_PJMedicPack_W_M";
+	uniformClass = "rhs_uniform_g3_m81";
 	uavHacker = 1; // allows UAV control
 	engineer = 1; // allows unit to repair
 	weapons[] = {"SOR_USMC_WEAP_M4A1_BLOCK2_GRIP", "hgun_P07_F","Throw", "Put","Laserdesignator"};
@@ -915,15 +916,15 @@ class SOR_USMC_ParaJumper_W : B_recon_medic_F
 	};
 	linkedItems[] =
 	{
-		"rhsusf_spcs_ocp_rifleman",
-		"rhsusf_opscore_paint_pelt_nsw_cam",
+		"V_PlateCarrier2_rgr",
+		"rhsusf_opscore_fg_pelt_nsw",
 		"rhs_googles_black",
 		Airborne_Equipment
 	};
 	respawnLinkedItems[] =
 	{
-		"rhsusf_spcs_ocp_rifleman",
-		"rhsusf_opscore_paint_pelt_nsw_cam",
+		"V_PlateCarrier2_rgr",
+		"rhsusf_opscore_fg_pelt_nsw",
 		"rhs_googles_black",
 		Airborne_Equipment
 	};
@@ -951,7 +952,7 @@ class SOR_USMC_ReconLeader_W : B_recon_TL_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Infantry_Recon";
-	uniformClass = "rhs_uniform_g3_rgr";
+	uniformClass = "rhs_uniform_FROG01_wd";
 	displayName = "(I) [W] Viper Lead";
 	accuracy = 3.5;
 //	cost = 500000;
@@ -988,16 +989,16 @@ class SOR_USMC_ReconLeader_W : B_recon_TL_F
 	};
 	linkedItems[] =
 	{
-		"rhsusf_spc_patchless",
-		"rhsusf_opscore_fg_pelt",
-		"G_Balaclava_TI_G_tna_F",
+		"rhsusf_spc_squadleader",
+		"rhsusf_opscore_paint_pelt",
+		"rhs_googles_black",
 		Recon_Equipment
 	};
 	respawnLinkedItems[] =
 	{
-		"rhsusf_spc_patchless",
-		"rhsusf_opscore_fg_pelt",
-		"G_Balaclava_TI_G_tna_F",
+		"rhsusf_spc_squadleader",
+		"rhsusf_opscore_paint_pelt",
+		"rhs_googles_black",
 		Recon_Equipment
 	};
 	class UserActions
@@ -2513,7 +2514,7 @@ class SOR_USMC_ReconLeader_D : B_recon_TL_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Infantry_Recon";
-	uniformClass = "rhs_uniform_g3_tan";
+	uniformClass = "rhs_uniform_FROG01_d";
 	displayName = "(I) [D] Viper Lead";
 	accuracy = 3.5;
 //	cost = 500000;
@@ -2550,16 +2551,16 @@ class SOR_USMC_ReconLeader_D : B_recon_TL_F
 	};
 	linkedItems[] =
 	{
-		"rhsusf_spc_patchless",
+		"rhsusf_spc_squadleader",
 		"rhsusf_opscore_ut_pelt",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Recon_Equipment
 	};
 	respawnLinkedItems[] =
 	{
-		"rhsusf_spc_patchless",
+		"rhsusf_spc_squadleader",
 		"rhsusf_opscore_ut_pelt",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Recon_Equipment
 	};
 	class UserActions

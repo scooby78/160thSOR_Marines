@@ -246,7 +246,7 @@ class SOR_USMC_AirCommand_W : SOR_USMC_Commander_W
 {
 	vehicleclass = "SOR_Infantry_AIR";
 	displayName = "(A) [W] Jupiter";
-    uniformClass = "nomex_olive";
+    uniformClass = "nomex_tan";
 	uavHacker = 1; // allows UAV control
 	engineer = 1; // allows unit to repair
 	weapons[] = {"hgun_ACPC2_F","Throw", "Put"};
@@ -694,7 +694,7 @@ class SOR_USMC_HeliPilot_W : B_Helipilot_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Infantry_AIR";
-	uniformClass = "nomex_olive";
+	uniformClass = "nomex_tan";
 	uavHacker = 1; // allows UAV control
 	engineer = 1; // allows unit to repair
 	displayName = "(A) [W] Heli/VTOL Pilot";
@@ -749,7 +749,7 @@ class SOR_USMC_HeliCrew_W : B_crew_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_Infantry_AIR";
-	uniformClass = "nomex_olive";
+	uniformClass = "nomex_tan";
 	displayName = "(A) [W] Heli Crew";
 	backpack = "USMC_SOR_Repair_Pack_M";
 	uavHacker = 1; // allows UAV control

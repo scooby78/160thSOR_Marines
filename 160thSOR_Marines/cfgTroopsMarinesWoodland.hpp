@@ -450,7 +450,7 @@ class SOR_USMC_SAW_W : B_soldier_AR_F
 	};
 	magazines[] =
 	{
-        V_Mags,
+        V_Mags_SAW,
 		"SmokeShell",
 		"SmokeShell",
 		"SmokeShell",
@@ -458,7 +458,7 @@ class SOR_USMC_SAW_W : B_soldier_AR_F
 	};
 	respawnMagazines[] =
 	{
-        V_Mags,
+        V_Mags_SAW,
 		"SmokeShell",
 		"SmokeShell",
 		"SmokeShell",
@@ -576,7 +576,7 @@ class SOR_USMC_Grenadier_W : B_Soldier_GL_F
 
     ////////////////////Riflemen////////////////////
 
-class SOR_USMC_Rifleman_W : B_Soldier_F
+class SOR_USMC_Rifleman_LMG_AMMO_W : B_Soldier_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Infantry";
@@ -623,7 +623,7 @@ class SOR_USMC_Rifleman_W : B_Soldier_F
 	};
 };
 
-class SOR_USMC_Rifleman_ammo_W : SOR_USMC_Rifleman_W
+class SOR_USMC_Rifleman_SAW_AMMO_W : SOR_USMC_Rifleman_LMG_AMMO_W
 {
 	displayName = "(I) [W] Rifleman M27IAR Ammo Bearer";
 	backpack = "USMC_SOR_Rifleman_SAW_Pack_M";
@@ -1367,14 +1367,14 @@ class SOR_USMC_HMGActual_W : SOR_USMC_Actual_W
 	backpack = "USMC_SOR_Mech_Radio_ILBE";
 };
 
-class SOR_USMC_HMGGunner_W : SOR_USMC_Rifleman_W
+class SOR_USMC_HMGGunner_W : SOR_USMC_Rifleman_LMG_AMMO_W
 {
 	vehicleclass = "SOR_Infantry_Support";
 	displayName = "(S) [W] HMG Gunner";
 	backpack = "RHS_Mk19_Gun_Bag";
 };
 
-class SOR_USMC_HMGCarrier_W : SOR_USMC_Rifleman_W
+class SOR_USMC_HMGCarrier_W : SOR_USMC_Rifleman_LMG_AMMO_W
 {
 	vehicleclass = "SOR_Infantry_Support";
 	displayName = "(S) [W] HMG Carrier";
@@ -1397,14 +1397,14 @@ class SOR_USMC_MORActual_W : SOR_USMC_Actual_W
 	backpack = "USMC_SOR_Mech_Radio_ILBE";
 };
 
-class SOR_USMC_MORGunner_W : SOR_USMC_Rifleman_W
+class SOR_USMC_MORGunner_W : SOR_USMC_Rifleman_LMG_AMMO_W
 {
 	vehicleclass = "SOR_Infantry_Support";
 	displayName = "(S) [W] Mortar Gunner";
 	backpack = "rhs_M252_Gun_Bag";
 };
 
-class SOR_USMC_MORCarrier_W : SOR_USMC_Rifleman_W
+class SOR_USMC_MORCarrier_W : SOR_USMC_Rifleman_LMG_AMMO_W
 {
 	vehicleclass = "SOR_Infantry_Support";
 	displayName = "(S) [W] Mortar Carrier";
@@ -2013,7 +2013,7 @@ class SOR_USMC_SAW_D : B_soldier_AR_F
 	};
 	magazines[] =
 	{
-        V_Mags,
+        V_Mags_SAW,
 		"SmokeShell",
 		"SmokeShell",
 		"SmokeShell",
@@ -2021,7 +2021,7 @@ class SOR_USMC_SAW_D : B_soldier_AR_F
 	};
 	respawnMagazines[] =
 	{
-		V_Mags,
+		V_Mags_SAW,
 		"SmokeShell",
 		"SmokeShell",
 		"SmokeShell",
@@ -2139,7 +2139,7 @@ class SOR_USMC_Grenadier_D : B_Soldier_GL_F
 
     ////////////////////Riflemen////////////////////
 
-class SOR_USMC_Rifleman_D : B_Soldier_F
+class SOR_USMC_Rifleman_LMG_AMMO_D : B_Soldier_F
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Infantry";
@@ -2186,7 +2186,7 @@ class SOR_USMC_Rifleman_D : B_Soldier_F
 	};
 };
 
-class SOR_USMC_Rifleman_ammo_D : SOR_USMC_Rifleman_D
+class SOR_USMC_Rifleman_SAW_AMMO_D : SOR_USMC_Rifleman_LMG_AMMO_D
 {
 	displayName = "(I) [D] Rifleman M27IAR Ammo Bearer";
 	backpack = "USMC_SOR_Rifleman_SAW_Pack_M";
@@ -2929,14 +2929,14 @@ class SOR_USMC_HMGActual_D : SOR_USMC_Actual_D
 	backpack = "USMC_SOR_Mech_Radio_ILBE";
 };
 
-class SOR_USMC_HMGGunner_D : SOR_USMC_Rifleman_D
+class SOR_USMC_HMGGunner_D : SOR_USMC_Rifleman_LMG_AMMO_D
 {
 	vehicleclass = "SOR_Infantry_Support";
 	displayName = "(S) [D] HMG Gunner";
 	backpack = "RHS_Mk19_Gun_Bag";
 };
 
-class SOR_USMC_HMGCarrier_D : SOR_USMC_Rifleman_D
+class SOR_USMC_HMGCarrier_D : SOR_USMC_Rifleman_LMG_AMMO_D
 {
 	vehicleclass = "SOR_Infantry_Support";
 	displayName = "(S) [D] HMG Carrier";
@@ -2959,14 +2959,14 @@ class SOR_USMC_MORActual_D : SOR_USMC_Actual_D
 	backpack = "USMC_SOR_Mech_Radio_ILBE";
 };
 
-class SOR_USMC_MORGunner_D : SOR_USMC_Rifleman_D
+class SOR_USMC_MORGunner_D : SOR_USMC_Rifleman_LMG_AMMO_D
 {
 	vehicleclass = "SOR_Infantry_Support";
 	displayName = "(S) [D] Mortar Gunner";
 	backpack = "rhs_M252_Gun_Bag";
 };
 
-class SOR_USMC_MORCarrier_D : SOR_USMC_Rifleman_D
+class SOR_USMC_MORCarrier_D : SOR_USMC_Rifleman_LMG_AMMO_D
 {
 	vehicleclass = "SOR_Infantry_Support";
 	displayName = "(S) [D] Mortar Carrier";

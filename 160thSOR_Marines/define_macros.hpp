@@ -73,6 +73,19 @@
 						"SmokeShell",\
 						"SmokeShellGreen"
 
+#define V_Mags_SAW 	    "30Rnd_556x45_Stanag_Tracer_Red",\
+						"30Rnd_556x45_Stanag_Tracer_Red",\
+						"30Rnd_556x45_Stanag_Tracer_Red",\
+						"30Rnd_556x45_Stanag_Tracer_Red",\
+						"30Rnd_556x45_Stanag_Tracer_Red",\
+						"30Rnd_556x45_Stanag_Tracer_Red",\
+						"HandGrenade",\
+						"HandGrenade",\
+						"SmokeShell",\
+						"SmokeShell",\
+						"SmokeShell",\
+						"SmokeShellGreen"
+
 #define V_SL_Mags	    "30Rnd_556x45_Stanag",\
 						"30Rnd_556x45_Stanag",\
 						"30Rnd_556x45_Stanag",\

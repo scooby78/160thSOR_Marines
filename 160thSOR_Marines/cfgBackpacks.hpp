@@ -85,7 +85,7 @@ class USMC_SOR_Rifleman_SAW_Pack_M : rhsusf_assault_eagleaiii_coy
 	displayName = "(2021 USMC) Rifleman Pack (M27IAR)";
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_556x45_Stanag,6);
+		mag_xx(30Rnd_556x45_Stanag_Tracer_Red,15);
 	};
 };
 
@@ -105,7 +105,7 @@ class USMC_SOR_SAW_Pack_M : rhsusf_assault_eagleaiii_coy
 	displayName = "(2021 USMC) M27IAR Ammo Pack";
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_556x45_Stanag,4);
+		mag_xx(30Rnd_556x45_Stanag_Tracer_Red,4);
 	};
 };
 

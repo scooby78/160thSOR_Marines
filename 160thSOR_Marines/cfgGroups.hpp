@@ -129,7 +129,7 @@ class CfgGroups
 					class Unit12
 					{
 						side = 1;
-						vehicle = "SOR_USMC_Rifleman_ammo_W";
+						vehicle = "SOR_USMC_Rifleman_SAW_AMMO_W";
 						rank = PRIVATE;
 						position[] = {0, -12, 0 };
 					};
@@ -157,7 +157,7 @@ class CfgGroups
 					class Unit16
 					{
 						side = 1;
-						vehicle = "SOR_USMC_Rifleman_W";
+						vehicle = "SOR_USMC_Rifleman_LMG_AMMO_W";
 						rank = PRIVATE;
 						position[] = {0, -22, 0};
 					};
@@ -216,7 +216,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 1;
-						vehicle = "SOR_USMC_Rifleman_ammo_W";
+						vehicle = "SOR_USMC_Rifleman_SAW_AMMO_W";
 						rank = PRIVATE;
 						position[] = {0, -6, 0};
 					};
@@ -253,7 +253,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 1;
-						vehicle = "SOR_USMC_Rifleman_W";
+						vehicle = "SOR_USMC_Rifleman_LMG_AMMO_W";
 						rank = PRIVATE;
 						position[] = {0, -6, 0};
 					};
@@ -869,7 +869,7 @@ class CfgGroups
 					class Unit12
 					{
 						side = 1;
-						vehicle = "SOR_USMC_Rifleman_ammo_D";
+						vehicle = "SOR_USMC_Rifleman_SAW_AMMO_D";
 						rank = PRIVATE;
 						position[] = {0, -12, 0 };
 					};
@@ -897,7 +897,7 @@ class CfgGroups
 					class Unit16
 					{
 						side = 1;
-						vehicle = "SOR_USMC_Rifleman_D";
+						vehicle = "SOR_USMC_Rifleman_LMG_AMMO_D";
 						rank = PRIVATE;
 						position[] = {0, -22, 0};
 					};
@@ -956,7 +956,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 1;
-						vehicle = "SOR_USMC_Rifleman_ammo_D";
+						vehicle = "SOR_USMC_Rifleman_SAW_AMMO_D";
 						rank = PRIVATE;
 						position[] = {0, -6, 0};
 					};
@@ -993,7 +993,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 1;
-						vehicle = "SOR_USMC_Rifleman_D";
+						vehicle = "SOR_USMC_Rifleman_LMG_AMMO_D";
 						rank = PRIVATE;
 						position[] = {0, -6, 0};
 					};

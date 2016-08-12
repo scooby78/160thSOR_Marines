@@ -24,8 +24,8 @@ class CfgPatches
 			"SOR_USMC_SAW_W",
 			"SOR_USMC_LMG_W",
 			"SOR_USMC_Grenadier_W",
-			"SOR_USMC_Rifleman_W",
-			"SOR_USMC_Rifleman_ammo_W",
+			"SOR_USMC_Rifleman_LMG_AMMO_W",
+			"SOR_USMC_Rifleman_SAW_AMMO_W",
 			"SOR_USMC_RiflemanAT_W",
 
 			"SOR_USMC_HeliPilot_W",
@@ -77,8 +77,8 @@ class CfgPatches
 			"SOR_USMC_SAW_D",
 			"SOR_USMC_LMG_D",
 			"SOR_USMC_Grenadier_D",
-			"SOR_USMC_Rifleman_D",
-			"SOR_USMC_Rifleman_ammo_D",
+			"SOR_USMC_Rifleman_LMG_AMMO_D",
+			"SOR_USMC_Rifleman_SAW_AMMO_D",
 			"SOR_USMC_RiflemanAT_D",
 
 			"SOR_USMC_HeliPilot_D",

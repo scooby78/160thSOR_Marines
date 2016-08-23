@@ -228,6 +228,7 @@ class CfgPatches
 
             //Assault Rifle//
 			"SOR_USMC_WEAP_MK18_GRIP",
+			"SOR_USMC_WEAP_BLOCK2_GRIP",
 			"SOR_USMC_WEAP_MK18_M320",
 			"SOR_USMC_WEAP_MK18_GRIP_VIPER_W",
 			"SOR_USMC_WEAP_MK18_GRIP_VIPER_D",

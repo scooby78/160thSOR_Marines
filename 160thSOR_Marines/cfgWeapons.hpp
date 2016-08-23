@@ -9,6 +9,8 @@ class cfgWeapons
 class rhs_weap_m14ebrri;
 
 class rhs_weap_mk18_grip_bk;
+class rhs_weap_m4a1_blockII_grip_bk;
+class rhs_weap_m4a1_blockII;
 class rhs_weap_mk18_m320;
 class rhs_weap_mk18_grip_KAC_wd;
 class rhs_weap_mk18_grip_KAC_d;
@@ -30,7 +32,7 @@ class hgun_P07_F;
 
     ////////////////////Designated Marksman Rifles////////////////////
 
-    class SOR_USMC_WEAP_M14EBR : rhs_weap_m14ebrri
+    class SOR_USMC_WEAP_M14EBR : rhs_weap_m14ebrri //Parajumper//
 	{
 		class LinkedItems
 		{
@@ -65,7 +67,34 @@ class hgun_P07_F;
 			};
 			class LinkedItemsAcc
 			{
-				item = "rhsusf_acc_anpeq15side_bk";
+				item = "rhsusf_acc_anpeq15_bk";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsUnder
+			{
+				item = "rhsusf_acc_grip2_tan";
+				slot = "UnderBarrelSlot";
+			};
+			class LinkedItemsMuzzle
+			{
+			    item = "rhsusf_acc_SFMB556";
+			    slot = "MuzzleSlot";
+		    };
+		};
+	};
+
+	class SOR_USMC_WEAP_BLOCK2_GRIP : rhs_weap_m4a1_blockII_grip_bk //Infantry//
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = "rhsusf_acc_ACOG3_USMC_3d";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc
+			{
+				item = "rhsusf_acc_anpeq15_light";
 				slot = "PointerSlot";
 			};
 			class LinkedItemsUnder
@@ -73,6 +102,38 @@ class hgun_P07_F;
 				item = "rhsusf_acc_grip3";
 				slot = "UnderBarrelSlot";
 			};
+			class LinkedItemsMuzzle
+			{
+			    item = "rhsusf_acc_SFMB556";
+			    slot = "MuzzleSlot";
+		    };
+		};
+	};
+
+	class SOR_USMC_WEAP_BLOCK2_GRIP2 : rhs_weap_m4a1_blockII //Infantry//
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = "rhsusf_acc_ACOG3_USMC_3d";
+				slot = "CowsSlot";
+			};
+			class LinkedItemsAcc
+			{
+				item = "rhsusf_acc_anpeq15_wmx_light";
+				slot = "PointerSlot";
+			};
+			class LinkedItemsUnder
+			{
+				item = "rhsusf_acc_grip2";
+				slot = "UnderBarrelSlot";
+			};
+			class LinkedItemsMuzzle
+			{
+			    item = "rhsusf_acc_SFMB556";
+			    slot = "MuzzleSlot";
+		    };
 		};
 	};
 
@@ -87,9 +148,14 @@ class hgun_P07_F;
 			};
 			class LinkedItemsAcc
 			{
-				item = "rhsusf_acc_anpeq15side_bk";
+				item = "rhsusf_acc_anpeq15_bk";
 				slot = "PointerSlot";
 			};
+			class LinkedItemsMuzzle
+			{
+			    item = "rhsusf_acc_SFMB556";
+			    slot = "MuzzleSlot";
+		    };
 		};
 	};
 
@@ -163,7 +229,7 @@ class hgun_P07_F;
 			};
 			class LinkedItemsUnder
 			{
-				item = "rhsusf_acc_grip3";
+				item = "rhsusf_acc_grip2";
 				slot = "UnderBarrelSlot";
 			};
       		class LinkedItemsMuzzle
@@ -180,7 +246,7 @@ class hgun_P07_F;
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_eotech_552";
+				item = "rhsusf_acc_compm4";
 				slot = "CowsSlot";
 			};
 		};
@@ -192,7 +258,7 @@ class hgun_P07_F;
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_ACOG2_USMC_3d";
+				item = "rhsusf_acc_eotech_552_d";
 				slot = "CowsSlot";
 			};
 		};
@@ -221,13 +287,18 @@ class hgun_P07_F;
 		{
 			class LinkedItemsOptic
 			{
-				item = "rhsusf_acc_ACOG2_USMC";
+				item = "rhsusf_acc_ACOG3_USMC_3d";
 				slot = "CowsSlot";
 			};
 			class LinkedItemsAcc
 			{
-				item = "rhsusf_acc_anpeq15_bk_top";
+				item = "rhsusf_acc_anpeq15side_bk";
 				slot = "PointerSlot";
+			};
+			class LinkedItemsUnder
+			{
+				item = "rhsusf_acc_grip2";
+				slot = "UnderBarrelSlot";
 			};
 		};
 	};

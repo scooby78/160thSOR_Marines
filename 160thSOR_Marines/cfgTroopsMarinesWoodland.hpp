@@ -73,7 +73,7 @@ class SOR_USMC_ZeusCommand_W : B_officer_F
 		"rhsusf_spc_squadleader",
 		"rhsusf_mich_helmet_marpatwd_norotos_headset",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
@@ -81,7 +81,7 @@ class SOR_USMC_ZeusCommand_W : B_officer_F
 		"rhsusf_spc_squadleader",
 		"rhsusf_mich_helmet_marpatwd_norotos_headset",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	class UserActions
@@ -144,17 +144,17 @@ class SOR_USMC_Actual_W : B_officer_F
 	linkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"rhsusf_mich_helmet_marpatwd_norotos_headset",
+		"rhsusf_lwh_helmet_marpatwd_headset",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"rhsusf_mich_helmet_marpatwd_norotos_headset",
+		"rhsusf_lwh_helmet_marpatwd_headset",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -200,17 +200,17 @@ class SOR_USMC_Commander_W : B_officer_F
 	linkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"H_HelmetB_light_grass",
+		"rhsusf_mich_bare_norotos_alt",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"H_HelmetB_light_grass",
+		"rhsusf_mich_bare_norotos_alt",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -226,7 +226,7 @@ class SOR_USMC_MechCommand_W : SOR_USMC_Commander_W
 	{
 		"rhsusf_spc_marksman",
 		"H_HelmetCrew_B",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		"ItemGPS",
 		Standard_Equipment
 	};
@@ -234,7 +234,7 @@ class SOR_USMC_MechCommand_W : SOR_USMC_Commander_W
 	{
 		"rhsusf_spc_marksman",
 		"H_HelmetCrew_B",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		"ItemGPS",
 		Standard_Equipment
 	};
@@ -303,16 +303,16 @@ class SOR_USMC_RTO_W : B_Soldier_F
 	linkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"H_HelmetB_light_grass",
-		"G_Balaclava_TI_G_blk_F",
+		"rhsusf_mich_bare_norotos_alt",
+		"rhs_googles_black",
 		"ItemGPS",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"H_HelmetB_light_grass",
-		"G_Balaclava_TI_G_blk_F",
+		"rhsusf_mich_bare_norotos_alt",
+		"rhs_googles_black",
 		"ItemGPS",
 		Standard_Equipment
 	};
@@ -328,8 +328,8 @@ class SOR_USMC_Teamleader_W : B_Soldier_TL_F
 	displayName = "(I) [W] Teamleader";
 	accuracy = 3.5;
 	backpack = "USMC_SOR_RFLAT_Pack_M";
-	weapons[] = {"SOR_USMC_WEAP_MK18_GRIP", "hgun_P07_F","launch_NLAW_F","Throw","Put","ACE_Vector"};
-	respawnWeapons[] = {"SOR_USMC_WEAP_MK18_GRIP", "hgun_P07_F","launch_NLAW_F","Throw","Put","ACE_Vector"};
+	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP2", "hgun_P07_F","launch_NLAW_F","Throw","Put","ACE_Vector"};
+	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP2", "hgun_P07_F","launch_NLAW_F","Throw","Put","ACE_Vector"};
 	Items[] =
 	{
 		Standard_Meds,
@@ -359,17 +359,17 @@ class SOR_USMC_Teamleader_W : B_Soldier_TL_F
 	linkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"rhsusf_mich_helmet_marpatwd_norotos_headset",
+		"rhsusf_lwh_helmet_marpatwd_headset_blk",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"rhsusf_mich_helmet_marpatwd_norotos_headset",
+		"rhsusf_lwh_helmet_marpatwd_headset_blk",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -412,7 +412,7 @@ class SOR_USMC_Medic_W : B_medic_F
 		"rhsusf_spc_corpsman",
 		"rhsusf_opscore_rg_cover_pelt",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
@@ -420,7 +420,7 @@ class SOR_USMC_Medic_W : B_medic_F
 		"rhsusf_spc_corpsman",
 		"rhsusf_opscore_rg_cover_pelt",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -467,15 +467,15 @@ class SOR_USMC_SAW_W : B_soldier_AR_F
 	linkedItems[] =
 	{
 		"rhsusf_spc_mg" ,
-		"rhsusf_mich_helmet_marpatwd_norotos_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhsusf_lwh_helmet_marpatwd_blk_ess",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_mg" ,
-		"rhsusf_mich_helmet_marpatwd_norotos_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhsusf_lwh_helmet_marpatwd_blk_ess",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -512,15 +512,15 @@ class SOR_USMC_LMG_W : B_HeavyGunner_F
 	linkedItems[] =
 	{
 		"rhsusf_spc_mg",
-		"rhsusf_mich_helmet_marpatwd_norotos_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhsusf_lwh_helmet_marpatwd_ess",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_mg",
-		"rhsusf_mich_helmet_marpatwd_norotos_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhsusf_lwh_helmet_marpatwd_ess",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -562,14 +562,14 @@ class SOR_USMC_Grenadier_W : B_Soldier_GL_F
 	{
 		"rhsusf_spc_teamleader",
 		"rhsusf_mich_helmet_marpatwd_norotos_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_teamleader",
 		"rhsusf_mich_helmet_marpatwd_norotos_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -583,8 +583,8 @@ class SOR_USMC_Rifleman_LMG_AMMO_W : B_Soldier_F
 	uniformClass = "rhs_uniform_FROG01_wd";
 	displayName = "(I) [W] Rifleman M240G Ammo Bearer";
 	backpack = "USMC_SOR_Rifleman_LMG_Pack_M";
-	weapons[] = {"SOR_USMC_WEAP_MK18_GRIP","hgun_P07_F","Throw","Put"};
-	respawnWeapons[] = {"SOR_USMC_WEAP_MK18_GRIP","hgun_P07_F","Throw","Put"};
+	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
+	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
 	Items[] =
 	{
 		Standard_Meds,
@@ -611,14 +611,14 @@ class SOR_USMC_Rifleman_LMG_AMMO_W : B_Soldier_F
 	{
 		"rhsusf_spc_rifleman",
 		"rhsusf_mich_helmet_marpatwd_norotos_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_rifleman",
 		"rhsusf_mich_helmet_marpatwd_norotos_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -627,8 +627,8 @@ class SOR_USMC_Rifleman_SAW_AMMO_W : SOR_USMC_Rifleman_LMG_AMMO_W
 {
 	displayName = "(I) [W] Rifleman M27IAR Ammo Bearer";
 	backpack = "USMC_SOR_Rifleman_SAW_Pack_M";
-	weapons[] = {"SOR_USMC_WEAP_MK18_GRIP","hgun_P07_F","Throw","Put"};
-	respawnWeapons[] = {"SOR_USMC_WEAP_MK18_GRIP","hgun_P07_F","Throw","Put"};
+	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
+	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
 	magazines[] =
 	{
 		V_P09,
@@ -676,14 +676,14 @@ class SOR_USMC_RiflemanAT_W : B_soldier_AT_F
 	{
 		"rhsusf_spc_rifleman",
 		"rhsusf_mich_helmet_marpatwd_norotos_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_rifleman",
 		"rhsusf_mich_helmet_marpatwd_norotos_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -892,6 +892,7 @@ class SOR_USMC_ParaJumper_W : B_recon_medic_F
 	{
 		Standard_Meds,
 		SL_Equip,
+		"rhsusf_acc_ACOG3_USMC_3d",
 		"ACE_DAGR",
 		"ACE_NVG_Wide"
 	};
@@ -899,6 +900,7 @@ class SOR_USMC_ParaJumper_W : B_recon_medic_F
 	{
 		Standard_Meds,
 		SL_Equip,
+		"rhsusf_acc_ACOG3_USMC_3d",
 		"ACE_DAGR",
 		"ACE_NVG_Wide"
 	};
@@ -1358,7 +1360,7 @@ class SOR_USMC_MechDriver_W : SOR_USMC_MechCrew_W
 };
 
     ////////////////////HMG Team////////////////////
-
+/*
 class SOR_USMC_HMGActual_W : SOR_USMC_Actual_W
 {
 	vehicleclass = "SOR_Infantry_Support";
@@ -1417,7 +1419,7 @@ class SOR_USMC_MORRFL_W : SOR_USMC_Grenadier_W
 	displayName = "(S) [W] Mortar Rifleman M320";
 	backpack = "USMC_SOR_GD_Pack_M";
 };
-
+*/
     ////////////////////Blacksmith////////////////////
 
 class SOR_USMC_TL_Engineer_W : B_engineer_F
@@ -1557,14 +1559,14 @@ class SOR_USMC_FAC_W : B_recon_JTAC_F
 	{
 		"V_PlateCarrier2_rgr",
 		"H_HelmetB_light_snakeskin",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Airborne_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"V_PlateCarrier2_rgr",
 		"H_HelmetB_light_snakeskin",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Airborne_Equipment
 	};
 	class UserActions
@@ -1635,7 +1637,7 @@ class SOR_USMC_ZeusCommand_D : B_officer_F
 		"rhsusf_spc_squadleader",
 		"rhsusf_mich_helmet_marpatd_headset",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
@@ -1643,7 +1645,7 @@ class SOR_USMC_ZeusCommand_D : B_officer_F
 		"rhsusf_spc_squadleader",
 		"rhsusf_mich_helmet_marpatd_headset",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	class UserActions
@@ -1706,17 +1708,17 @@ class SOR_USMC_Actual_D : B_officer_F
 	linkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"rhsusf_mich_helmet_marpatd_headset",
+		"rhsusf_lwh_helmet_marpatd_headset",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"rhsusf_mich_helmet_marpatd_headset",
+		"rhsusf_lwh_helmet_marpatd_headset",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -1762,17 +1764,17 @@ class SOR_USMC_Commander_D : B_officer_F
 	linkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"H_HelmetB_light_sand",
+		"rhsusf_mich_bare_alt_tan",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"H_HelmetB_light_sand",
+		"rhsusf_mich_bare_alt_tan",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -1788,7 +1790,7 @@ class SOR_USMC_MechCommand_D : SOR_USMC_Commander_D
 	{
 		"rhsusf_spc_marksman",
 		"H_HelmetCrew_B",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		"ItemGPS",
 		Standard_Equipment
 	};
@@ -1796,7 +1798,7 @@ class SOR_USMC_MechCommand_D : SOR_USMC_Commander_D
 	{
 		"rhsusf_spc_marksman",
 		"H_HelmetCrew_B",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		"ItemGPS",
 		Standard_Equipment
 	};
@@ -1866,16 +1868,16 @@ class SOR_USMC_RTO_D : B_Soldier_F
 	linkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"H_HelmetB_light_sand",
-		"G_Balaclava_TI_G_blk_F",
+		"rhsusf_mich_bare_alt_tan",
+		"rhs_googles_black",
 		"ItemGPS",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"H_HelmetB_light_sand",
-		"G_Balaclava_TI_G_blk_F",
+		"rhsusf_mich_bare_alt_tan",
+		"rhs_googles_black",
 		"ItemGPS",
 		Standard_Equipment
 	};
@@ -1891,8 +1893,8 @@ class SOR_USMC_Teamleader_D : B_Soldier_TL_F
 	displayName = "(I) [D] Teamleader";
 	accuracy = 3.5;
 	backpack = "USMC_SOR_RFLAT_Pack_M";
-	weapons[] = {"SOR_USMC_WEAP_MK18_GRIP", "hgun_P07_F","launch_NLAW_F","Throw","Put","ACE_Vector"};
-	respawnWeapons[] = {"SOR_USMC_WEAP_MK18_GRIP", "hgun_P07_F","launch_NLAW_F","Throw","Put","ACE_Vector"};
+	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP2", "hgun_P07_F","launch_NLAW_F","Throw","Put","ACE_Vector"};
+	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP2", "hgun_P07_F","launch_NLAW_F","Throw","Put","ACE_Vector"};
 	Items[] =
 	{
 		Standard_Meds,
@@ -1922,17 +1924,17 @@ class SOR_USMC_Teamleader_D : B_Soldier_TL_F
 	linkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"rhsusf_mich_helmet_marpatd_headset",
+		"rhsusf_lwh_helmet_marpatd_headset",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_squadleader",
-		"rhsusf_mich_helmet_marpatd_headset",
+		"rhsusf_lwh_helmet_marpatd_headset",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -1975,7 +1977,7 @@ class SOR_USMC_Medic_D : B_medic_F
 		"rhsusf_spc_corpsman",
 		"rhsusf_opscore_rg_cover_pelt",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
@@ -1983,7 +1985,7 @@ class SOR_USMC_Medic_D : B_medic_F
 		"rhsusf_spc_corpsman",
 		"rhsusf_opscore_rg_cover_pelt",
 		"ItemGPS",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -2030,15 +2032,15 @@ class SOR_USMC_SAW_D : B_soldier_AR_F
 	linkedItems[] =
 	{
 		"rhsusf_spc_mg" ,
-		"rhsusf_mich_helmet_marpatd_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhsusf_lwh_helmet_marpatd_ess",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_mg" ,
-		"rhsusf_mich_helmet_marpatd_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhsusf_lwh_helmet_marpatd_ess",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -2075,15 +2077,15 @@ class SOR_USMC_LMG_D : B_HeavyGunner_F
 	linkedItems[] =
 	{
 		"rhsusf_spc_mg",
-		"rhsusf_mich_helmet_marpatd_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhsusf_lwh_helmet_marpatd_ess",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_mg",
-		"rhsusf_mich_helmet_marpatd_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhsusf_lwh_helmet_marpatd_ess",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -2125,14 +2127,14 @@ class SOR_USMC_Grenadier_D : B_Soldier_GL_F
 	{
 		"rhsusf_spc_teamleader",
 		"rhsusf_mich_helmet_marpatd_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_teamleader",
 		"rhsusf_mich_helmet_marpatd_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -2146,8 +2148,8 @@ class SOR_USMC_Rifleman_LMG_AMMO_D : B_Soldier_F
 	uniformClass = "rhs_uniform_FROG01_d";
 	displayName = "(I) [D] Rifleman M240G Ammo Bearer";
 	backpack = "USMC_SOR_Rifleman_LMG_Pack_M";
-	weapons[] = {"SOR_USMC_WEAP_MK18_GRIP","hgun_P07_F","Throw","Put"};
-	respawnWeapons[] = {"SOR_USMC_WEAP_MK18_GRIP","hgun_P07_F","Throw","Put"};
+	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
+	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
 	Items[] =
 	{
 		Standard_Meds,
@@ -2174,14 +2176,14 @@ class SOR_USMC_Rifleman_LMG_AMMO_D : B_Soldier_F
 	{
 		"rhsusf_spc_rifleman",
 		"rhsusf_mich_helmet_marpatd_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_rifleman",
 		"rhsusf_mich_helmet_marpatd_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -2190,8 +2192,8 @@ class SOR_USMC_Rifleman_SAW_AMMO_D : SOR_USMC_Rifleman_LMG_AMMO_D
 {
 	displayName = "(I) [D] Rifleman M27IAR Ammo Bearer";
 	backpack = "USMC_SOR_Rifleman_SAW_Pack_M";
-	weapons[] = {"SOR_USMC_WEAP_MK18_GRIP","hgun_P07_F","Throw","Put"};
-	respawnWeapons[] = {"SOR_USMC_WEAP_MK18_GRIP","hgun_P07_F","Throw","Put"};
+	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
+	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
 	magazines[] =
 	{
 		V_P09,
@@ -2239,14 +2241,14 @@ class SOR_USMC_RiflemanAT_D : B_soldier_AT_F
 	{
 		"rhsusf_spc_rifleman",
 		"rhsusf_mich_helmet_marpatd_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"rhsusf_spc_rifleman",
 		"rhsusf_mich_helmet_marpatd_headset",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Standard_Equipment
 	};
 };
@@ -2454,6 +2456,7 @@ class SOR_USMC_ParaJumper_D : B_recon_medic_F
 	{
 		Standard_Meds,
 		SL_Equip,
+		"rhsusf_acc_ACOG3_USMC_3d",
 		"ACE_DAGR",
 		"ACE_NVG_Wide"
 	};
@@ -2461,6 +2464,7 @@ class SOR_USMC_ParaJumper_D : B_recon_medic_F
 	{
 		Standard_Meds,
 		SL_Equip,
+		"rhsusf_acc_ACOG3_USMC_3d",
 		"ACE_DAGR",
 		"ACE_NVG_Wide"
 	};
@@ -2920,7 +2924,7 @@ class SOR_USMC_MechDriver_D : SOR_USMC_MechCrew_D
 };
 
     ////////////////////HMG Team////////////////////
-
+/*
 class SOR_USMC_HMGActual_D : SOR_USMC_Actual_D
 {
 	vehicleclass = "SOR_Infantry_Support";
@@ -2979,7 +2983,7 @@ class SOR_USMC_MORRFL_D : SOR_USMC_Grenadier_D
 	displayName = "(S) [D] Mortar Rifleman M320";
 	backpack = "USMC_SOR_GD_Pack_M";
 };
-
+*/
     ////////////////////Blacksmith////////////////////
 
 class SOR_USMC_TL_Engineer_D : B_engineer_F
@@ -3119,14 +3123,14 @@ class SOR_USMC_FAC_D : B_recon_JTAC_F
 	{
 		"V_PlateCarrier2_rgr",
 		"H_HelmetB_light_snakeskin",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Airborne_Equipment
 	};
 	respawnLinkedItems[] =
 	{
 		"V_PlateCarrier2_rgr",
 		"H_HelmetB_light_snakeskin",
-		"G_Balaclava_TI_G_blk_F",
+		"rhs_googles_black",
 		Airborne_Equipment
 	};
 	class UserActions

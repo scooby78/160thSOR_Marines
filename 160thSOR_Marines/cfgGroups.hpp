@@ -394,7 +394,7 @@ class CfgGroups
 							position[] = {0, -2, 0};
 						};
 				};
-				*/
+
 			    class SOR_SupGroup2_M
 				{
 					name = "HMG Team";
@@ -466,7 +466,7 @@ class CfgGroups
 						rank = PRIVATE;
 						position[] = {0, -6, 0};
 					};
-				};
+				};*/
 			    class SOR_SupGroup4_M
 				{
 					name = "Blacksmith Team";
@@ -1134,7 +1134,7 @@ class CfgGroups
 							position[] = {0, -2, 0};
 						};
 				};
-				*/
+
 			    class SOR_SupGroup2_D_M
 				{
 					name = "HMG Team";
@@ -1206,7 +1206,7 @@ class CfgGroups
 						rank = PRIVATE;
 						position[] = {0, -6, 0};
 					};
-				};
+				};*/
 			    class SOR_SupGroup4_D_M
 				{
 					name = "Blacksmith Team";

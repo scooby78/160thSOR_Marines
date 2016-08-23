@@ -8,7 +8,7 @@ class rhsusf_CH53E_USMC_D;
 class RHS_UH1Y_FFAR_d;
 class RHS_UH1Y_d;
 class RHS_UH1Y_d_GS;
-class RHS_UH60M_MEV2;
+class RHS_UH60M_MEV2_d;
 
 class RHS_AH1Z;
 class RHS_AH1Z_GS;
@@ -39,92 +39,6 @@ class SOR_USMC_HELI_UH1Y_FFAR_DG : RHS_UH1Y_d
 	displayName = "UH-1Y [FFAR/MG] (C2/P9)";
 	altFullForce = 5900
 	altNoForce = 6100
-	class UserActions
-	{
-		class SOR_AutoDrop
-		{
-			displayName = "<t color='#008000'>Start Drop!</t>";
-			displayNameDefault = "<t color='#008000'>Start Drop!</t>";
-			condition = "(player == driver this)&&((getPosATL this) select 2 > 200)";
-			priority = 1;
-			showWindow = 0;
-			hideOnUse = 1;
-			radius= 8;
-			position = "";
-			onlyForPlayer = 0;
-			statement = "[this] spawn sor_fnc_autoparadrop";
-		};
-		class CloseCargoDoor
-		{
-			condition = "this doorPhase 'doorRB' > 0 and (alive this) and player in this;";
-			displayName = "Close right cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorRB', 0];this animate ['doorHandler_R',0];";
-		};
-		class CloseCargoLDoor
-		{
-			condition = "this doorPhase 'doorLB' > 0 and (alive this) and player in this;";
-			displayName = "Close left cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorLB', 0];this animate ['doorHandler_L',0];";
-		};
-		class OpenCargoDoor
-		{
-			condition = "this doorPhase 'doorRB' == 0 and (alive this) and player in this;";
-			displayName = "Open right cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorRB', 1];this animate ['doorHandler_R',1]";
-		};
-		class OpenCargoLDoor
-		{
-			condition = "this doorPhase 'doorLB' == 0 and (alive this) and player in this;";
-			displayName = "Open left cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorLB', 1];this animate ['doorHandler_L',1];";
-		};
-		class HUDoff
-		{
-			condition = "(player==driver this)and(this animationphase 'HUDAction' !=1)";
-			displayName = "HUD on";
-			displayNameDefault = "HUD on";
-			onlyForPlayer = 1;
-			position = "zamerny";
-			radius = 1;
-			statement = "this animate ['HUDAction',1];this animate ['HUDAction_1',1]";
-		};
-		class HUDon
-		{
-			condition = "(player==driver this)and(this animationphase 'HUDAction' !=0)";
-			displayName = "HUD off";
-			displayNameDefault = "HUD off";
-			onlyForPlayer = 1;
-			position = "zamerny";
-			radius = 1;
-			statement = "this animate ['HUDAction',0];this animate ['HUDAction_1',0]";
-		};
-		class TogglePIP
-		{
-			condition = "( (call rhsusf_fnc_findPlayer)==driver this) or ((call rhsusf_fnc_findPlayer)==gunner this) ";
-			displayName = "Toggle monitor";
-			displayNameDefault = "Toggle monitor";
-			onlyForPlayer = 1;
-			position = "zamerny";
-			radius = 1;
-			statement = "call rhs_fnc_uh1_toggleCam";
-		};
-	};
 	class TransportItems
 	{
 			item_xx(ACE_FieldDressing,10);
@@ -150,92 +64,6 @@ class SOR_USMC_HELI_UH1Y_FFAR : RHS_UH1Y_FFAR_d
 	displayName = "UH-1Y [FFAR] (C2/P9)";
 	altFullForce = 5900
 	altNoForce = 6100
-	class UserActions
-	{
-		class SOR_AutoDrop
-		{
-			displayName = "<t color='#008000'>Start Drop!</t>";
-			displayNameDefault = "<t color='#008000'>Start Drop!</t>";
-			condition = "(player == driver this)&&((getPosATL this) select 2 > 200)";
-			priority = 1;
-			showWindow = 0;
-			hideOnUse = 1;
-			radius= 8;
-			position = "";
-			onlyForPlayer = 0;
-			statement = "[this] spawn sor_fnc_autoparadrop";
-		};
-		class CloseCargoDoor
-		{
-			condition = "this doorPhase 'doorRB' > 0 and (alive this) and player in this;";
-			displayName = "Close right cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorRB', 0];this animate ['doorHandler_R',0];";
-		};
-		class CloseCargoLDoor
-		{
-			condition = "this doorPhase 'doorLB' > 0 and (alive this) and player in this;";
-			displayName = "Close left cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorLB', 0];this animate ['doorHandler_L',0];";
-		};
-		class OpenCargoDoor
-		{
-			condition = "this doorPhase 'doorRB' == 0 and (alive this) and player in this;";
-			displayName = "Open right cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorRB', 1];this animate ['doorHandler_R',1]";
-		};
-		class OpenCargoLDoor
-		{
-			condition = "this doorPhase 'doorLB' == 0 and (alive this) and player in this;";
-			displayName = "Open left cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorLB', 1];this animate ['doorHandler_L',1];";
-		};
-		class HUDoff
-		{
-			condition = "(player==driver this)and(this animationphase 'HUDAction' !=1)";
-			displayName = "HUD on";
-			displayNameDefault = "HUD on";
-			onlyForPlayer = 1;
-			position = "zamerny";
-			radius = 1;
-			statement = "this animate ['HUDAction',1];this animate ['HUDAction_1',1]";
-		};
-		class HUDon
-		{
-			condition = "(player==driver this)and(this animationphase 'HUDAction' !=0)";
-			displayName = "HUD off";
-			displayNameDefault = "HUD off";
-			onlyForPlayer = 1;
-			position = "zamerny";
-			radius = 1;
-			statement = "this animate ['HUDAction',0];this animate ['HUDAction_1',0]";
-		};
-		class TogglePIP
-		{
-			condition = "( (call rhsusf_fnc_findPlayer)==driver this) or ((call rhsusf_fnc_findPlayer)==gunner this) ";
-			displayName = "Toggle monitor";
-			displayNameDefault = "Toggle monitor";
-			onlyForPlayer = 1;
-			position = "zamerny";
-			radius = 1;
-			statement = "call rhs_fnc_uh1_toggleCam";
-		};
-	};
 	class TransportItems
 	{
 			item_xx(ACE_FieldDressing,10);
@@ -261,92 +89,6 @@ class SOR_USMC_HELI_UH1Y_GS_DG : RHS_UH1Y_d_GS
 	displayName = "UH-1Y [GS/MG] (C2/P9)";
 	altFullForce = 5900
 	altNoForce = 6100
-	class UserActions
-	{
-		class SOR_AutoDrop
-		{
-			displayName = "<t color='#008000'>Start Drop!</t>";
-			displayNameDefault = "<t color='#008000'>Start Drop!</t>";
-			condition = "(player == driver this)&&((getPosATL this) select 2 > 200)";
-			priority = 1;
-			showWindow = 0;
-			hideOnUse = 1;
-			radius= 8;
-			position = "";
-			onlyForPlayer = 0;
-			statement = "[this] spawn sor_fnc_autoparadrop";
-		};
-		class CloseCargoDoor
-		{
-			condition = "this doorPhase 'doorRB' > 0 and (alive this) and player in this;";
-			displayName = "Close right cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorRB', 0];this animate ['doorHandler_R',0];";
-		};
-		class CloseCargoLDoor
-		{
-			condition = "this doorPhase 'doorLB' > 0 and (alive this) and player in this;";
-			displayName = "Close left cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorLB', 0];this animate ['doorHandler_L',0];";
-		};
-		class OpenCargoDoor
-		{
-			condition = "this doorPhase 'doorRB' == 0 and (alive this) and player in this;";
-			displayName = "Open right cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorRB', 1];this animate ['doorHandler_R',1]";
-		};
-		class OpenCargoLDoor
-		{
-			condition = "this doorPhase 'doorLB' == 0 and (alive this) and player in this;";
-			displayName = "Open left cargo door";
-			onlyforplayer = 1;
-			position = "pos driver";
-			radius = 15;
-			showwindow = 0;
-			statement = "this animateDoor ['doorLB', 1];this animate ['doorHandler_L',1];";
-		};
-		class HUDoff
-		{
-			condition = "(player==driver this)and(this animationphase 'HUDAction' !=1)";
-			displayName = "HUD on";
-			displayNameDefault = "HUD on";
-			onlyForPlayer = 1;
-			position = "zamerny";
-			radius = 1;
-			statement = "this animate ['HUDAction',1];this animate ['HUDAction_1',1]";
-		};
-		class HUDon
-		{
-			condition = "(player==driver this)and(this animationphase 'HUDAction' !=0)";
-			displayName = "HUD off";
-			displayNameDefault = "HUD off";
-			onlyForPlayer = 1;
-			position = "zamerny";
-			radius = 1;
-			statement = "this animate ['HUDAction',0];this animate ['HUDAction_1',0]";
-		};
-		class TogglePIP
-		{
-			condition = "( (call rhsusf_fnc_findPlayer)==driver this) or ((call rhsusf_fnc_findPlayer)==gunner this) ";
-			displayName = "Toggle monitor";
-			displayNameDefault = "Toggle monitor";
-			onlyForPlayer = 1;
-			position = "zamerny";
-			radius = 1;
-			statement = "call rhs_fnc_uh1_toggleCam";
-		};
-	};
 	class TransportItems
 	{
 			item_xx(ACE_FieldDressing,10);
@@ -373,72 +115,6 @@ class SOR_USMC_HELI_CH53E : rhsusf_CH53E_USMC_D
 	altNoForce = 6000
 	vehicleclass = "SOR_USMC_Aircraft";
 	displayName = "CH-53E (C2/P30)";
-	class UserActions
-	{
-		class SOR_AutoDrop
-		{
-			displayName = "<t color='#008000'>Start Drop!</t>";
-			displayNameDefault = "<t color='#008000'>Start Drop!</t>";
-			condition = "(player == driver this)&&((getPosATL this) select 2 > 200)";
-			priority = 1;
-			showWindow = 0;
-			hideOnUse = 1;
-			radius= 8;
-			position = "";
-			onlyForPlayer = 0;
-			statement = "[this] spawn sor_fnc_autoparadrop";
-		};
-		class Pack
-		{
-			condition = "(!isEngineOn this) AND {(this animationphase 'mainRotor_unfolded' !=1) AND (driver this == player) AND (speed this == 0)}";
-			displayName = "Pack";
-			displayNameDefault = "Pack";
-			onlyForPlayer = 1;
-			position = "PackAction";
-			radius = 10;
-			statement = "[this,1] execvm ""\rhsusf\addons\rhsusf_ch53\scripts\ch53_fold.sqf""";
-		};
-		class RampClose
-		{
-			condition = "this animationPhase ""ramp_bottom"" >= 0.56 && player == driver this;";
-			displayName = "Close Ramp";
-			onlyforplayer = 0;
-			position = "ramp action";
-			radius = 5;
-			showWindow = 0;
-			statement = "this animate [""ramp_bottom"",0];this animate [""ramp_top"",0];";
-		};
-		class RampLevel
-		{
-			condition = "this animationPhase ""ramp_bottom"" != 0.56 && player == driver this;";
-			displayName = "Level Ramp";
-			onlyforplayer = 0;
-			position = "ramp action";
-			radius = 5;
-			showWindow = 0;
-			statement = "this animate [""ramp_bottom"",0.56];this animate [""ramp_top"",1];";
-		};
-		class RampOpen
-		{
-			condition = "this animationPhase ""ramp_bottom"" <= 0.56 && player == driver this;";
-			displayName = "Open Ramp";
-			onlyforplayer = 0;
-			position = "ramp action";
-			radius = 5;
-			showWindow = 0;
-			statement = "this animate [""ramp_bottom"",1];this animate [""ramp_top"",1];";
-		};
-		class unPack
-		{
-			condition = "this animationphase ""mainRotor_unfolded"" !=0 AND driver this == player";
-			displayName = "UnPack";
-			displayNameDefault = "Unpack";
-			onlyForPlayer = 1;
-			position = "PackAction";
-			radius = 10;
-			statement = "[this,0] execvm ""\rhsusf\addons\rhsusf_ch53\scripts\ch53_fold.sqf""";
-		};
-	};
 	class TransportItems
 	{
 		item_xx(ACE_FieldDressing,10);
@@ -457,7 +133,7 @@ class SOR_USMC_HELI_CH53E : rhsusf_CH53E_USMC_D
 	};
 };
 
-class SOR_USMC_HELI_UH60_MEV : RHS_UH60M_MEV2
+class SOR_USMC_HELI_UH60_MEV : RHS_UH60M_MEV2_d
 {
 	scope = 2;
 	faction = SOR_Faction_M;
@@ -494,7 +170,6 @@ class SOR_USMC_HELI_AH1Z : RHS_AH1Z
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
-//		armor = 80; //was 50 (UH-60 is 60!)
 	fuelCapacity = 200;
 	altFullForce = 5900
 	altNoForce = 6100
@@ -520,7 +195,6 @@ class SOR_USMC_HELI_AH1Z_GS : RHS_AH1Z_GS
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
-//		armor = 80; //was 50 (UH-60 is 60!)
 	fuelCapacity = 200;
 	altFullForce = 5900
 	altNoForce = 6100
@@ -546,13 +220,12 @@ class SOR_USMC_HELI_AH1Z_CS : RHS_AH1Z_CS
 {
 	faction = SOR_Faction_M;
 	vehicleclass = "SOR_USMC_Aircraft";
-//		armor = 80; //was 50 (UH-60 is 60!)
 	fuelCapacity = 200;
 	altFullForce = 5900
 	altNoForce = 6100
-		class TransportItems
+	class TransportItems
 	{
-		item_xx(ACE_FieldDressing,10);
+	    item_xx(ACE_FieldDressing,10);
 	};
 	class TransportWeapons
 	{
@@ -632,6 +305,45 @@ class SOR_USMC_VTOL_V44_CARGO : B_T_VTOL_01_vehicle_F
 	fuelCapacity = 1200;
 	armorStructural = 4;
 	displayName = "(USAF) V44 Blackfish Cargo (C4/P0/V1-4)";
+	/*class UserActions
+	{
+		class Ramp_Open
+		{
+			available = 0;
+			condition = "this doorPhase "Door_1_source" < 0.5 AND Alive(this) && ({player == _x} count [driver this, this turretUnit [0], this turretUnit [3], this turretUnit [4]] > 0) && ((this getVariable ['bis_disabled_Ramp',0]) != 1)";
+			displayName = "Open ramp";
+			displayNameDefault = "<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
+			onlyForPlayer = 1;
+			position = "";
+			priority = 1.5;
+			radius = 15;
+			radiusView = 0.2;
+			shortcut = "";
+			showIn3D = 17;
+			showWindow = 0;
+			statement = "this animateDoor ['Door_1_source', 1]";
+			textToolTip = "Open ramp";
+			userActionID = 60;
+		};
+		class Ramp_Close
+		{
+			available = 0;
+			condition = "this doorPhase "Door_1_source" > 0.5 AND Alive(this) && ({player == _x} count [driver this, this turretUnit [0], this turretUnit [3], this turretUnit [4]] > 0) && ((this getVariable ['bis_disabled_Ramp',0]) != 1)";
+			displayName = "Close ramp";
+			displayNameDefault = "<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
+			onlyForPlayer = 1;
+			position = "";
+			priority = 1.5;
+			radius = 15;
+			radiusView = 0.2;
+			shortcut = "";
+			showIn3D = 17;
+			showWindow = 0;
+			statement = "this animateDoor ['Door_1_source', 0]";
+			textToolTip = "Close ramp";
+			userActionID = 61;
+		};
+	};*/
 	class TransportItems
 	{
 		item_xx(ACE_FieldDressing,20);

@@ -44,9 +44,9 @@
 		class TransportWeapons{};
 		class TransportMagazines
 		{
-			mag_xx(30Rnd_556x45_Stanag,30)
-			mag_xx(16Rnd_9x21_Mag,5)
-			mag_xx(rhsusf_100Rnd_762x51_m62_tracer,2)
+			mag_xx(30Rnd_556x45_Stanag,30);
+			mag_xx(16Rnd_9x21_Mag,5);
+			mag_xx(rhsusf_100Rnd_762x51_m62_tracer,2);
 		};
 		class TransportBackpacks{};
 	};
@@ -61,8 +61,8 @@
 		class TransportItems{};
 		class TransportWeapons
 		{
-			weap_xx(SOR_USMC_WEAP_MK18_GRIP,6)
-			weap_xx(SOR_USMC_WEAP_MK18_M320,2)
+			weap_xx(SOR_USMC_WEAP_MK18_GRIP,6);
+			weap_xx(SOR_USMC_WEAP_MK18_M320,2);
 		};
 		class TransportMagazines{};
 		class TransportBackpacks{};
@@ -136,23 +136,23 @@
 		class TransportWeapons{};
 		class TransportMagazines
 		{
-			mag_xx(SmokeShellBlue,10)
-			mag_xx(SmokeShellGreen,10)
-			mag_xx(SmokeShellOrange,10)
-			mag_xx(SmokeShellPurple,10)
-			mag_xx(SmokeShellRed,10)
-			mag_xx(SmokeShellYellow,10)
-			mag_xx(SmokeShell,10)
-			mag_xx(HandGrenade,10)
-			mag_xx(MiniGrenade,10)
-			mag_xx(1Rnd_Smoke_Grenade_shell,10)
-			mag_xx(1Rnd_SmokeRed_Grenade_shell,10)
-			mag_xx(1Rnd_SmokeGreen_Grenade_shell,10)
-			mag_xx(1Rnd_SmokeYellow_Grenade_shell,10)
-			mag_xx(1Rnd_SmokePurple_Grenade_shell,10)
-			mag_xx(1Rnd_SmokeBlue_Grenade_shell,10)
-			mag_xx(1Rnd_SmokeOrange_Grenade_shell,10)
-			mag_xx(1Rnd_HE_Grenade_shell,10)
+			mag_xx(SmokeShellBlue,10);
+			mag_xx(SmokeShellGreen,10);
+			mag_xx(SmokeShellOrange,10);
+			mag_xx(SmokeShellPurple,10);
+			mag_xx(SmokeShellRed,10);
+			mag_xx(SmokeShellYellow,10);
+			mag_xx(SmokeShell,10);
+			mag_xx(HandGrenade,10);
+			mag_xx(MiniGrenade,10);
+			mag_xx(1Rnd_Smoke_Grenade_shell,10);
+			mag_xx(1Rnd_SmokeRed_Grenade_shell,10);
+			mag_xx(1Rnd_SmokeGreen_Grenade_shell,10);
+			mag_xx(1Rnd_SmokeYellow_Grenade_shell,10);
+			mag_xx(1Rnd_SmokePurple_Grenade_shell,10);
+			mag_xx(1Rnd_SmokeBlue_Grenade_shell,10);
+			mag_xx(1Rnd_SmokeOrange_Grenade_shell,10);
+			mag_xx(1Rnd_HE_Grenade_shell,10);
 		};
 		class TransportBackpacks{};
 	};
@@ -167,9 +167,9 @@
 		class TransportItems{};
 		class TransportWeapons
 		{
-			weap_xx(rhs_weap_M136,2)
-			weap_xx(rhs_weap_M136_hedp,2)
-			weap_xx(rhs_weap_M136_hp,2)
+			weap_xx(rhs_weap_M136,2);
+			weap_xx(rhs_weap_M136_hedp,2);
+			weap_xx(rhs_weap_M136_hp,2);
 		};
 		class TransportMagazines{};
 		class TransportBackpacks{};
@@ -185,10 +185,10 @@
 		class TransportItems{};
 		class TransportWeapons
 		{
-			weap_xx(rhs_weap_fim92,2)
-			weap_xx(launch_NLAW_F,1)
-			weap_xx(rhs_weap_fgm148,1)
-			weap_xx(rhs_weap_smaw,1)
+			weap_xx(rhs_weap_fim92,2);
+			weap_xx(launch_NLAW_F,1);
+			weap_xx(rhs_weap_fgm148,1);
+			weap_xx(rhs_weap_smaw,1);
 		};
 		class TransportMagazines{};
 		class TransportBackpacks{};
@@ -205,10 +205,10 @@
 		class TransportWeapons{};
 		class TransportMagazines
 		{
-			mag_xx(rhs_fim92_mag,10)
-			mag_xx(rhs_fgm148_magazine_AT,3)
-			mag_xx(rhs_mag_smaw_HEAA,5)
-			mag_xx(rhs_mag_smaw_HEDP,5)
+			mag_xx(rhs_fim92_mag,10);
+			mag_xx(rhs_fgm148_magazine_AT,3);
+			mag_xx(rhs_mag_smaw_HEAA,5);
+			mag_xx(rhs_mag_smaw_HEDP,5);
 		};
 		class TransportBackpacks{};
 	};
@@ -223,13 +223,13 @@
 		class TransportItems{};
 		class TransportWeapons
 		{
-			weap_xx(rhs_weap_M136_hedp,2)
-			weap_xx(SOR_USMC_WEAP_MK18_GRIP_VIPER_W,1)
-			weap_xx(SOR_USMC_WEAP_MK18_GRIP_VIPER_D,1)
+			weap_xx(rhs_weap_M136_hedp,2);
+			weap_xx(SOR_USMC_WEAP_MK18_GRIP_VIPER_W,1);
+			weap_xx(SOR_USMC_WEAP_MK18_GRIP_VIPER_D,1);
 		};
 		class TransportMagazines
 		{
-			mag_xx(30Rnd_556x45_Stanag,10)
+			mag_xx(30Rnd_556x45_Stanag,10);
 		};
 		class TransportBackpacks{};
 	};
@@ -247,17 +247,17 @@
 		};
 		class TransportWeapons
 		{
-			weap_xx(SOR_USMC_WEAP_M249_VIPER,2)
-			weap_xx(SOR_USMC_WEAP_M107_VIPER,1)
+			weap_xx(SOR_USMC_WEAP_M249_VIPER,2);
+			weap_xx(SOR_USMC_WEAP_M107_VIPER,1);
 		};
 		class TransportMagazines
 		{
-			mag_xx(rhs_200rnd_556x45_M_SAW,5)
-			mag_xx(rhsusf_mag_10Rnd_STD_50BMG_M33,3)
+			mag_xx(rhs_200rnd_556x45_M_SAW,5);
+			mag_xx(rhsusf_mag_10Rnd_STD_50BMG_M33,3);
 		};
 		class TransportBackpacks
 		{
-		    pack_xx(USMC_SOR_RFLAT_Pack_M,2)
+		    pack_xx(USMC_SOR_RFLAT_Pack_M,2);
 		};
 	};
 
@@ -270,31 +270,31 @@
 		displayName = "Box [General Accessories]";
 		class TransportItems
 		{
-			item_xx(ACE_SpraypaintBlack,5)
-			item_xx(ACE_SpraypaintBlue,5)
-			item_xx(ACE_SpraypaintGreen,5)
-			item_xx(ACE_SpraypaintRed,5)
-			item_xx(ACE_bodyBag,5)
-			item_xx(ACE_CableTie,10)
-			item_xx(ACE_DAGR,3)
-			item_xx(ACE_EarPlugs,20)
-			item_xx(ACE_EntrenchingTool,5)
-			item_xx(ACE_Flashlight_MX991,5)
-			item_xx(ACE_MapTools,5)
-			item_xx(ACE_wirecutter,5)
+			item_xx(ACE_SpraypaintBlack,5);
+			item_xx(ACE_SpraypaintBlue,5);
+			item_xx(ACE_SpraypaintGreen,5);
+			item_xx(ACE_SpraypaintRed,5);
+			item_xx(ACE_bodyBag,5);
+			item_xx(ACE_CableTie,10);
+			item_xx(ACE_DAGR,3);
+			item_xx(ACE_EarPlugs,20);
+			item_xx(ACE_EntrenchingTool,5);
+			item_xx(ACE_Flashlight_MX991,5);
+			item_xx(ACE_MapTools,5);
+			item_xx(ACE_wirecutter,5);
 		};
 		class TransportWeapons{};
 		class TransportMagazines
 		{
-			mag_xx(Chemlight_blue,20)
-			mag_xx(Chemlight_green,20)
-			mag_xx(Chemlight_red,20)
-			mag_xx(Chemlight_yellow,20)
-			mag_xx(B_IR_Grenade,20)
-			mag_xx(ACE_HandFlare_Green,10)
-			mag_xx(ACE_HandFlare_Red,10)
-			mag_xx(ACE_HandFlare_White,10)
-			mag_xx(ACE_HandFlare_Yellow,10)
+			mag_xx(Chemlight_blue,20);
+			mag_xx(Chemlight_green,20);
+			mag_xx(Chemlight_red,20);
+			mag_xx(Chemlight_yellow,20);
+			mag_xx(B_IR_Grenade,20);
+			mag_xx(ACE_HandFlare_Green,10);
+			mag_xx(ACE_HandFlare_Red,10);
+			mag_xx(ACE_HandFlare_White,10);
+			mag_xx(ACE_HandFlare_Yellow,10);
 		};
 		class TransportBackpacks{};
 	};
@@ -308,15 +308,15 @@
 		displayName = "Box [PJ Uniforms]";
 		class TransportItems
 		{
-			item_xx(U_B_Wetsuit,10)
-			item_xx(V_RebreatherB,10)
-			item_xx(G_B_Diving,10)
+			item_xx(U_B_Wetsuit,10);
+			item_xx(V_RebreatherB,10);
+			item_xx(G_B_Diving,10);
 		};
 		class TransportWeapons{};
 		class TransportMagazines{};
 		class TransportBackpacks
 		{
-            pack_xx(USMC_SOR_PJMedicPack_M,3)
+            pack_xx(USMC_SOR_PJMedicPack_M,3);
 		};
 	};
 
@@ -329,11 +329,11 @@
 		displayName = "Box [PJ Medical]";
 		class TransportItems
 		{
-			item_xx(ACE_bloodIV,10)
-			item_xx(ACE_bloodIV_250,10)
-			item_xx(ACE_bloodIV_500,10)
-			item_xx(ACE_morphine,20)
-			item_xx(ACE_fieldDressing,40)
+			item_xx(ACE_bloodIV,10);
+			item_xx(ACE_bloodIV_250,10);
+			item_xx(ACE_bloodIV_500,10);
+			item_xx(ACE_morphine,20);
+			item_xx(ACE_fieldDressing,40);
 		};
 		class TransportWeapons{};
 		class TransportMagazines{};
@@ -352,7 +352,7 @@
 		class TransportMagazines{};
 		class TransportBackpacks
 		{
-			pack_xx(B_Parachute,100)
+			pack_xx(B_Parachute,100);
 		};
 	};
 
@@ -365,15 +365,15 @@
 		displayName = "Box [Eagle]";
 		class TransportItems
 		{
-			item_xx(V_Rangemaster_belt,5)
-			item_xx(H_PilotHelmetFighter_B,5)
-			item_xx(U_B_PilotCoveralls,5)
+			item_xx(V_Rangemaster_belt,5);
+			item_xx(H_PilotHelmetFighter_B,5);
+			item_xx(U_B_PilotCoveralls,5);
 		};
 		class TransportWeapons{};
 		class TransportMagazines{};
 		class TransportBackpacks
 		{
-			pack_xx(B_Parachute,5)
+			pack_xx(B_Parachute,5);
 		};
 	};
 
@@ -390,14 +390,14 @@
 		class TransportWeapons{};
 		class TransportMagazines
 		{
-			mag_xx(30Rnd_556x45_Stanag,100)
-			mag_xx(rhsusf_100Rnd_762x51_m62_tracer,10)
-			mag_xx(1Rnd_HE_Grenade_shell,10)
-			mag_xx(1Rnd_Smoke_Grenade_shell,10)
-			mag_xx(1Rnd_SmokeRed_Grenade_shell,10)
-			mag_xx(HandGrenade,20)
-			mag_xx(SmokeShell,20)
-			mag_xx(SmokeShellGreen,20)
+			mag_xx(30Rnd_556x45_Stanag,100);
+			mag_xx(rhsusf_100Rnd_762x51_m62_tracer,10);
+			mag_xx(1Rnd_HE_Grenade_shell,10);
+			mag_xx(1Rnd_Smoke_Grenade_shell,10);
+			mag_xx(1Rnd_SmokeRed_Grenade_shell,10);
+			mag_xx(HandGrenade,20);
+			mag_xx(SmokeShell,20);
+			mag_xx(SmokeShellGreen,20);
 		};
 		class TransportBackpacks{};
 	};
@@ -411,21 +411,21 @@
 		displayName = "Crate [Ammo&Med]";
 		class TransportItems
 		{
-			item_xx(ACE_CableTie,5)
+			item_xx(ACE_CableTie,5);
 			item_xx(ACE_FieldDressing,80);
 			item_xx(ACE_morphine,40);
 		};
 		class TransportWeapons{};
 		class TransportMagazines
 		{
-			mag_xx(30Rnd_556x45_Stanag,60)
-			mag_xx(rhsusf_100Rnd_762x51_m62_tracer,5)
-			mag_xx(1Rnd_HE_Grenade_shell,5)
-			mag_xx(1Rnd_Smoke_Grenade_shell,5)
-			mag_xx(1Rnd_SmokeRed_Grenade_shell,5)
-			mag_xx(HandGrenade,10)
-			mag_xx(SmokeShell,10)
-			mag_xx(SmokeShellGreen,10)
+			mag_xx(30Rnd_556x45_Stanag,60);
+			mag_xx(rhsusf_100Rnd_762x51_m62_tracer,5);
+			mag_xx(1Rnd_HE_Grenade_shell,5);
+			mag_xx(1Rnd_Smoke_Grenade_shell,5);
+			mag_xx(1Rnd_SmokeRed_Grenade_shell,5);
+			mag_xx(HandGrenade,10);
+			mag_xx(SmokeShell,10);
+			mag_xx(SmokeShellGreen,10);
 		};
 		class TransportBackpacks{};
 	};
@@ -442,9 +442,9 @@
 		class TransportMagazines{};
 		class TransportBackpacks
 		{
-			pack_xx(RHS_M2_MiniTripod_Bag,4)
-			pack_xx(RHS_M2_Tripod_Bag,4)
-			pack_xx(RHS_M2_Gun_Bag,4)
+			pack_xx(RHS_M2_MiniTripod_Bag,4);
+			pack_xx(RHS_M2_Tripod_Bag,4);
+			pack_xx(RHS_M2_Gun_Bag,4);
 		};
 	};
 
@@ -460,8 +460,8 @@
 		class TransportMagazines{};
 		class TransportBackpacks
 		{
-			pack_xx(rhs_M252_Gun_Bag,4)
-			pack_xx(rhs_M252_Bipod_Bag,4)
+			pack_xx(rhs_M252_Gun_Bag,4);
+			pack_xx(rhs_M252_Bipod_Bag,4);
 		};
 	};
 
@@ -477,12 +477,12 @@
 		class TransportMagazines{};
 		class TransportBackpacks
 		{
-			pack_xx(rhs_Tow_Gun_Bag,2)
-			pack_xx(rhs_TOW_Tripod_Bag,2)
-			pack_xx(RHS_Mk19_Gun_Bag,2)
-			pack_xx(RHS_Mk19_Tripod_Bag,2)
-			pack_xx(B_HMG_01_A_weapon_F,1)
-			pack_xx(B_GMG_01_A_weapon_F,1)
+			pack_xx(rhs_Tow_Gun_Bag,2);
+			pack_xx(rhs_TOW_Tripod_Bag,2);
+			pack_xx(RHS_Mk19_Gun_Bag,2);
+			pack_xx(RHS_Mk19_Tripod_Bag,2);
+			pack_xx(B_HMG_01_A_weapon_F,1);
+			pack_xx(B_GMG_01_A_weapon_F,1);
 		};
 	};
 
@@ -497,8 +497,8 @@
 		class TransportWeapons{};
 		class TransportMagazines
 		{
-			mag_xx(200Rnd_127x99_mag_Tracer_Red,4)
-			mag_xx(32Rnd_40mm_G_belt,2)
+			mag_xx(200Rnd_127x99_mag_Tracer_Red,4);
+			mag_xx(32Rnd_40mm_G_belt,2);
 		};
 		class TransportBackpacks{};
 	};
@@ -514,12 +514,12 @@
 		class TransportWeapons{};
 		class TransportMagazines
 		{
-			mag_xx(60Rnd_40mm_GPR_Tracer_Red_shells,2)
-			mag_xx(40Rnd_40mm_APFSDS_Tracer_Red_shells,3)
-			mag_xx(1000Rnd_65x39_Belt_Tracer_Red,2)
-			mag_xx(200Rnd_127x99_mag_Tracer_Red,3)
-			mag_xx(32Rnd_40mm_G_belt,2)
-			mag_xx(SmokeLauncherMag,10)
+			mag_xx(60Rnd_40mm_GPR_Tracer_Red_shells,2);
+			mag_xx(40Rnd_40mm_APFSDS_Tracer_Red_shells,3);
+			mag_xx(1000Rnd_65x39_Belt_Tracer_Red,2);
+			mag_xx(200Rnd_127x99_mag_Tracer_Red,3);
+			mag_xx(32Rnd_40mm_G_belt,2);
+			mag_xx(SmokeLauncherMag,10);
 		};
 		class TransportBackpacks{};
 	};
@@ -535,17 +535,17 @@
 		class TransportWeapons{};
 		class TransportMagazines
 		{
-			mag_xx(32Rnd_155mm_Mo_shells,2)
-			mag_xx(6Rnd_155mm_Mo_smoke,2)
-			mag_xx(2Rnd_155mm_Mo_guided,2)
-			mag_xx(2Rnd_155mm_Mo_LG,2)
-			mag_xx(6Rnd_155mm_Mo_mine,2)
-			mag_xx(2Rnd_155mm_Mo_Cluster,2)
-			mag_xx(6Rnd_155mm_Mo_AT_mine,2)
-			mag_xx(12Rnd_230mm_rockets,2)
-			mag_xx(4Rnd_Titan_long_missiles,2)
-			mag_xx(680Rnd_35mm_AA_shells_Tracer_Red,2)
-			mag_xx(SmokeLauncherMag,10)
+			mag_xx(32Rnd_155mm_Mo_shells,2);
+			mag_xx(6Rnd_155mm_Mo_smoke,2);
+			mag_xx(2Rnd_155mm_Mo_guided,2);
+			mag_xx(2Rnd_155mm_Mo_LG,2);
+			mag_xx(6Rnd_155mm_Mo_mine,2);
+			mag_xx(2Rnd_155mm_Mo_Cluster,2);
+			mag_xx(6Rnd_155mm_Mo_AT_mine,2);
+			mag_xx(12Rnd_230mm_rockets,2);
+			mag_xx(4Rnd_Titan_long_missiles,2);
+			mag_xx(680Rnd_35mm_AA_shells_Tracer_Red,2);
+			mag_xx(SmokeLauncherMag,10);
 		};
 		class TransportBackpacks{};
 	};
@@ -558,10 +558,10 @@
 		displayName = "Crate [Construction]";
 		class TransportItems
 		{
-			item_xx(ACE_SandbagObject,100)
-			item_xx(ACE_EntrenchingTool,5)
-			item_xx(ACE_wirecutter,5)
-			item_xx(MineDetector,2)
+			item_xx(ACE_SandbagObject,100);
+			item_xx(ACE_EntrenchingTool,5);
+			item_xx(ACE_wirecutter,5);
+			item_xx(MineDetector,2);
 		};
 		class TransportWeapons{};
 		class TransportMagazines{};

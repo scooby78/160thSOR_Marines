@@ -336,7 +336,7 @@ class CfgGroups
 						position[] = {0, -6, 0};
 					};
 				};
-				class SOR_ReconTeam3_M
+				/*class SOR_ReconTeam3_M
 				{
 					name = "Viper Team [Scuba]";
 					faction = "SOR_Faction_M";
@@ -371,7 +371,7 @@ class CfgGroups
 						rank = PRIVATE;
 						position[] = {0, -6, 0};
 					};
-				};
+				};*/
 			    /*
 			    class SOR_Recon_M
 				{
@@ -595,7 +595,7 @@ class CfgGroups
 						rank = CORPORAL;
 						position[] = {0, -2, 0};
 					};
-				}
+				};
 			};
 			class SOR_InfGroups_Air_M
 			{
@@ -1076,7 +1076,7 @@ class CfgGroups
 						position[] = {0, -6, 0};
 					};
 				};
-				class SOR_ReconTeam3_D_M
+				/*class SOR_ReconTeam3_D_M
 				{
 					name = "Viper Team [Scuba]";
 					faction = "SOR_Faction_M";
@@ -1111,7 +1111,7 @@ class CfgGroups
 						rank = PRIVATE;
 						position[] = {0, -6, 0};
 					};
-				};
+				};*/
 			    /*
 			    class SOR_Recon_D_M
 				{
@@ -1335,7 +1335,7 @@ class CfgGroups
 						rank = CORPORAL;
 						position[] = {0, -2, 0};
 					};
-				}
+				};
 			};
 			class SOR_InfGroups_Air_D_M
 			{

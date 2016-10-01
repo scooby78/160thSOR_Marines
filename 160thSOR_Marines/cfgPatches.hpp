@@ -9,6 +9,9 @@ class CfgPatches
 {
 	class SOR_Marines_Loadouts
 	{
+		requiredAddons[] = {};
+		requiredVersion = 1.64;
+		author = "BucKaneer";
 		units[] =
 		{
 			//Woodland Marpat//
@@ -38,12 +41,12 @@ class CfgPatches
 			"SOR_USMC_ReconJTAC_W",
 			"SOR_USMC_ReconRifleman_W",
 			"SOR_USMC_Marksman_W",
-			"SOR_USMC_ReconLeaderScuba_W",
-			"SOR_USMC_ReconJTACScuba_W",
-			"SOR_USMC_ReconRiflemanScuba_W",
-			"SOR_USMC_MarksmanScuba_W",
-			"SOR_USMC_Sniper_W",
-			"SOR_USMC_Spotter_W",
+			//"SOR_USMC_ReconLeaderScuba_W",
+			//"SOR_USMC_ReconJTACScuba_W",
+			//"SOR_USMC_ReconRiflemanScuba_W",
+			//"SOR_USMC_MarksmanScuba_W",
+			//"SOR_USMC_Sniper_W",
+			//"SOR_USMC_Spotter_W",
 
 			"SOR_USMC_MechCrew_W",
 			"SOR_USMC_MechOperator_W",
@@ -91,12 +94,12 @@ class CfgPatches
 			"SOR_USMC_ReconJTAC_D",
 			"SOR_USMC_ReconRifleman_D",
 			"SOR_USMC_Marksman_D",
-			"SOR_USMC_ReconLeaderScuba_D",
-			"SOR_USMC_ReconJTACScuba_D",
-			"SOR_USMC_ReconRiflemanScuba_D",
-			"SOR_USMC_MarksmanScuba_D",
-			"SOR_USMC_Sniper_D",
-			"SOR_USMC_Spotter_D",
+			//"SOR_USMC_ReconLeaderScuba_D",
+			//"SOR_USMC_ReconJTACScuba_D",
+			//"SOR_USMC_ReconRiflemanScuba_D",
+			//"SOR_USMC_MarksmanScuba_D",
+			//"SOR_USMC_Sniper_D",
+			//"SOR_USMC_Spotter_D",
 
 			"SOR_USMC_MechCrew_D",
 			"SOR_USMC_MechOperator_D",
@@ -133,6 +136,9 @@ class CfgPatches
 			"SOR_USMC_APC_PATRIA_D",
 			"SOR_USMC_APC_PANDUR_D",
 			"SOR_USMC_APC_NAMMERA_D",
+			"SOR_USMC_APC_PATRIA_W",
+			"SOR_USMC_APC_PANDUR_W",
+			"SOR_USMC_APC_NAMMERA_W",
 
 			"SOR_USMC_MRAP_MATV_HMG_D",
 			"SOR_USMC_MRAP_MATV_GMG_D",
@@ -142,10 +148,6 @@ class CfgPatches
 			"SOR_USMC_MRAP_MATV_GMG_W",
 			"SOR_USMC_MRAP_MATV_UNARMED_W",
 			"SOR_USMC_MRAP_MATV_ENGINEER_W",
-			"SOR_USMC_MRAP_LSG_HMG_D",
-			"SOR_USMC_MRAP_LSG_GMG_D",
-			"SOR_USMC_MRAP_LSG_UNARMED_D",
-			"SOR_USMC_MRAP_LSG_ENGINEER_D",
 
 			"SOR_USMC_TRUCK_HEMTT_AMMO_W",
 			"SOR_USMC_TRUCK_HEMTT_FUEL_W",
@@ -158,6 +160,9 @@ class CfgPatches
 			"SOR_USMC_ARTY_MLRS_D",
 
 			"SOR_USMC_CAR_REP_AIR",
+
+			"SOR_USMC_UAV_UGV",
+			"SOR_USMC_UAV_UGV_ARMED",
 
 			//Water Vehicles//
 			"SOR_USMC_BOAT_RIVERINE",
@@ -186,10 +191,7 @@ class CfgPatches
 			"SOR_USMC_UAV_YABHON_AGM",
 			"SOR_USMC_UAV_YABHON_GBU",
 			"SOR_USMC_UAV_DARTER",
-			"SOR_USMC_UAV_UGV",
-			"SOR_USMC_UAV_UGV_ARMED",
 
-			"SOR_USMC_FWING_F22",
 			"SOR_USMC_FWING_A10A_CAS",
 			"SOR_USMC_FWING_A10A_AT",
 			"SOR_USMC_FWING_C130J",

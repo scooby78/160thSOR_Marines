@@ -117,9 +117,7 @@
 						"SmokeShell"
 
 #define V_P09		    "16Rnd_9x21_Mag",\
-						"16Rnd_9x21_Mag",\
-						"16Rnd_9x21_Mag"
+						"16Rnd_9x21_Mag",
 
 #define V_CC2		    "9Rnd_45ACP_Mag",\
-						"9Rnd_45ACP_Mag",\
-						"9Rnd_45ACP_Mag"
+						"9Rnd_45ACP_Mag",

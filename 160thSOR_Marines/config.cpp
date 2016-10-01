@@ -13,6 +13,3 @@
 #include "cfgVehicles.hpp"
 #include "cfgGroups.hpp"
 #include "cfgWeapons.hpp"
-#include "cfgFaces.hpp"
-
-

@@ -44,7 +44,6 @@ class SOR_USMC_ZeusCommand_W : B_officer_F
 	{
 		Standard_Meds,
 		SL_Equip,
-		"ACE_DAGR",
 		"rhsusf_acc_compm4",
 		"ACE_NVG_Wide"
 	};
@@ -52,7 +51,6 @@ class SOR_USMC_ZeusCommand_W : B_officer_F
 	{
 		Standard_Meds,
 		SL_Equip,
-		"ACE_DAGR",
         "rhsusf_acc_compm4",
 		"ACE_NVG_Wide"
 	};
@@ -117,7 +115,6 @@ class SOR_USMC_Actual_W : B_officer_F
 	{
 		Standard_Meds,
 		SL_Equip,
-		"ACE_DAGR",
 		"rhsusf_acc_compm4",
 		"ACE_NVG_Wide"
 	};
@@ -125,7 +122,6 @@ class SOR_USMC_Actual_W : B_officer_F
 	{
 		Standard_Meds,
 		SL_Equip,
-		"ACE_DAGR",
 		"rhsusf_acc_compm4",
 		"ACE_NVG_Wide"
 	};
@@ -328,14 +324,13 @@ class SOR_USMC_Teamleader_W : B_Soldier_TL_F
 	displayName = "(I) [W] Teamleader";
 	accuracy = 3.5;
 	backpack = "USMC_SOR_RFLAT_Pack_M";
-	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP2", "hgun_P07_F","launch_NLAW_F","Throw","Put","ACE_Vector"};
-	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP2", "hgun_P07_F","launch_NLAW_F","Throw","Put","ACE_Vector"};
+	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP2", "hgun_P07_F","Throw","Put","ACE_Vector"};
+	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP2", "hgun_P07_F","Throw","Put","ACE_Vector"};
 	Items[] =
 	{
 		Standard_Meds,
 		SL_Equip,
 		"rhsusf_acc_compm4",
-		"ACE_DAGR",
 		"ACE_NVG_Wide"
 	};
 	RespawnItems[] =
@@ -343,18 +338,17 @@ class SOR_USMC_Teamleader_W : B_Soldier_TL_F
 		Standard_Meds,
 		SL_Equip,
 		"rhsusf_acc_compm4",
-		"ACE_DAGR",
 		"ACE_NVG_Wide"
 	};
 	magazines[] =
 	{
-		V_SL_Mags,
-		V_P09
+		V_P09,
+		V_SL_Mags
 	};
 	respawnMagazines[] =
 	{
-		V_SL_Mags,
-		V_P09
+		V_P09,
+		V_SL_Mags
 	};
 	linkedItems[] =
 	{
@@ -399,13 +393,13 @@ class SOR_USMC_Medic_W : B_medic_F
 	};
 	magazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	respawnMagazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	linkedItems[] =
 	{
@@ -503,11 +497,11 @@ class SOR_USMC_LMG_W : B_HeavyGunner_F
 	};
 	magazines[] =
 	{
-		"rhsusf_100Rnd_762x51_m62_tracer",
+		"rhsusf_100Rnd_762x51_m62_tracer"
 	};
 	respawnMagazines[] =
 	{
-		"rhsusf_100Rnd_762x51_m62_tracer",
+		"rhsusf_100Rnd_762x51_m62_tracer"
 	};
 	linkedItems[] =
 	{
@@ -550,13 +544,13 @@ class SOR_USMC_Grenadier_W : B_Soldier_GL_F
 	};
 	magazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	respawnMagazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	linkedItems[] =
 	{
@@ -583,8 +577,8 @@ class SOR_USMC_Rifleman_LMG_AMMO_W : B_Soldier_F
 	uniformClass = "rhs_uniform_FROG01_wd";
 	displayName = "(I) [W] Rifleman M240G Ammo Bearer";
 	backpack = "USMC_SOR_Rifleman_LMG_Pack_M";
-	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
-	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
+	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","launch_NLAW_F","hgun_P07_F","Throw","Put"};
+	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","launch_NLAW_F","hgun_P07_F","Throw","Put"};
 	Items[] =
 	{
 		Standard_Meds,
@@ -599,13 +593,13 @@ class SOR_USMC_Rifleman_LMG_AMMO_W : B_Soldier_F
 	};
 	magazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	respawnMagazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	linkedItems[] =
 	{
@@ -627,8 +621,8 @@ class SOR_USMC_Rifleman_SAW_AMMO_W : SOR_USMC_Rifleman_LMG_AMMO_W
 {
 	displayName = "(I) [W] Rifleman M27IAR Ammo Bearer";
 	backpack = "USMC_SOR_Rifleman_SAW_Pack_M";
-	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
-	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
+	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","launch_NLAW_F","hgun_P07_F","Throw","Put"};
+	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","launch_NLAW_F","hgun_P07_F","Throw","Put"};
 	magazines[] =
 	{
 		V_P09,
@@ -664,13 +658,13 @@ class SOR_USMC_RiflemanAT_W : B_soldier_AT_F
 	};
 	magazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	respawnMagazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	linkedItems[] =
 	{
@@ -893,7 +887,6 @@ class SOR_USMC_ParaJumper_W : B_recon_medic_F
 		Standard_Meds,
 		SL_Equip,
 		"rhsusf_acc_ACOG3_USMC_3d",
-		"ACE_DAGR",
 		"ACE_NVG_Wide"
 	};
 	RespawnItems[] =
@@ -901,7 +894,6 @@ class SOR_USMC_ParaJumper_W : B_recon_medic_F
 		Standard_Meds,
 		SL_Equip,
 		"rhsusf_acc_ACOG3_USMC_3d",
-		"ACE_DAGR",
 		"ACE_NVG_Wide"
 	};
 	magazines[] =
@@ -1047,7 +1039,7 @@ class SOR_USMC_Marksman_W : SOR_USMC_ReconLeader_W
 };
 
     ////////////////////Viper Recon Scuba////////////////////
-
+/*
 class SOR_USMC_ReconLeaderScuba_W : B_diver_TL_F
 {
 	faction = SOR_Faction_M;
@@ -1075,14 +1067,14 @@ class SOR_USMC_ReconLeaderScuba_W : B_diver_TL_F
 	};
 	magazines[] =
 	{
-		"Laserbatteries",
-		V_P09
+		V_P09,
+		"Laserbatteries"
 	};
 
 	respawnMagazines[] =
 	{
-		"Laserbatteries",
-		V_P09
+		V_P09,
+		"Laserbatteries"
 	};
 	linkedItems[] =
 	{
@@ -1140,7 +1132,7 @@ class SOR_USMC_MarksmanScuba_W : SOR_USMC_ReconLeaderScuba_W
 	weapons[] = {"SOR_USMC_WEAP_MK18_GRIP_VIPER_W","SOR_USMC_WEAP_P07_VIPER","Throw","Put","Laserdesignator"};
 	respawnWeapons[] = {"SOR_USMC_WEAP_MK18_GRIP_VIPER_W","SOR_USMC_WEAP_P07_VIPER","Throw","Put","Laserdesignator"};
 };
-
+*/
     ////////////////////Snipers////////////////////
 
 /*
@@ -1276,11 +1268,13 @@ class SOR_USMC_MechCrew_W : B_crew_F
 	};
 	magazines[] =
 	{
-		V_P09
+		V_P09,
+		"Laserbatteries"
 	};
 	respawnMagazines[] =
 	{
-		V_P09
+		V_P09,
+		"Laserbatteries"
 	};
 	linkedItems[] =
 	{
@@ -1315,7 +1309,7 @@ class SOR_USMC_MechOperator_W : SOR_USMC_MechCrew_W
 		"30Rnd_556x45_Stanag",
 		"SmokeShell",
 		"SmokeShell",
-		"Laserbatteries",
+		"Laserbatteries"
 	};
 	respawnMagazines[] =
 	{
@@ -1326,7 +1320,7 @@ class SOR_USMC_MechOperator_W : SOR_USMC_MechCrew_W
 		"30Rnd_556x45_Stanag",
 		"SmokeShell",
 		"SmokeShell",
-		"Laserbatteries",
+		"Laserbatteries"
 	};
 	linkedItems[] =
 	{
@@ -1533,14 +1527,12 @@ class SOR_USMC_FAC_W : B_recon_JTAC_F
 	{
 		Standard_Meds,
 		SL_Equip,
-		"ACE_DAGR",
 		"ACE_NVG_Wide"
 	};
 	RespawnItems[] =
 	{
 		Standard_Meds,
 		SL_Equip,
-		"ACE_DAGR",
 		"ACE_NVG_Wide"
 	};
 	magazines[] =
@@ -1608,7 +1600,6 @@ class SOR_USMC_ZeusCommand_D : B_officer_F
 	{
 		Standard_Meds,
 		SL_Equip,
-		"ACE_DAGR",
 		"rhsusf_acc_compm4",
 		"ACE_NVG_Wide"
 	};
@@ -1616,7 +1607,6 @@ class SOR_USMC_ZeusCommand_D : B_officer_F
 	{
 		Standard_Meds,
 		SL_Equip,
-		"ACE_DAGR",
 		"rhsusf_acc_compm4",
 		"ACE_NVG_Wide"
 	};
@@ -1681,7 +1671,6 @@ class SOR_USMC_Actual_D : B_officer_F
 	{
 		Standard_Meds,
 		SL_Equip,
-		"ACE_DAGR",
 		"rhsusf_acc_compm4",
 		"ACE_NVG_Wide"
 	};
@@ -1689,7 +1678,6 @@ class SOR_USMC_Actual_D : B_officer_F
 	{
 		Standard_Meds,
 		SL_Equip,
-		"ACE_DAGR",
 		"rhsusf_acc_compm4",
 		"ACE_NVG_Wide"
 	};
@@ -1893,13 +1881,13 @@ class SOR_USMC_Teamleader_D : B_Soldier_TL_F
 	displayName = "(I) [D] Teamleader";
 	accuracy = 3.5;
 	backpack = "USMC_SOR_RFLAT_Pack_M";
-	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP2", "hgun_P07_F","launch_NLAW_F","Throw","Put","ACE_Vector"};
-	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP2", "hgun_P07_F","launch_NLAW_F","Throw","Put","ACE_Vector"};
+	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP2", "hgun_P07_F","Throw","Put","ACE_Vector"};
+	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP2", "hgun_P07_F","Throw","Put","ACE_Vector"};
 	Items[] =
 	{
 		Standard_Meds,
 		SL_Equip,
-		"ACE_DAGR",
+
 		"rhsusf_acc_compm4",
 		"ACE_NVG_Wide"
 	};
@@ -1907,19 +1895,19 @@ class SOR_USMC_Teamleader_D : B_Soldier_TL_F
 	{
 		Standard_Meds,
 		SL_Equip,
-		"ACE_DAGR",
+
 		"rhsusf_acc_compm4",
 		"ACE_NVG_Wide"
 	};
 	magazines[] =
 	{
-		V_SL_Mags,
-		V_P09
+		V_P09,
+		V_SL_Mags
 	};
 	respawnMagazines[] =
 	{
-		V_SL_Mags,
-		V_P09
+		V_P09,
+		V_SL_Mags
 	};
 	linkedItems[] =
 	{
@@ -1964,13 +1952,13 @@ class SOR_USMC_Medic_D : B_medic_F
 	};
 	magazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	respawnMagazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	linkedItems[] =
 	{
@@ -2068,11 +2056,11 @@ class SOR_USMC_LMG_D : B_HeavyGunner_F
 	};
 	magazines[] =
 	{
-		"rhsusf_100Rnd_762x51_m62_tracer",
+		"rhsusf_100Rnd_762x51_m62_tracer"
 	};
 	respawnMagazines[] =
 	{
-		"rhsusf_100Rnd_762x51_m62_tracer",
+		"rhsusf_100Rnd_762x51_m62_tracer"
 	};
 	linkedItems[] =
 	{
@@ -2115,13 +2103,13 @@ class SOR_USMC_Grenadier_D : B_Soldier_GL_F
 	};
 	magazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	respawnMagazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	linkedItems[] =
 	{
@@ -2148,8 +2136,8 @@ class SOR_USMC_Rifleman_LMG_AMMO_D : B_Soldier_F
 	uniformClass = "rhs_uniform_FROG01_d";
 	displayName = "(I) [D] Rifleman M240G Ammo Bearer";
 	backpack = "USMC_SOR_Rifleman_LMG_Pack_M";
-	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
-	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
+	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","launch_NLAW_F","hgun_P07_F","Throw","Put"};
+	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","launch_NLAW_F","hgun_P07_F","Throw","Put"};
 	Items[] =
 	{
 		Standard_Meds,
@@ -2164,13 +2152,13 @@ class SOR_USMC_Rifleman_LMG_AMMO_D : B_Soldier_F
 	};
 	magazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	respawnMagazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	linkedItems[] =
 	{
@@ -2192,8 +2180,8 @@ class SOR_USMC_Rifleman_SAW_AMMO_D : SOR_USMC_Rifleman_LMG_AMMO_D
 {
 	displayName = "(I) [D] Rifleman M27IAR Ammo Bearer";
 	backpack = "USMC_SOR_Rifleman_SAW_Pack_M";
-	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
-	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","hgun_P07_F","Throw","Put"};
+	weapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","launch_NLAW_F","hgun_P07_F","Throw","Put"};
+	respawnWeapons[] = {"SOR_USMC_WEAP_BLOCK2_GRIP","launch_NLAW_F","hgun_P07_F","Throw","Put"};
 	magazines[] =
 	{
 		V_P09,
@@ -2229,13 +2217,13 @@ class SOR_USMC_RiflemanAT_D : B_soldier_AT_F
 	};
 	magazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	respawnMagazines[] =
 	{
-		V_Mags,
-		V_P09
+		V_P09,
+		V_Mags
 	};
 	linkedItems[] =
 	{
@@ -2457,7 +2445,6 @@ class SOR_USMC_ParaJumper_D : B_recon_medic_F
 		Standard_Meds,
 		SL_Equip,
 		"rhsusf_acc_ACOG3_USMC_3d",
-		"ACE_DAGR",
 		"ACE_NVG_Wide"
 	};
 	RespawnItems[] =
@@ -2465,7 +2452,6 @@ class SOR_USMC_ParaJumper_D : B_recon_medic_F
 		Standard_Meds,
 		SL_Equip,
 		"rhsusf_acc_ACOG3_USMC_3d",
-		"ACE_DAGR",
 		"ACE_NVG_Wide"
 	};
 	magazines[] =
@@ -2611,7 +2597,7 @@ class SOR_USMC_Marksman_D : SOR_USMC_ReconLeader_D
 };
 
     ////////////////////Viper Recon Scuba////////////////////
-
+/*
 class SOR_USMC_ReconLeaderScuba_D : B_diver_TL_F
 {
 	faction = SOR_Faction_M;
@@ -2639,14 +2625,14 @@ class SOR_USMC_ReconLeaderScuba_D : B_diver_TL_F
 	};
 	magazines[] =
 	{
-		"Laserbatteries",
-		V_P09
+		V_P09,
+		"Laserbatteries"
 	};
 
 	respawnMagazines[] =
 	{
-		"Laserbatteries",
-		V_P09
+		V_P09,
+		"Laserbatteries"
 	};
 	linkedItems[] =
 	{
@@ -2704,7 +2690,7 @@ class SOR_USMC_MarksmanScuba_D : SOR_USMC_ReconLeaderScuba_D
 	weapons[] = {"SOR_USMC_WEAP_MK18_GRIP_VIPER_D","SOR_USMC_WEAP_P07_VIPER","Throw","Put","Laserdesignator"};
 	respawnWeapons[] = {"SOR_USMC_WEAP_MK18_GRIP_VIPER_D","SOR_USMC_WEAP_P07_VIPER","Throw","Put","Laserdesignator"};
 };
-
+*/
     ////////////////////Snipers////////////////////
 
 /*
@@ -2840,11 +2826,13 @@ class SOR_USMC_MechCrew_D : B_crew_F
 	};
 	magazines[] =
 	{
-		V_P09
+		V_P09,
+		"Laserbatteries"
 	};
 	respawnMagazines[] =
 	{
-		V_P09
+		V_P09,
+		"Laserbatteries"
 	};
 	linkedItems[] =
 	{
@@ -2879,7 +2867,7 @@ class SOR_USMC_MechOperator_D : SOR_USMC_MechCrew_D
 		"30Rnd_556x45_Stanag",
 		"SmokeShell",
 		"SmokeShell",
-		"Laserbatteries",
+		"Laserbatteries"
 	};
 	respawnMagazines[] =
 	{
@@ -2890,7 +2878,7 @@ class SOR_USMC_MechOperator_D : SOR_USMC_MechCrew_D
 		"30Rnd_556x45_Stanag",
 		"SmokeShell",
 		"SmokeShell",
-		"Laserbatteries",
+		"Laserbatteries"
 	};
 	linkedItems[] =
 	{
@@ -3097,14 +3085,12 @@ class SOR_USMC_FAC_D : B_recon_JTAC_F
 	{
 		Standard_Meds,
 		SL_Equip,
-		"ACE_DAGR",
 		"ACE_NVG_Wide"
 	};
 	RespawnItems[] =
 	{
 		Standard_Meds,
 		SL_Equip,
-		"ACE_DAGR",
 		"ACE_NVG_Wide"
 	};
 	magazines[] =

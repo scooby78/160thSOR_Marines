@@ -323,8 +323,8 @@ class USMC_SOR_RTO_Pack_ILBE : tfw_ilbe_coy
 	displayName = "(2021 USMC) RTO ILBE Pack";
 	class TransportItems
 	{
-        item_xx(tfw_whip,1)
-        item_xx(tfw_rf3080Item,1)
+        item_xx(tfw_whip,1);
+        item_xx(tfw_rf3080Item,1);
 	};
 	class TransportMagazines
 	{
@@ -384,8 +384,8 @@ class USMC_SOR_JTAC_Pack_ILBE : tfw_ilbe_coy
 	displayName = "(2021 USMC) Viper ILBE Radio";
 	class TransportItems
 	{
-        item_xx(tfw_whip,1)
-        item_xx(tfw_rf3080Item,1)
+        item_xx(tfw_whip,1);
+        item_xx(tfw_rf3080Item,1);
 	};
 	class TransportMagazines
 	{
@@ -399,8 +399,8 @@ class USMC_SOR_FAC_Pack_ILBE : tfw_ilbe_gr
 	displayName = "(2021 USMC) FAC ILBE Radio";
 	class TransportItems
 	{
-        item_xx(tfw_whip,1)
-        item_xx(tfw_rf3080Item,1)
+        item_xx(tfw_whip,1);
+        item_xx(tfw_rf3080Item,1);
 	};
 	class TransportMagazines
 	{
